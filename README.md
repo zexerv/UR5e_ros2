@@ -10,7 +10,7 @@ Outline:
 - [How to Use a Simulated Robot with ROS 2 and Gazebo](#how-to-use-a-simulated-robot-with-ros-2-and-gazebo)  
 
 
-## Dependencies <a name="dependencies"></a>
+## Dependencies
 Before starting, ensure that your computer is set up with the following dependencies on a Ubuntu 22 runing OS:
 
 - Installed [Python3 and pip](https://phoenixnap.com/kb/how-to-install-pip-on-ubuntu)
@@ -31,9 +31,7 @@ Follow the instructions provided in the [ROS 2 Iron Installation Guide](https://
     - Additional libraries: ```libssl-dev```, ```libusb-1.0-0-dev```, ```libopenni-dev```, ```libopenni2-dev```, ```libpcap-dev```, ```libpng-dev```, ```libqhull-dev```, ```libgtest-dev```, ```mpi-default-dev```, ```openmpi-bin```, ```openmpi-common```
 
 
-
-
-## How to use real robot with ROS2 <a name="real-robot"></a>
+## How to Use a Real Robot with ROS 2
 
 #### Setup your root PC and connect to the real robot:
 
