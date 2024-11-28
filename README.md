@@ -167,7 +167,7 @@ ros2 topic echo /force_torque_sensor_broadcaster/wrench
 ```
 
 
-## How to use Gazebo simulated robot with ROS2 <a name="sim-robot"></a>
+## How to use a simulated robot with ROS2 and Gazebo <a name="sim-robot"></a>
 #### Packages installation
 
 Open terminal, source it, go to the workspace directory and install dependencies:
