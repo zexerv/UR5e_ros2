@@ -93,6 +93,8 @@ source install/setup.bash
 colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release --parallel-workers 4 --packages-skip cartesian_compliance_controller cartesian_controller_base cartesian_controller_handles cartesian_controller_utilities cartesian_force_controller cartesian_motion_controller cartesian_controller_simulation cartesian_controller_simulation_ur5e cartesian_controller_tests
 ```
 #### Installation of  cartesian controllers (cartesian_controller_simulation, cartesian_controller_simulation_ur5e and cartesian_controller_tests excluded)
+
+If you are not interested in having the cartesian controllers installed you can try to move the robot directly with MoveIt!, which will exploit the standard `scaled_joint_trajectory_controller` (which, for now, since the repo is under developement and only Taffi is able to understand her mess, I suggest is a good option to go with)
 ```
 colcon build --packages-select cartesian_compliance_controller cartesian_controller_base cartesian_controller_handles cartesian_controller_utilities cartesian_force_controller cartesian_motion_controller --cmake-args -DCMAKE_BUILD_TYPE=Release 
 ```
@@ -100,8 +102,9 @@ colcon build --packages-select cartesian_compliance_controller cartesian_control
 ```
 colcon build --cmake-args "-DMUJOCO_DIR=/Project/mujoco-3.0.0" --packages-select cartesian_controller_simulation cartesian_controller_simulation_ur5e cartesian_controller_tests --cmake-clean-first  
 ```
+
 #### Source terminal
-For every new terminal you open:
+After the succesful build of ros2 packages, to be able to use them,  for every new terminal you open you have to run:
 
 ```
 cd /Project/ros2_real
@@ -144,6 +147,8 @@ ros2 launch ur_moveit_config ur_moveit.launch.py ur_type:=ur5e launch_rviz:=true
 ```
 
 ####  Display nodes and topics
+
+To display running nodes and topics:
 ```
 sudo apt install ros-iron-rqt-graph
 ros2 run rqt_graph rqt_graph --force-discover
@@ -155,14 +160,15 @@ This is to see the list of implemented controllers:
 ros2 control list_controllers
 ```
 
-**Activate the different controllers:**
+To Activate the different controllers:
 
 ```bash
-   ros2 control switch_controllers --deactivate scaled_joint_trajectory_controller --activate cartesian_motion_controller
+   ros2 control switch_controllers --deactivate scaled_c --activate joint_trajectory_contoller
 ```
 
-#### force_torque_sensor_broadcaster: 
-Broadcaster of messages from force/torque state interfaces of a robot or sensor. The published message type is *geometry_msgs/msg/WrenchStamped*.
+#### To see the readings of the force sensor on the flange of ur5e: 
+
+Read the message on the topic `/force_torque_sensor_broadcaster/wrench`. The published message type is *geometry_msgs/msg/WrenchStamped*.
 
 ```
 ros2 topic echo /force_torque_sensor_broadcaster/wrench
@@ -202,14 +208,15 @@ colcon build --cmake-args "-DMUJOCO_DIR=/Project/mujoco-3.0.0" --packages-select
 ```
 ####  Sourcing every new terminal
 
-For every new terminal you open:
+After the succesful build of ros2 packages, to be able to use them,  for every new terminal you open you have to run:
 
 ```
-cd /Project/ros2_ws
+cd /Project/ros2_sim
 source /opt/ros/$ROS_DISTRO/setup.bash 
 source /Project/ros2_ws/install/local_setup.bash
 ```
 #### Check Robot description
+Run:
 ```
 ros2 launch ur_description view_ur.launch.py ur_type:=ur5e
 ```
@@ -224,4 +231,9 @@ ros2 launch ur_description view_ur.launch.py ur_type:=ur5e
 This launch file stars a Gazebo simulation with a **ur5e robot** with the usual **force sensor** at its tip. It also starts rviz. The robot is controlled via **ros2 control**.
 ```
 ros2 launch ur_simulation_gazebo ur_sim_control.launch.py
+```
+##  Insert wall in simulation
+From another sourced terminal (while the gazebo simulation is already running):
+```
+ros2 launch ur_simulation_gazebo spawn_box.py
 ```
