@@ -237,6 +237,9 @@ This launch file stars a Gazebo simulation with a **ur5e robot** with the usual 
 ```
 ros2 launch ur_simulation_gazebo ur_sim_control.launch.py
 ```
+
+<img src="images/gazebo.png" />
+
 ##  Insert wall in simulation
 From another sourced terminal (while the gazebo simulation is already running):
 ```
