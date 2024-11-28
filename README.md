@@ -175,7 +175,7 @@ Read the message on the topic `/force_torque_sensor_broadcaster/wrench`. The pub
 ```
 ros2 topic echo /force_torque_sensor_broadcaster/wrench
 ```
-
+/ignore_packages_rosdep.sh 
 ## How to Use a Simulated Robot with ROS 2 and Gazebo
 #### Packages installation
 
@@ -184,9 +184,11 @@ Open terminal, source it, go to the workspace directory and install dependencies
 ```
 cd /UR5e_ros2_iros/ros2_sim
 source /opt/ros/iron/setup.bash 
-rosdep update --rosdistro=iron apt-get update apt install -y ros-iron-gazebo-ros-pkgs ros-iron-cv-bridge ros-iron-rqt-plot ros-iron-tf-transformations . /opt/ros/iron/setup.sh 
-./ignore_packages_rosdep.sh 
-vcs import src --input src/Universal_Robots_ROS2_Gazebo_Simulation/Universal_Robots_ROS2_Gazebo_Simulation.iron.repos 
+rosdep update --rosdistro=iron 
+apt-get update 
+apt install -y ros-iron-gazebo-ros-pkgs ros-iron-cv-bridge ros-iron-rqt-plot ros-iron-tf-transformations 
+. /opt/ros/iron/setup.sh 
+bash ignore_packages_rosdep.sh 
 ```
 #### Installation of everything a part from cartesian_controllers
 
@@ -201,7 +203,7 @@ colcon build --packages-skip cartesian_controller_simulation cartesian_controlle
 
 #### Installation of cartesian_controller_simulation and cartesian_controller_simulation_ur5e
 ```
-colcon build --cmake-args "-DMUJOCO_DIR=/UR5e_ros2_iros/mujoco-3.0.0" --packages-select cartesian_controller_simulation cartesian_controller_simulation_ur5e --cmake-clean-first  
+colcon build --cmake-args "-DMUJOCO_DIR=/../UR5e_ros2_iron/mujoco-3.0.0" --packages-select cartesian_controller_simulation cartesian_controller_simulation_ur5e --cmake-clean-first  
 ```
 - Put the correct path to mujoco folder.
 
