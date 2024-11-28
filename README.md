@@ -5,12 +5,12 @@ The robot can be controlled with with [cartesian compliance controllers](https:/
 
 
 Outline:
-- [Dependencies ](#Dependencies-)
-- [How to use real robot with ROS 2](#use-real-robot-with-ros-2-)
-- [How to use Gazebo simulated robot with ROS 2](#use-sim-robot-with-ros-2)
+- [Dependencies](#dependencies)  
+- [How to Use a Real Robot with ROS 2](#how-to-use-a-real-robot-with-ros-2)  
+- [How to Use a Simulated Robot with ROS 2 and Gazebo](#how-to-use-a-simulated-robot-with-ros-2-and-gazebo)  
 
 
-## Dependencies <a name="installation"></a>
+## Dependencies <a name="dependencies"></a>
 Before starting, ensure that your computer is set up with the following dependencies on a Ubuntu 22 runing OS:
 
 - Installed [Python3 and pip](https://phoenixnap.com/kb/how-to-install-pip-on-ubuntu)
