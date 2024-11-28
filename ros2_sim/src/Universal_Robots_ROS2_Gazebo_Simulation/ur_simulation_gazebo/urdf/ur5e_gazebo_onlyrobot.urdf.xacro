@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="ur5e_robot">
+
+<xacro:macro name="ur5e_robot" params="origin_frame:=${'world'} ">
+<!-- import main macro -->
+<xacro:include filename="$(find ur_description)/urdf/ur_macro.xacro"/>
+<xacro:include filename="$(find ur_description)/urdf/inc/ur_joint_control.xacro" />
+<!-- possible 'ur_type' values: ur3, ur3e, ur5, ur5e, ur10, ur10e, ur16e, ur20 -->
+<!-- the default value should raise an error in case this was called without defining the type -->
+<xacro:property name="ur_type" value="ur5e"/>
+
+<!-- parameters -->
+<xacro:property name="tf_prefix" value="" />
+<xacro:property name="joint_limit_params" value="$(find ur_description)/config/${ur_type}/joint_limits.yaml"/>
+<xacro:property name="kinematics_params" value="$(find ur_description)/config/${ur_type}/default_kinematics.yaml"/>
+<xacro:property name="physical_params" value="$(find ur_description)/config/${ur_type}/physical_parameters.yaml"/>
+<xacro:property name="visual_params" value="$(find ur_description)/config/${ur_type}/visual_parameters.yaml"/>
+<xacro:property name="transmission_hw_interface" value=""/>
+<xacro:property name="safety_limits" value="false"/>
+<xacro:property name="safety_pos_margin" value="0.15"/>
+<xacro:property name="safety_k_position" value="20"/>
+<xacro:property name="simulation_controllers" value="/Project/ros2_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo/config/ur_controllers.yaml" />
+<xacro:property name="upper_left_corner_to_baselink_x" value="0.26" />
+<xacro:property name="upper_left_corner_to_baselink_y" value="0.592" />
+
+<!-- arm -->
+<xacro:ur_robot
+    name="${ur_type}"
+    tf_prefix="${tf_prefix}"
+    parent="${origin_frame}"
+    joint_limits_parameters_file="${joint_limit_params}"
+    kinematics_parameters_file="${kinematics_params}"
+    physical_parameters_file="${physical_params}"
+    visual_parameters_file="${visual_params}"
+    safety_limits="${safety_limits}"
+    safety_pos_margin="${safety_pos_margin}"
+    safety_k_position="${safety_k_position}"
+    force_abs_paths="true"
+    >
+    <origin xyz="${upper_left_corner_to_baselink_x} ${upper_left_corner_to_baselink_y} 0.02" rpy="0 0 -1.57079632679" />          <!-- position robot in the world -->
+</xacro:ur_robot>
+
+
+<!-- START Force/torque sensor in Gazebo-->
+<!-- The F/T sensor plugin -->
+<gazebo reference="${tf_prefix}wrist_3_link_ft_frame">
+      <disableFixedJointLumping>true</disableFixedJointLumping> 
+      <preserveFixedJoint>true</preserveFixedJoint>
+          <provideFeedback>true</provideFeedback>
+        <sensor name="${tf_prefix}tcp_fts_sensor" type="force_torque">
+        <always_on>1</always_on>
+        <update_rate>100.0</update_rate>
+        <visualize>true</visualize>
+        <force_torque>
+          <frame>child</frame>
+          <measure_direction>child_to_parent</measure_direction>
+        </force_torque>
+        </sensor>
+</gazebo>
+<gazebo>
+        <plugin name="gazebo_ros_ft_sensor" filename="libgazebo_ros_ft_sensor.so">
+          <ros>
+            <!-- Add namespace and remap the default topic -->
+            <namespace></namespace>
+            <remapping>wrench:=ft_sensor_wrench</remapping>
+          </ros>
+          <joint_name>${tf_prefix}wrist_3_link_ft_frame</joint_name>
+          <update_rate>100</update_rate>
+          <gaussian_noise>0</gaussian_noise>
+        </plugin>
+</gazebo>
+<!-- END force/torque sensor in Gazebo-->
+
+
+<gazebo reference="base_link">
+    <self_collide>1</self_collide>
+</gazebo>
+<gazebo reference="shoulder_link">
+    <self_collide>1</self_collide>
+</gazebo>
+<gazebo reference="forearm_link">
+    <self_collide>1</self_collide>
+</gazebo>
+<gazebo reference="upper_arm_link">
+    <self_collide>1</self_collide>
+</gazebo>
+<gazebo reference="wrist_1_link">
+    <self_collide>1</self_collide>
+</gazebo>
+<gazebo reference="wrist_2_link">
+    <self_collide>1</self_collide>
+</gazebo>
+<gazebo reference="wrist_3_link">
+    <self_collide>1</self_collide>
+</gazebo>
+<gazebo reference="sensor_link">
+    <self_collide>1</self_collide>
+</gazebo>
+  <gazebo reference="tool0">
+    <self_collide>1</self_collide>
+</gazebo>
+  
+  <!-- Plugin Gazebo ros control--> 
+<gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+      <parameters>${simulation_controllers}</parameters>
+      <ros>
+        <namespace></namespace>
+        <remapping>motion_control_handle/target_frame:=target_frame</remapping>
+        <remapping>cartesian_motion_controller/target_frame:=target_frame</remapping>
+        
+        <remapping>cartesian_compliance_controller/target_frame:=target_frame</remapping>
+        <remapping>cartesian_compliance_controller/target_wrench:=target_wrench</remapping>
+        <remapping>cartesian_compliance_controller/ft_sensor_wrench:=ft_sensor_wrench</remapping>
+
+        <remapping>cartesian_force_controller/target_wrench:=target_wrench</remapping>
+        <remapping>cartesian_force_controller/ft_sensor_wrench:=ft_sensor_wrench</remapping> 
+      </ros>
+
+        </plugin>
+</gazebo>
+
+<!-- ros2 control instance -->
+<ros2_control name="${ur_type}" type="system">
+
+        <hardware>
+          <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+        </hardware>
+
+        <!-- Add URDF transmission elements (for ros_control) -->
+        <xacro:ur_joint_control_description
+          tf_prefix="${tf_prefix}"
+          initial_positions="${dict(shoulder_pan_joint=0.0,shoulder_lift_joint=-1.57,elbow_joint=0.0,wrist_1_joint=-1.57,wrist_2_joint=0.0,wrist_3_joint=0.0)}"/>
+
+        <sensor name="${tf_prefix}tcp_fts_sensor" >
+          <state_interface name="force.x"/>
+          <state_interface name="force.y"/>
+          <state_interface name="force.z"/>
+          <state_interface name="torque.x"/>
+          <state_interface name="torque.y"/>
+          <state_interface name="torque.z"/>
+          <param name="frame_id">sensor_link</param>
+        </sensor>
+
+</ros2_control>
+
+</xacro:macro>
+</robot>

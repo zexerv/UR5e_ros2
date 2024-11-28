@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    <!-- Standard directional light -->
+    <light name="sun" type="directional">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.5 -1</direction>
+    </light>
+
+    <light name="light_1" type="directional">
+      <cast_shadows>true</cast_shadows>
+      <pose>0.85 0.8 1 0.8 0.5 0.2</pose>
+      <diffuse>0 0 0 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>0.1 0 -1</direction>
+    </light>
+
+    <light name="light_2" type="directional">
+      <cast_shadows>true</cast_shadows>
+      <pose>1 1 1.1 0.2 0.9 0.15</pose>
+      <diffuse>0 0 0 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>0.1 0 -1</direction>
+    </light>
+    <!-- Gazebo Link Attacher Plugin -->
+    <plugin name="gazebo_link_attacher" filename="libgazebo_link_attacher.so"/>
+  </world>
+</sdf>

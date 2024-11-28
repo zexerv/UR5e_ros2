@@ -1,0 +1,9 @@
+<library path="cartesian_controller_simulation_ur5e">
+  <class name="cartesian_controller_simulation_ur5e/Simulator"
+         type="cartesian_controller_simulation_ur5e::Simulator"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+        A simulation environment for cartesian_controllers for ur5e
+    </description>
+  </class>
+</library>
