@@ -29,7 +29,7 @@ Follow the instructions provided in the [ROS 2 Iron Installation Guide](https://
 - Installed additional System Packagesusing your package manager (e.g., apt for Ubuntu):
 
     - Build tools: ```build-essential```, ```cmake```, ```git-all```, ```software-properties-common```
-    - ROS utilities: ```ccache```, ```ros-iron-ament-cmake```, ```ros-iron-cv-bridge```, ```ros-iron-tf-transformations```, ```ros-iron-librealsense2*```, ```ros-iron-realsense2-*```, ```ros-iron-rviz2```
+    - ROS utilities: ```ccache```, ```ros-iron-ament-cmake```, ```ros-iron-cv-bridge```, ```ros-iron-tf-transformations```, ```ros-iron-librealsense2*```, ```ros-iron-realsense2-*```, ```ros-iron-rviz2```, ```ros-iron-backward-ros```, ```ros-iron-angles```, ```ros-iron-control-toolbox```,```ros-iron-ackermann-msgs```
     - Graphics libraries: ```libgl1-mesa-dev```, ```libglu1-mesa-dev```, ```freeglut3-dev```, ```mesa-common-dev```
     - Development tools: ```libeigen3-dev```, ```libflann-dev```, ```libboost-all-dev```
     - Additional libraries: ```libssl-dev```, ```libusb-1.0-0-dev```, ```libopenni-dev```, ```libopenni2-dev```, ```libpcap-dev```, ```libpng-dev```, ```libqhull-dev```, ```libgtest-dev```, ```mpi-default-dev```, ```openmpi-bin```, ```openmpi-common```
@@ -96,20 +96,20 @@ colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release --parallel-workers 4 --pack
 ```
 #### Installation of  cartesian controllers (cartesian_controller_simulation, cartesian_controller_simulation_ur5e and cartesian_controller_tests excluded)
 
-If you are not interested in having the cartesian controllers installed you can try to move the robot directly with MoveIt!, which will exploit the standard `scaled_joint_trajectory_controller` (which, for now, since the repo is under developement and only Taffi is able to understand her mess, I suggest is a good option to go with)
+If you are not interested in having the cartesian controllers installed you can try to move the robot directly with MoveIt!, which will exploit the standard `scaled_joint_trajectory_controller` (which, for now, since the repo is under developement and only Taffi is able to understand her mess, I suggest is a good option to go with if you do not need thos controllers)
 ```
 colcon build --packages-select cartesian_compliance_controller cartesian_controller_base cartesian_controller_handles cartesian_controller_utilities cartesian_force_controller cartesian_motion_controller --cmake-args -DCMAKE_BUILD_TYPE=Release 
 ```
 #### Installation of cartesian_controller_simulation and cartesian_controller_simulation_ur5e
 ```
-colcon build --cmake-args "-DMUJOCO_DIR=/UR5e_ros2_iros/mujoco-3.0.0" --packages-select cartesian_controller_simulation cartesian_controller_simulation_ur5e cartesian_controller_tests --cmake-clean-first  
+colcon build --cmake-args "-DMUJOCO_DIR=/../UR5e_ros2_iron/mujoco-3.0.0" --packages-select cartesian_controller_simulation cartesian_controller_simulation_ur5e cartesian_controller_tests --cmake-clean-first  
 ```
 
 #### Source terminal
 After the succesful build of ros2 packages, to be able to use them,  for every new terminal you open you have to run:
 
 ```
-cd /UR5e_ros2_iros/ros2_real
+cd /../UR5e_ros2_iros/ros2_real
 source /opt/ros/iron/setup.bash 
 source install/setup.bash
 ```
