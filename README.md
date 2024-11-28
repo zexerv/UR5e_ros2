@@ -37,6 +37,8 @@ Follow the instructions provided in the [ROS 2 Iron Installation Guide](https://
 
 ## How to Use a Real Robot with ROS 2
 
+First of all clone the repo on your pc.
+
 #### Setup your root PC and connect to the real robot:
 
 - Connect the robot via Ethernet (yellow cable) and ping the robot (```192.168.125.121```)
@@ -78,7 +80,7 @@ ping 192.168.125.121
 
 Open terminal, source it, go to the workspace directory and install dependencies:
 ```
-cd /UR5e_ros2_iros/ros2_real
+cd UR5e_ros2_iros/ros2_real
 source /opt/ros/iron/setup.bash 
 vcs import src --skip-existing --input src/Universal_Robots_ROS2_Driver/Universal_Robots_ROS2_Driver-not-released.${ROS_DISTRO}.repos
 vcs import src -skip-existing --input src/Universal_Robots_ROS2_Gazebo_Simulation/Universal_Robots_ROS2_Gazebo_Simulation.iron.repos
