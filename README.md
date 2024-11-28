@@ -78,7 +78,7 @@ ping 192.168.125.121
 
 Open terminal, source it, go to the workspace directory and install dependencies:
 ```
-cd /Project/ros2_real
+cd /UR5e_ros2_iros/ros2_real
 source /opt/ros/iron/setup.bash 
 vcs import src --skip-existing --input src/Universal_Robots_ROS2_Driver/Universal_Robots_ROS2_Driver-not-released.${ROS_DISTRO}.repos
 vcs import src -skip-existing --input src/Universal_Robots_ROS2_Gazebo_Simulation/Universal_Robots_ROS2_Gazebo_Simulation.iron.repos
@@ -100,14 +100,14 @@ colcon build --packages-select cartesian_compliance_controller cartesian_control
 ```
 #### Installation of cartesian_controller_simulation and cartesian_controller_simulation_ur5e
 ```
-colcon build --cmake-args "-DMUJOCO_DIR=/Project/mujoco-3.0.0" --packages-select cartesian_controller_simulation cartesian_controller_simulation_ur5e cartesian_controller_tests --cmake-clean-first  
+colcon build --cmake-args "-DMUJOCO_DIR=/UR5e_ros2_iros/mujoco-3.0.0" --packages-select cartesian_controller_simulation cartesian_controller_simulation_ur5e cartesian_controller_tests --cmake-clean-first  
 ```
 
 #### Source terminal
 After the succesful build of ros2 packages, to be able to use them,  for every new terminal you open you have to run:
 
 ```
-cd /Project/ros2_real
+cd /UR5e_ros2_iros/ros2_real
 source /opt/ros/iron/setup.bash 
 source install/setup.bash
 ```
@@ -180,7 +180,7 @@ ros2 topic echo /force_torque_sensor_broadcaster/wrench
 Open terminal, source it, go to the workspace directory and install dependencies:
 
 ```
-cd /Project/ros2_sim
+cd /UR5e_ros2_iros/ros2_sim
 source /opt/ros/iron/setup.bash 
 rosdep update --rosdistro=iron apt-get update apt install -y ros-iron-gazebo-ros-pkgs ros-iron-cv-bridge ros-iron-rqt-plot ros-iron-tf-transformations . /opt/ros/iron/setup.sh 
 ./ignore_packages_rosdep.sh 
@@ -199,21 +199,22 @@ colcon build --packages-skip cartesian_controller_simulation cartesian_controlle
 
 #### Installation of cartesian_controller_simulation and cartesian_controller_simulation_ur5e
 ```
-colcon build --cmake-args "-DMUJOCO_DIR=/Project/mujoco-3.0.0" --packages-select cartesian_controller_simulation cartesian_controller_simulation_ur5e --cmake-clean-first  
+colcon build --cmake-args "-DMUJOCO_DIR=/UR5e_ros2_iros/mujoco-3.0.0" --packages-select cartesian_controller_simulation cartesian_controller_simulation_ur5e --cmake-clean-first  
 ```
+- Put the correct path to mujoco folder.
 
 #### Source terminal
 ```
-    source /Project/ros2_sim/install/local_setup.bash
+    source install/local_setup.bash
 ```
 ####  Sourcing every new terminal
 
 After the succesful build of ros2 packages, to be able to use them,  for every new terminal you open you have to run:
 
 ```
-cd /Project/ros2_sim
+cd /UR5e_ros2_iros/ros2_sim
 source /opt/ros/$ROS_DISTRO/setup.bash 
-source /Project/ros2_ws/install/local_setup.bash
+source install/local_setup.bash
 ```
 #### Check Robot description
 Run:
