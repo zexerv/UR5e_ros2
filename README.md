@@ -3,6 +3,10 @@
 This repo contains two workspaces to use the Merlin's Ur5e robot (real or simulated in Gazebo).
 The robot can be controlled with with [cartesian compliance controllers](https://github.com/fzi-forschungszentrum-informatik/cartesian_controllers).
 
+The ``` ros2_real``` workspace has to be used to interact with the real robot. 
+The ``` ros2_sim``` workspace has to be used to interact with a Gazebo simulated robot. 
+
+Inside the ``` src``` folder in each of them there are the ros2 iron packages to be installed. 
 
 Outline:
 - [Dependencies](#dependencies)  
@@ -164,8 +168,7 @@ Broadcaster of messages from force/torque state interfaces of a robot or sensor.
 ros2 topic echo /force_torque_sensor_broadcaster/wrench
 ```
 
-
-## How to Use a Simulated Robot with ROS 2 and Gazebo <a name="sim-robot"></a>
+## How to Use a Simulated Robot with ROS 2 and Gazebo
 #### Packages installation
 
 Open terminal, source it, go to the workspace directory and install dependencies:
