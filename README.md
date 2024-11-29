@@ -104,7 +104,7 @@ colcon build --packages-select cartesian_compliance_controller cartesian_control
 colcon build --cmake-args "-DMUJOCO_DIR=/../UR5e_ros2_iron/mujoco-3.0.0" --packages-select cartesian_controller_simulation cartesian_controller_simulation_ur5e cartesian_controller_tests --cmake-clean-first  
 ```
 - Put the correct path to mujoco folder.
-- 
+ 
 #### Source terminal
 After the succesful build of ros2 packages, to be able to use them,  for every new terminal you open you have to run:
 
