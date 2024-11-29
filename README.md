@@ -83,7 +83,6 @@ Open terminal, source it, go to the workspace directory and install dependencies
 cd UR5e_ros2_iros/ros2_real
 source /opt/ros/iron/setup.bash 
 vcs import src --skip-existing --input src/Universal_Robots_ROS2_Driver/Universal_Robots_ROS2_Driver-not-released.${ROS_DISTRO}.repos
-vcs import src -skip-existing --input src/Universal_Robots_ROS2_Gazebo_Simulation/Universal_Robots_ROS2_Gazebo_Simulation.iron.repos
 vcs import src --skip-existing --input src/Universal_Robots_ROS2_Driver/Universal_Robots_ROS2_Driver.${ROS_DISTRO}.repos
 ```
 #### Installation of everything a part cartesian controllers (to be done in a subsequent step)
@@ -96,7 +95,7 @@ colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release --parallel-workers 4 --pack
 ```
 #### Installation of  cartesian controllers (cartesian_controller_simulation, cartesian_controller_simulation_ur5e and cartesian_controller_tests excluded)
 
-If you are not interested in having the cartesian controllers installed you can try to move the robot directly with MoveIt!, which will exploit the standard `scaled_joint_trajectory_controller` (which, for now, since the repo is under developement and only Taffi is able to understand her mess, I suggest is a good option to go with if you do not need thos controllers)
+If you are not interested in having the cartesian controllers installed you can try to move the robot directly with MoveIt!, which will exploit the standard `scaled_joint_trajectory_controller` 
 ```
 colcon build --packages-select cartesian_compliance_controller cartesian_controller_base cartesian_controller_handles cartesian_controller_utilities cartesian_force_controller cartesian_motion_controller --cmake-args -DCMAKE_BUILD_TYPE=Release 
 ```
@@ -104,7 +103,8 @@ colcon build --packages-select cartesian_compliance_controller cartesian_control
 ```
 colcon build --cmake-args "-DMUJOCO_DIR=/../UR5e_ros2_iron/mujoco-3.0.0" --packages-select cartesian_controller_simulation cartesian_controller_simulation_ur5e cartesian_controller_tests --cmake-clean-first  
 ```
-
+- Put the correct path to mujoco folder.
+- 
 #### Source terminal
 After the succesful build of ros2 packages, to be able to use them,  for every new terminal you open you have to run:
 
@@ -121,7 +121,7 @@ source install/setup.bash
 ros2 launch ur_robot_driver ur_control.launch.py ur_type:=ur5e robot_ip:=192.168.125.121 launch_rviz:=true 
 ```
 
-- Then, switch robot to REMOTE CONTROL on the teach pendant. Create a new program and insert the ```URCaps``` - ```External Control``` program node into the program tree
+- Then, switch robot to REMOTE CONTROL on the teach pendant. To do that create a new program and insert the ```URCaps``` - ```External Control``` program node into the program tree
 
 <img src="images/external_control_1.png" width="600" height="500" />
 
