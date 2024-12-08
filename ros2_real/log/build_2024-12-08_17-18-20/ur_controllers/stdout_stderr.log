@@ -1,0 +1,119 @@
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found angles: 1.16.0 (/opt/ros/iron/share/angles/cmake)
+-- Found controller_interface: 3.28.1 (/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found joint_trajectory_controller: 3.26.3 (/home/kadi/UR5e_ros2/ros2_real/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake)
+-- Found parameter_traits: 0.3.9 (/opt/ros/iron/share/parameter_traits/cmake)
+-- Found std_srvs: 5.0.1 (/opt/ros/iron/share/std_srvs/cmake)
+-- Found ur_dashboard_msgs: 2.3.10 (/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+-- Found ur_msgs: 2.0.1 (/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs/share/ur_msgs/cmake)
+-- Found tf2_ros: 0.31.8 (/opt/ros/iron/share/tf2_ros/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kadi/UR5e_ros2/ros2_real/build/ur_controllers
+[ 36%] Built target scaled_joint_trajectory_controller_parameters
+[ 36%] Built target freedrive_mode_controller_parameters
+[ 36%] Built target gpio_controller_parameters
+[ 36%] Built target speed_scaling_state_broadcaster_parameters
+[ 45%] Built target ur_configuration_controller_parameters
+[35m[1mConsolidate compiler generated dependencies of target ur_controllers[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o[0m
+In file included from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:40[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:115:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_msgs[m[K’ does not name a type
+  115 |   using FollowJTrajAction = [01;31m[Kcontrol_msgs[m[K::action::FollowJointTrajectory;
+      |                             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:116:71:[m[K [01;31m[Kerror: [m[K‘[01m[KFollowJTrajAction[m[K’ was not declared in this scope
+  116 |   using RealtimeGoalHandle = realtime_tools::RealtimeServerGoalHandle<[01;31m[KFollowJTrajAction[m[K>;
+      |                                                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:116:88:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  116 |   using RealtimeGoalHandle = realtime_tools::RealtimeServerGoalHandle<FollowJTrajAction[01;31m[K>[m[K;
+      |                                                                                        [01;31m[K^[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:117:49:[m[K [01;31m[Kerror: [m[K‘[01m[KRealtimeGoalHandle[m[K’ was not declared in this scope
+  117 |   using RealtimeGoalHandlePtr = std::shared_ptr<[01;31m[KRealtimeGoalHandle[m[K>;
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:117:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  117 |   using RealtimeGoalHandlePtr = std::shared_ptr<RealtimeGoalHandle[01;31m[K>[m[K;
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:118:67:[m[K [01;31m[Kerror: [m[K‘[01m[KRealtimeGoalHandlePtr[m[K’ was not declared in this scope
+  118 |   using RealtimeGoalHandleBuffer = realtime_tools::RealtimeBuffer<[01;31m[KRealtimeGoalHandlePtr[m[K>;
+      |                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:118:88:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  118 |   using RealtimeGoalHandleBuffer = realtime_tools::RealtimeBuffer<RealtimeGoalHandlePtr[01;31m[K>[m[K;
+      |                                                                                        [01;31m[K^[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:120:3:[m[K [01;31m[Kerror: [m[K‘[01m[KRealtimeGoalHandleBuffer[m[K’ does not name a type
+  120 |   [01;31m[KRealtimeGoalHandleBuffer[m[K rt_active_goal_;         ///< Currently active action goal, if any.
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:139:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  139 |   std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Bool> [01;31m[Kfreedrive_mode_sub_[m[K;
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:124:62:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+  124 |   rclcpp::Duration action_monitor_period_ = rclcpp::Duration([01;31m[K50ms[m[K);
+      |                                                              [01;31m[K^~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type ur_controllers::FreedriveModeController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:90:5:[m[K [01;31m[Kerror: [m[K‘[01m[KenableFreedriveMode[m[K’ was not declared in this scope
+   90 |     [01;31m[KenableFreedriveMode[m[K();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn ur_controllers::FreedriveModeController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:125:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kenable_freedrive_mode_sub_[m[K’ was not declared in this scope
+  125 |     [01;31m[Kenable_freedrive_mode_sub_[m[K = get_node()->create_subscription<std_msgs::msg::Bool>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:127:45:[m[K [01;31m[Kerror: [m[K‘[01m[KreadFreedriveModeCmd[m[K’ is not a member of ‘[01m[Kur_controllers::FreedriveModeController[m[K’
+  127 |         std::bind(&FreedriveModeController::[01;31m[KreadFreedriveModeCmd[m[K, this, std::placeholders::_1));
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn ur_controllers::FreedriveModeController::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:138:3:[m[K [01;31m[Kerror: [m[K‘[01m[KdisableFreedriveMode[m[K’ was not declared in this scope
+  138 |   [01;31m[KdisableFreedriveMode[m[K();
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:140:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kset_freedrive_mode_srv_[m[K’ was not declared in this scope
+  140 |     [01;31m[Kset_freedrive_mode_srv_[m[K.reset();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:[m[K At global scope:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:147:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid ur_controllers::FreedriveModeController::readFreedriveModeCmd(std_msgs::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’
+  147 | void [01;31m[KFreedriveModeController[m[K::readFreedriveModeCmd(const std_msgs::msg::Bool::SharedPtr msg)
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:147:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid ur_controllers::FreedriveModeController::readFreedriveModeCmd(std_msgs::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’
+In file included from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:40[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:92:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ur_controllers::FreedriveModeController[m[K’ defined here
+   92 | class [01;36m[KFreedriveModeController[m[K : public controller_interface::ControllerInterface
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:160:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool ur_controllers::FreedriveModeController::enableFreedriveMode()[m[K’
+  160 | bool [01;31m[KFreedriveModeController[m[K::enableFreedriveMode()
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:160:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kbool ur_controllers::FreedriveModeController::enableFreedriveMode()[m[K’
+In file included from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:40[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:92:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ur_controllers::FreedriveModeController[m[K’ defined here
+   92 | class [01;36m[KFreedriveModeController[m[K : public controller_interface::ControllerInterface
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:191:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool ur_controllers::FreedriveModeController::disableFreedriveMode()[m[K’
+  191 | bool [01;31m[KFreedriveModeController[m[K::disableFreedriveMode()
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:191:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kbool ur_controllers::FreedriveModeController::disableFreedriveMode()[m[K’
+In file included from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:40[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:92:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ur_controllers::FreedriveModeController[m[K’ defined here
+   92 | class [01;36m[KFreedriveModeController[m[K : public controller_interface::ControllerInterface
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:215:13:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  215 | find_package[01;31m[K([m[Kcartesian_controllers REQUIRED)
+      |             [01;31m[K^[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::setAnalogOutput(ur_msgs::srv::SetAnalogOutput_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetAnalogOutput_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:410:21:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  410 |   if ([01;35m[Kreq->data.pin < 0[m[K || req->data.pin > 1) {
+      |       [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/ur_controllers.dir/build.make:132: CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:281: CMakeFiles/ur_controllers.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

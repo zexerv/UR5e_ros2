@@ -1,0 +1,6 @@
+[ 40%] Built target gpio_controller_parameters
+[ 40%] Built target speed_scaling_state_broadcaster_parameters
+[ 40%] Built target scaled_joint_trajectory_controller_parameters
+[ 40%] Built target ur_configuration_controller_parameters
+[35m[1mConsolidate compiler generated dependencies of target ur_controllers[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o[0m

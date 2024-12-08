@@ -1,0 +1,444 @@
+[0.000000] (-) TimerEvent: {}
+[0.000314] (-) JobUnselected: {'identifier': 'ackermann_steering_controller'}
+[0.000361] (-) JobUnselected: {'identifier': 'admittance_controller'}
+[0.000385] (-) JobUnselected: {'identifier': 'bicycle_steering_controller'}
+[0.000415] (-) JobUnselected: {'identifier': 'cartesian_compliance_controller'}
+[0.000436] (-) JobUnselected: {'identifier': 'cartesian_controller_base'}
+[0.000456] (-) JobUnselected: {'identifier': 'cartesian_controller_handles'}
+[0.000477] (-) JobUnselected: {'identifier': 'cartesian_controller_simulation'}
+[0.000496] (-) JobUnselected: {'identifier': 'cartesian_controller_simulation_ur5e'}
+[0.000517] (-) JobUnselected: {'identifier': 'cartesian_controller_tests'}
+[0.000640] (-) JobUnselected: {'identifier': 'cartesian_controller_utilities'}
+[0.000648] (-) JobUnselected: {'identifier': 'cartesian_force_controller'}
+[0.000656] (-) JobUnselected: {'identifier': 'cartesian_motion_controller'}
+[0.000664] (-) JobUnselected: {'identifier': 'control_msgs'}
+[0.000671] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.000679] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.000687] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.000694] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.000702] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.000710] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.000718] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.000726] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.000733] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.000741] (-) JobUnselected: {'identifier': 'hardware_interface_testing'}
+[0.000749] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.000756] (-) JobUnselected: {'identifier': 'joint_limits'}
+[0.000764] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.000772] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.000779] (-) JobUnselected: {'identifier': 'kinematics_interface'}
+[0.000787] (-) JobUnselected: {'identifier': 'kinematics_interface_kdl'}
+[0.000795] (-) JobUnselected: {'identifier': 'pid_controller'}
+[0.000803] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.000810] (-) JobUnselected: {'identifier': 'range_sensor_broadcaster'}
+[0.000818] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.000826] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.000834] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.000842] (-) JobUnselected: {'identifier': 'ros2_controllers_test_nodes'}
+[0.000849] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.000857] (-) JobUnselected: {'identifier': 'rqt_controller_manager'}
+[0.000865] (-) JobUnselected: {'identifier': 'rqt_joint_trajectory_controller'}
+[0.000873] (-) JobUnselected: {'identifier': 'steering_controllers_library'}
+[0.000880] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.000888] (-) JobUnselected: {'identifier': 'tricycle_controller'}
+[0.000895] (-) JobUnselected: {'identifier': 'tricycle_steering_controller'}
+[0.000903] (-) JobUnselected: {'identifier': 'ur'}
+[0.000911] (-) JobUnselected: {'identifier': 'ur_calibration'}
+[0.000918] (-) JobUnselected: {'identifier': 'ur_client_library'}
+[0.000926] (-) JobUnselected: {'identifier': 'ur_controllers'}
+[0.000933] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.000941] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.000948] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.000956] (-) JobUnselected: {'identifier': 'ur_msgs'}
+[0.000964] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.000973] (ur_robot_driver) JobQueued: {'identifier': 'ur_robot_driver', 'dependencies': OrderedDict([('control_msgs', '/home/kadi/UR5e_ros2/ros2_real/install/control_msgs'), ('controller_manager_msgs', '/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs'), ('ros2_control_test_assets', '/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets'), ('ros2_controllers_test_nodes', '/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes'), ('ur_client_library', '/home/kadi/UR5e_ros2/ros2_real/install/ur_client_library'), ('ur_dashboard_msgs', '/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs'), ('ur_description', '/home/kadi/UR5e_ros2/ros2_real/install/ur_description'), ('ur_msgs', '/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs'), ('hardware_interface', '/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface'), ('controller_interface', '/home/kadi/UR5e_ros2/ros2_real/install/controller_interface'), ('hardware_interface_testing', '/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing'), ('controller_manager', '/home/kadi/UR5e_ros2/ros2_real/install/controller_manager'), ('force_torque_sensor_broadcaster', '/home/kadi/UR5e_ros2/ros2_real/install/force_torque_sensor_broadcaster'), ('forward_command_controller', '/home/kadi/UR5e_ros2/ros2_real/install/forward_command_controller'), ('joint_state_broadcaster', '/home/kadi/UR5e_ros2/ros2_real/install/joint_state_broadcaster'), ('joint_trajectory_controller', '/home/kadi/UR5e_ros2/ros2_real/install/joint_trajectory_controller'), ('position_controllers', '/home/kadi/UR5e_ros2/ros2_real/install/position_controllers'), ('ur_controllers', '/home/kadi/UR5e_ros2/ros2_real/install/ur_controllers'), ('velocity_controllers', '/home/kadi/UR5e_ros2/ros2_real/install/velocity_controllers')])}
+[0.001008] (ur_robot_driver) JobStarted: {'identifier': 'ur_robot_driver'}
+[0.052190] (ur_robot_driver) JobProgress: {'identifier': 'ur_robot_driver', 'progress': 'cmake'}
+[0.053286] (ur_robot_driver) JobProgress: {'identifier': 'ur_robot_driver', 'progress': 'build'}
+[0.053347] (ur_robot_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kadi/UR5e_ros2/ros2_real/build/ur_robot_driver', '--', '-j16', '-l16'], 'cwd': '/home/kadi/UR5e_ros2/ros2_real/build/ur_robot_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('C_INCLUDE_PATH', '/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:'), ('LANGUAGE', 'en_US:en'), ('USER', 'kadi'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '9'), ('LD_LIBRARY_PATH', '/home/kadi/UR5e_ros2/ros2_real/install/velocity_controllers/lib:/home/kadi/UR5e_ros2/ros2_real/install/ur_controllers/lib:/home/kadi/UR5e_ros2/ros2_real/install/position_controllers/lib:/home/kadi/UR5e_ros2/ros2_real/install/joint_trajectory_controller/lib:/home/kadi/UR5e_ros2/ros2_real/install/joint_state_broadcaster/lib:/home/kadi/UR5e_ros2/ros2_real/install/forward_command_controller/lib:/home/kadi/UR5e_ros2/ros2_real/install/force_torque_sensor_broadcaster/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/kadi'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '3809739'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('CPLUS_INCLUDE_PATH', '/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:'), ('COLCON_PREFIX_PATH', '/home/kadi/UR5e_ros2/ros2_real/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kadi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PKG_CONFIG_PATH', '/home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/lib/x86_64-linux-gnu/pkgconfig:/home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/lib/pkgconfig'), ('USERNAME', 'kadi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/opt/ros/iron/bin:/home/kadi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kadi:@/tmp/.ICE-unix/1563,unix/kadi:/tmp/.ICE-unix/1563'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('MUJOCO_DIR', '/home/kadi/mujoco-3.0.0'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b907e6b7_0871_44b7_b9ab_6924a400692a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/kadi/.mujoco/mujoco'), ('ZEITGEIST_DATA_PATH', '/home/kadi/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.7540'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kadi/UR5e_ros2/ros2_real/install/velocity_controllers:/home/kadi/UR5e_ros2/ros2_real/install/ur_controllers:/home/kadi/UR5e_ros2/ros2_real/install/position_controllers:/home/kadi/UR5e_ros2/ros2_real/install/joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/joint_state_broadcaster:/home/kadi/UR5e_ros2/ros2_real/install/forward_command_controller:/home/kadi/UR5e_ros2/ros2_real/install/force_torque_sensor_broadcaster:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kadi/UR5e_ros2/ros2_real/build/ur_robot_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kadi/UR5e_ros2/ros2_real/install/velocity_controllers:/home/kadi/UR5e_ros2/ros2_real/install/ur_controllers:/home/kadi/UR5e_ros2/ros2_real/install/position_controllers:/home/kadi/UR5e_ros2/ros2_real/install/joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/joint_state_broadcaster:/home/kadi/UR5e_ros2/ros2_real/install/forward_command_controller:/home/kadi/UR5e_ros2/ros2_real/install/force_torque_sensor_broadcaster:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_client_library:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/opt/ros/iron')]), 'shell': False}
+[0.099265] (-) TimerEvent: {}
+[0.100192] (ur_robot_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ur_robot_driver_plugin\x1b[0m\n'}
+[0.113057] (ur_robot_driver) StdoutLine: {'line': b'[ 60%] Built target urscript_interface\n'}
+[0.113757] (ur_robot_driver) StdoutLine: {'line': b'[ 60%] Built target ur_ros2_control_node\n'}
+[0.114063] (ur_robot_driver) StdoutLine: {'line': b'[ 73%] Built target controller_stopper_node\n'}
+[0.114343] (ur_robot_driver) StdoutLine: {'line': b'[ 73%] Built target dashboard_client\n'}
+[0.120465] (ur_robot_driver) StdoutLine: {'line': b'[ 80%] Built target ament_cmake_python_copy_ur_robot_driver\n'}
+[0.120616] (ur_robot_driver) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o\x1b[0m\n'}
+[0.199384] (-) TimerEvent: {}
+[0.283058] (ur_robot_driver) StdoutLine: {'line': b'running egg_info\n'}
+[0.283464] (ur_robot_driver) StdoutLine: {'line': b'writing ur_robot_driver.egg-info/PKG-INFO\n'}
+[0.283741] (ur_robot_driver) StdoutLine: {'line': b'writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt\n'}
+[0.283894] (ur_robot_driver) StdoutLine: {'line': b'writing top-level names to ur_robot_driver.egg-info/top_level.txt\n'}
+[0.285006] (ur_robot_driver) StdoutLine: {'line': b"reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'\n"}
+[0.285391] (ur_robot_driver) StdoutLine: {'line': b"writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'\n"}
+[0.299529] (-) TimerEvent: {}
+[0.309611] (ur_robot_driver) StdoutLine: {'line': b'[ 80%] Built target ament_cmake_python_build_ur_robot_driver_egg\n'}
+[0.399665] (-) TimerEvent: {}
+[0.500005] (-) TimerEvent: {}
+[0.600372] (-) TimerEvent: {}
+[0.700713] (-) TimerEvent: {}
+[0.801073] (-) TimerEvent: {}
+[0.901456] (-) TimerEvent: {}
+[1.001817] (-) TimerEvent: {}
+[1.102175] (-) TimerEvent: {}
+[1.202519] (-) TimerEvent: {}
+[1.302864] (-) TimerEvent: {}
+[1.403220] (-) TimerEvent: {}
+[1.503578] (-) TimerEvent: {}
+[1.604230] (-) TimerEvent: {}
+[1.704576] (-) TimerEvent: {}
+[1.804920] (-) TimerEvent: {}
+[1.905290] (-) TimerEvent: {}
+[2.005635] (-) TimerEvent: {}
+[2.105982] (-) TimerEvent: {}
+[2.206351] (-) TimerEvent: {}
+[2.306780] (-) TimerEvent: {}
+[2.407159] (-) TimerEvent: {}
+[2.507504] (-) TimerEvent: {}
+[2.608176] (-) TimerEvent: {}
+[2.708530] (-) TimerEvent: {}
+[2.808864] (-) TimerEvent: {}
+[2.876169] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.876448] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.876550] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.877238] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.877287] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.877319] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.877347] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.877373] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.877399] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.877424] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.877448] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.877474] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ur_robot_driver::URPositionHardwareInterface::checkAsyncIO()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.877500] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:781:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktoo few arguments to function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::get_logger(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.877528] (ur_robot_driver) StderrLine: {'line': b'  781 |     RCLCPP_INFO(\x1b[01;31m\x1b[Krclcpp::get_logger()\x1b[m\x1b[K, "Starting freedrive mode.");\n'}
+[2.877554] (ur_robot_driver) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.877578] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[2.877602] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.877632] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.877657] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.877680] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.877705] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.877729] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.877753] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.877776] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.877800] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.877827] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.877851] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.877875] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.877898] (ur_robot_driver) StderrLine: {'line': b'  107 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[2.877922] (ur_robot_driver) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.877946] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.877969] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.877996] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.878020] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.878043] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.878066] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.878089] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.878127] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.878153] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.878178] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.878205] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.878229] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:781:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktoo few arguments to function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::get_logger(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.878256] (ur_robot_driver) StderrLine: {'line': b'  781 |     RCLCPP_INFO(\x1b[01;31m\x1b[Krclcpp::get_logger()\x1b[m\x1b[K, "Starting freedrive mode.");\n'}
+[2.878283] (ur_robot_driver) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.878308] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[2.878332] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.878356] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.878380] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.878403] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.878427] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.878450] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.878474] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.878498] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.878521] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.878545] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.878570] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.878593] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.878617] (ur_robot_driver) StderrLine: {'line': b'  107 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[2.878640] (ur_robot_driver) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.878664] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.878688] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.878712] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.878735] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.878763] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.878788] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.878813] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.878839] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.878863] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.878886] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.878909] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.878933] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:781:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.878958] (ur_robot_driver) StderrLine: {'line': b'  781 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(rclcpp::get_logger(), "Starting freedrive mode.");\n'}
+[2.878984] (ur_robot_driver) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.879007] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:781:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.879031] (ur_robot_driver) StderrLine: {'line': b'  781 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(rclcpp::get_logger(), "Starting freedrive mode.");\n'}
+[2.879054] (ur_robot_driver) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.879078] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:781:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.879113] (ur_robot_driver) StderrLine: {'line': b'  781 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(rclcpp::get_logger(), "Starting freedrive mode.");\n'}
+[2.879142] (ur_robot_driver) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.879166] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.879192] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.879216] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.879239] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.879263] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.879286] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.879309] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.879332] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.879356] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.879380] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.879403] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.879429] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.879453] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:781:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktoo few arguments to function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::get_logger(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.879477] (ur_robot_driver) StderrLine: {'line': b'  781 |     RCLCPP_INFO(\x1b[01;31m\x1b[Krclcpp::get_logger()\x1b[m\x1b[K, "Starting freedrive mode.");\n'}
+[2.879501] (ur_robot_driver) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.879524] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[2.879547] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.879816] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.879870] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.879903] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.879939] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.879968] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.879996] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.880021] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.880045] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.880069] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.880099] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.880132] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.880157] (ur_robot_driver) StderrLine: {'line': b'  107 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[2.880181] (ur_robot_driver) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.880205] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.880228] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.880251] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.880276] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.880302] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.880327] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.880351] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.880374] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.880397] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.880420] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.880443] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.880467] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.880495] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:781:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktoo few arguments to function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::get_logger(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.880519] (ur_robot_driver) StderrLine: {'line': b'  781 |     RCLCPP_INFO(\x1b[01;31m\x1b[Krclcpp::get_logger()\x1b[m\x1b[K, "Starting freedrive mode.");\n'}
+[2.880543] (ur_robot_driver) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.880567] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[2.880591] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.880614] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.880638] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.880661] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.880685] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.880709] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.880732] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.880756] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.880780] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.880803] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.880827] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.880853] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.880886] (ur_robot_driver) StderrLine: {'line': b'  107 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[2.880909] (ur_robot_driver) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.880933] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.880956] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.880980] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.881003] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.881026] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.881050] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.881073] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.881102] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.881136] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.881159] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.881183] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.881207] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:790:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktoo few arguments to function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::get_logger(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.881231] (ur_robot_driver) StderrLine: {'line': b'  790 |     RCLCPP_INFO(\x1b[01;31m\x1b[Krclcpp::get_logger()\x1b[m\x1b[K, "Stopping freedrive mode.");\n'}
+[2.881258] (ur_robot_driver) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.881282] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[2.881306] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.881330] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.881353] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.881377] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.881400] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.881424] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.881447] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.881476] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.881500] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.881523] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.881546] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.881570] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.881594] (ur_robot_driver) StderrLine: {'line': b'  107 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[2.881617] (ur_robot_driver) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.881641] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.881665] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.881688] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.881711] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.881734] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.881758] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.881784] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.881809] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.881832] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.881856] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.881879] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.881903] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:790:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktoo few arguments to function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::get_logger(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.881927] (ur_robot_driver) StderrLine: {'line': b'  790 |     RCLCPP_INFO(\x1b[01;31m\x1b[Krclcpp::get_logger()\x1b[m\x1b[K, "Stopping freedrive mode.");\n'}
+[2.881950] (ur_robot_driver) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.881974] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[2.881997] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.882021] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.882047] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.882070] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.882098] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.882133] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.882157] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.882180] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.882203] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.882227] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.882250] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.882277] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.882300] (ur_robot_driver) StderrLine: {'line': b'  107 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[2.882324] (ur_robot_driver) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.882347] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.882370] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.882393] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.882416] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.882440] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.882466] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.882489] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.882513] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.882536] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.882559] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.882582] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.882606] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:790:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.882632] (ur_robot_driver) StderrLine: {'line': b'  790 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(rclcpp::get_logger(), "Stopping freedrive mode.");\n'}
+[2.882657] (ur_robot_driver) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.882683] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:790:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.882707] (ur_robot_driver) StderrLine: {'line': b'  790 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(rclcpp::get_logger(), "Stopping freedrive mode.");\n'}
+[2.882730] (ur_robot_driver) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.882753] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:790:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.882777] (ur_robot_driver) StderrLine: {'line': b'  790 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(rclcpp::get_logger(), "Stopping freedrive mode.");\n'}
+[2.882800] (ur_robot_driver) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.882824] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.882847] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.882871] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.882894] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.882918] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.882941] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.882965] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.882988] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.883012] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.883035] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.883059] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.883083] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.883121] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:790:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktoo few arguments to function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::get_logger(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.883147] (ur_robot_driver) StderrLine: {'line': b'  790 |     RCLCPP_INFO(\x1b[01;31m\x1b[Krclcpp::get_logger()\x1b[m\x1b[K, "Stopping freedrive mode.");\n'}
+[2.883171] (ur_robot_driver) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.883195] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[2.883221] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.883246] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.883270] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.883293] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.883317] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.883340] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.883363] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.883386] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.883409] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.883435] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.883458] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.883482] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.883505] (ur_robot_driver) StderrLine: {'line': b'  107 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[2.883529] (ur_robot_driver) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.883552] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.883575] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.883602] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.883626] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.883649] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.883672] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.883695] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.883719] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.883742] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.883766] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.883789] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.883815] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.883838] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:790:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktoo few arguments to function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::get_logger(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.883862] (ur_robot_driver) StderrLine: {'line': b'  790 |     RCLCPP_INFO(\x1b[01;31m\x1b[Krclcpp::get_logger()\x1b[m\x1b[K, "Stopping freedrive mode.");\n'}
+[2.883885] (ur_robot_driver) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.883908] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[2.883931] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.883955] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.883979] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.884002] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.884026] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.884049] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.884072] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.884099] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.884126] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.884149] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.884172] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.884196] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.884222] (ur_robot_driver) StderrLine: {'line': b'  107 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[2.884245] (ur_robot_driver) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.884269] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.884292] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.884315] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.884338] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.884362] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.884388] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.884411] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.884437] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.884461] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.884487] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.884510] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.884533] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type ur_robot_driver::URPositionHardwareInterface::prepare_command_mode_switch(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::__cxx11::basic_string<char> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.884559] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:942:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.884583] (ur_robot_driver) StderrLine: {'line': b'  942 |     RCLCPP_ERROR(\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Start modes of all joints have to be the same.");\n'}
+[2.884607] (ur_robot_driver) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.884631] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[2.884655] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.884678] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.884702] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.884725] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.884749] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.884772] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.884795] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.884819] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.884842] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.884865] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.884891] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.884915] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.884938] (ur_robot_driver) StderrLine: {'line': b'  107 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[2.884961] (ur_robot_driver) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.884985] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.885008] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.885031] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.885054] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.885077] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.885111] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.885142] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.885166] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.885189] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.885212] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.885235] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.885259] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:942:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.885285] (ur_robot_driver) StderrLine: {'line': b'  942 |     \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(get_logger(), "Start modes of all joints have to be the same.");\n'}
+[2.885311] (ur_robot_driver) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.885335] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:942:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.885359] (ur_robot_driver) StderrLine: {'line': b'  942 |     \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(get_logger(), "Start modes of all joints have to be the same.");\n'}
+[2.885382] (ur_robot_driver) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.885405] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:942:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.885430] (ur_robot_driver) StderrLine: {'line': b'  942 |     \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(get_logger(), "Start modes of all joints have to be the same.");\n'}
+[2.885459] (ur_robot_driver) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.908990] (-) TimerEvent: {}
+[3.009340] (-) TimerEvent: {}
+[3.109724] (-) TimerEvent: {}
+[3.210080] (-) TimerEvent: {}
+[3.310463] (-) TimerEvent: {}
+[3.410814] (-) TimerEvent: {}
+[3.511174] (-) TimerEvent: {}
+[3.611521] (-) TimerEvent: {}
+[3.711880] (-) TimerEvent: {}
+[3.812681] (-) TimerEvent: {}
+[3.910941] (ur_robot_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ur_robot_driver_plugin.dir/build.make:90: CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o] Error 1\n'}
+[3.911446] (ur_robot_driver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:148: CMakeFiles/ur_robot_driver_plugin.dir/all] Error 2\n'}
+[3.911823] (ur_robot_driver) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.912749] (-) TimerEvent: {}
+[3.914780] (ur_robot_driver) CommandEnded: {'returncode': 2}
+[3.924683] (ur_robot_driver) JobEnded: {'identifier': 'ur_robot_driver', 'rc': 2}
+[3.941029] (-) EventReactorShutdown: {}

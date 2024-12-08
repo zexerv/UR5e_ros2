@@ -1,0 +1,289 @@
+[0.000000] (-) TimerEvent: {}
+[0.000472] (-) JobUnselected: {'identifier': 'ackermann_steering_controller'}
+[0.000488] (-) JobUnselected: {'identifier': 'admittance_controller'}
+[0.000498] (-) JobUnselected: {'identifier': 'bicycle_steering_controller'}
+[0.000505] (-) JobUnselected: {'identifier': 'cartesian_compliance_controller'}
+[0.000512] (-) JobUnselected: {'identifier': 'cartesian_controller_base'}
+[0.000519] (-) JobUnselected: {'identifier': 'cartesian_controller_handles'}
+[0.000527] (-) JobUnselected: {'identifier': 'cartesian_controller_simulation'}
+[0.000534] (-) JobUnselected: {'identifier': 'cartesian_controller_simulation_ur5e'}
+[0.000541] (-) JobUnselected: {'identifier': 'cartesian_controller_tests'}
+[0.000548] (-) JobUnselected: {'identifier': 'cartesian_controller_utilities'}
+[0.000554] (-) JobUnselected: {'identifier': 'cartesian_force_controller'}
+[0.000561] (-) JobUnselected: {'identifier': 'cartesian_motion_controller'}
+[0.000567] (-) JobUnselected: {'identifier': 'control_msgs'}
+[0.000574] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.000581] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.000587] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.000594] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.000600] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.000607] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.000614] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.000621] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.000627] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.000634] (-) JobUnselected: {'identifier': 'hardware_interface_testing'}
+[0.000640] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.000647] (-) JobUnselected: {'identifier': 'joint_limits'}
+[0.000654] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.000661] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.000667] (-) JobUnselected: {'identifier': 'kinematics_interface'}
+[0.000674] (-) JobUnselected: {'identifier': 'kinematics_interface_kdl'}
+[0.000681] (-) JobUnselected: {'identifier': 'pid_controller'}
+[0.000687] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.000694] (-) JobUnselected: {'identifier': 'range_sensor_broadcaster'}
+[0.000701] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.000707] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.000714] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.000720] (-) JobUnselected: {'identifier': 'ros2_controllers_test_nodes'}
+[0.000727] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.000733] (-) JobUnselected: {'identifier': 'rqt_controller_manager'}
+[0.000740] (-) JobUnselected: {'identifier': 'rqt_joint_trajectory_controller'}
+[0.000747] (-) JobUnselected: {'identifier': 'steering_controllers_library'}
+[0.000753] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.000760] (-) JobUnselected: {'identifier': 'tricycle_controller'}
+[0.000767] (-) JobUnselected: {'identifier': 'tricycle_steering_controller'}
+[0.000773] (-) JobUnselected: {'identifier': 'ur'}
+[0.000780] (-) JobUnselected: {'identifier': 'ur_calibration'}
+[0.000786] (-) JobUnselected: {'identifier': 'ur_client_library'}
+[0.000793] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.000800] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.000806] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.000813] (-) JobUnselected: {'identifier': 'ur_msgs'}
+[0.000820] (-) JobUnselected: {'identifier': 'ur_robot_driver'}
+[0.000826] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.000834] (ur_controllers) JobQueued: {'identifier': 'ur_controllers', 'dependencies': OrderedDict([('control_msgs', '/home/kadi/UR5e_ros2/ros2_real/install/control_msgs'), ('controller_manager_msgs', '/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs'), ('ros2_control_test_assets', '/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets'), ('ur_dashboard_msgs', '/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs'), ('ur_msgs', '/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs'), ('hardware_interface', '/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface'), ('controller_interface', '/home/kadi/UR5e_ros2/ros2_real/install/controller_interface'), ('hardware_interface_testing', '/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing'), ('controller_manager', '/home/kadi/UR5e_ros2/ros2_real/install/controller_manager'), ('joint_trajectory_controller', '/home/kadi/UR5e_ros2/ros2_real/install/joint_trajectory_controller')])}
+[0.000863] (ur_controllers) JobStarted: {'identifier': 'ur_controllers'}
+[0.038049] (ur_controllers) JobProgress: {'identifier': 'ur_controllers', 'progress': 'cmake'}
+[0.038959] (ur_controllers) JobProgress: {'identifier': 'ur_controllers', 'progress': 'build'}
+[0.039022] (ur_controllers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kadi/UR5e_ros2/ros2_real/build/ur_controllers', '--', '-j16', '-l16'], 'cwd': '/home/kadi/UR5e_ros2/ros2_real/build/ur_controllers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('C_INCLUDE_PATH', '/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:'), ('LANGUAGE', 'en_US:en'), ('USER', 'kadi'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '9'), ('LD_LIBRARY_PATH', '/home/kadi/UR5e_ros2/ros2_real/install/joint_trajectory_controller/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/kadi'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '3809739'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('CPLUS_INCLUDE_PATH', '/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:'), ('COLCON_PREFIX_PATH', '/home/kadi/UR5e_ros2/ros2_real/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kadi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kadi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/opt/ros/iron/bin:/home/kadi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kadi:@/tmp/.ICE-unix/1563,unix/kadi:/tmp/.ICE-unix/1563'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('MUJOCO_DIR', '/home/kadi/mujoco-3.0.0'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b907e6b7_0871_44b7_b9ab_6924a400692a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/kadi/.mujoco/mujoco'), ('ZEITGEIST_DATA_PATH', '/home/kadi/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.7540'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kadi/UR5e_ros2/ros2_real/install/joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kadi/UR5e_ros2/ros2_real/build/ur_controllers'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kadi/UR5e_ros2/ros2_real/install/joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron')]), 'shell': False}
+[0.066113] (ur_controllers) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.099785] (-) TimerEvent: {}
+[0.166928] (ur_controllers) StdoutLine: {'line': b'-- Found angles: 1.16.0 (/opt/ros/iron/share/angles/cmake)\n'}
+[0.167657] (ur_controllers) StdoutLine: {'line': b'-- Found controller_interface: 3.28.1 (/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/cmake)\n'}
+[0.186238] (ur_controllers) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.191134] (ur_controllers) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.197843] (ur_controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199873] (-) TimerEvent: {}
+[0.205911] (ur_controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300158] (-) TimerEvent: {}
+[0.400774] (-) TimerEvent: {}
+[0.501069] (-) TimerEvent: {}
+[0.601323] (-) TimerEvent: {}
+[0.701571] (-) TimerEvent: {}
+[0.708298] (ur_controllers) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.709067] (ur_controllers) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.728484] (ur_controllers) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.738936] (ur_controllers) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.755118] (ur_controllers) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.762305] (ur_controllers) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.770695] (ur_controllers) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.801676] (-) TimerEvent: {}
+[0.901941] (-) TimerEvent: {}
+[0.918668] (ur_controllers) StdoutLine: {'line': b'-- Found joint_trajectory_controller: 3.26.3 (/home/kadi/UR5e_ros2/ros2_real/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake)\n'}
+[0.981567] (ur_controllers) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.9 (/opt/ros/iron/share/parameter_traits/cmake)\n'}
+[1.002036] (-) TimerEvent: {}
+[1.045925] (ur_controllers) StdoutLine: {'line': b'-- Found std_srvs: 5.0.1 (/opt/ros/iron/share/std_srvs/cmake)\n'}
+[1.074721] (ur_controllers) StdoutLine: {'line': b'-- Found ur_dashboard_msgs: 2.3.10 (/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)\n'}
+[1.102140] (-) TimerEvent: {}
+[1.172717] (ur_controllers) StdoutLine: {'line': b'-- Found ur_msgs: 2.0.1 (/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs/share/ur_msgs/cmake)\n'}
+[1.202245] (-) TimerEvent: {}
+[1.233966] (ur_controllers) StdoutLine: {'line': b'-- Found tf2_ros: 0.31.8 (/opt/ros/iron/share/tf2_ros/cmake)\n'}
+[1.302365] (-) TimerEvent: {}
+[1.402678] (-) TimerEvent: {}
+[1.459107] (ur_controllers) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.475013] (ur_controllers) StdoutLine: {'line': b'-- Generating done\n'}
+[1.480336] (ur_controllers) StdoutLine: {'line': b'-- Build files have been written to: /home/kadi/UR5e_ros2/ros2_real/build/ur_controllers\n'}
+[1.502774] (-) TimerEvent: {}
+[1.519651] (ur_controllers) StdoutLine: {'line': b'[ 36%] Built target scaled_joint_trajectory_controller_parameters\n'}
+[1.519863] (ur_controllers) StdoutLine: {'line': b'[ 36%] Built target freedrive_mode_controller_parameters\n'}
+[1.519962] (ur_controllers) StdoutLine: {'line': b'[ 36%] Built target gpio_controller_parameters\n'}
+[1.520040] (ur_controllers) StdoutLine: {'line': b'[ 36%] Built target speed_scaling_state_broadcaster_parameters\n'}
+[1.520097] (ur_controllers) StdoutLine: {'line': b'[ 45%] Built target ur_configuration_controller_parameters\n'}
+[1.533577] (ur_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ur_controllers\x1b[0m\n'}
+[1.559511] (ur_controllers) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o\x1b[0m\n'}
+[1.559683] (ur_controllers) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o\x1b[0m\n'}
+[1.559738] (ur_controllers) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o\x1b[0m\n'}
+[1.559783] (ur_controllers) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o\x1b[0m\n'}
+[1.559870] (ur_controllers) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o\x1b[0m\n'}
+[1.602933] (-) TimerEvent: {}
+[1.703279] (-) TimerEvent: {}
+[1.803622] (-) TimerEvent: {}
+[1.903973] (-) TimerEvent: {}
+[2.004334] (-) TimerEvent: {}
+[2.104678] (-) TimerEvent: {}
+[2.205051] (-) TimerEvent: {}
+[2.305370] (-) TimerEvent: {}
+[2.405683] (-) TimerEvent: {}
+[2.506016] (-) TimerEvent: {}
+[2.606337] (-) TimerEvent: {}
+[2.706657] (-) TimerEvent: {}
+[2.806993] (-) TimerEvent: {}
+[2.907328] (-) TimerEvent: {}
+[3.007651] (-) TimerEvent: {}
+[3.107961] (-) TimerEvent: {}
+[3.208277] (-) TimerEvent: {}
+[3.308614] (-) TimerEvent: {}
+[3.408941] (-) TimerEvent: {}
+[3.509259] (-) TimerEvent: {}
+[3.609585] (-) TimerEvent: {}
+[3.709917] (-) TimerEvent: {}
+[3.810239] (-) TimerEvent: {}
+[3.826014] (ur_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:40\x1b[m\x1b[K:\n'}
+[3.826236] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:115:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcontrol_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.826303] (ur_controllers) StderrLine: {'line': b'  115 |   using FollowJTrajAction = \x1b[01;31m\x1b[Kcontrol_msgs\x1b[m\x1b[K::action::FollowJointTrajectory;\n'}
+[3.826347] (ur_controllers) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.833714] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:116:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFollowJTrajAction\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.833878] (ur_controllers) StderrLine: {'line': b'  116 |   using RealtimeGoalHandle = realtime_tools::RealtimeServerGoalHandle<\x1b[01;31m\x1b[KFollowJTrajAction\x1b[m\x1b[K>;\n'}
+[3.833959] (ur_controllers) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.834003] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:116:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.834045] (ur_controllers) StderrLine: {'line': b'  116 |   using RealtimeGoalHandle = realtime_tools::RealtimeServerGoalHandle<FollowJTrajAction\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[3.834083] (ur_controllers) StderrLine: {'line': b'      |                                                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.844304] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:117:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRealtimeGoalHandle\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.844512] (ur_controllers) StderrLine: {'line': b'  117 |   using RealtimeGoalHandlePtr = std::shared_ptr<\x1b[01;31m\x1b[KRealtimeGoalHandle\x1b[m\x1b[K>;\n'}
+[3.844592] (ur_controllers) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.844646] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:117:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.844694] (ur_controllers) StderrLine: {'line': b'  117 |   using RealtimeGoalHandlePtr = std::shared_ptr<RealtimeGoalHandle\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[3.844738] (ur_controllers) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.854603] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:118:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRealtimeGoalHandlePtr\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.854801] (ur_controllers) StderrLine: {'line': b'  118 |   using RealtimeGoalHandleBuffer = realtime_tools::RealtimeBuffer<\x1b[01;31m\x1b[KRealtimeGoalHandlePtr\x1b[m\x1b[K>;\n'}
+[3.854868] (ur_controllers) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.854939] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:118:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.854996] (ur_controllers) StderrLine: {'line': b'  118 |   using RealtimeGoalHandleBuffer = realtime_tools::RealtimeBuffer<RealtimeGoalHandlePtr\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[3.855042] (ur_controllers) StderrLine: {'line': b'      |                                                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.858234] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:120:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRealtimeGoalHandleBuffer\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.858560] (ur_controllers) StderrLine: {'line': b'  120 |   \x1b[01;31m\x1b[KRealtimeGoalHandleBuffer\x1b[m\x1b[K rt_active_goal_;         ///< Currently active action goal, if any.\n'}
+[3.858653] (ur_controllers) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.862649] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:139:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.862782] (ur_controllers) StderrLine: {'line': b'  139 |   std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Bool> \x1b[01;31m\x1b[Kfreedrive_mode_sub_\x1b[m\x1b[K;\n'}
+[3.862850] (ur_controllers) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.862979] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:124:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""ms\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.863079] (ur_controllers) StderrLine: {'line': b'  124 |   rclcpp::Duration action_monitor_period_ = rclcpp::Duration(\x1b[01;31m\x1b[K50ms\x1b[m\x1b[K);\n'}
+[3.863136] (ur_controllers) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.873949] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual controller_interface::return_type ur_controllers::FreedriveModeController::update(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.874145] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:90:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KenableFreedriveMode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.874215] (ur_controllers) StderrLine: {'line': b'   90 |     \x1b[01;31m\x1b[KenableFreedriveMode\x1b[m\x1b[K();\n'}
+[3.874261] (ur_controllers) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.886697] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual controller_interface::CallbackReturn ur_controllers::FreedriveModeController::on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.886905] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:125:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kenable_freedrive_mode_sub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.887015] (ur_controllers) StderrLine: {'line': b'  125 |     \x1b[01;31m\x1b[Kenable_freedrive_mode_sub_\x1b[m\x1b[K = get_node()->create_subscription<std_msgs::msg::Bool>(\n'}
+[3.887071] (ur_controllers) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.887122] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:127:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KreadFreedriveModeCmd\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kur_controllers::FreedriveModeController\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.887176] (ur_controllers) StderrLine: {'line': b'  127 |         std::bind(&FreedriveModeController::\x1b[01;31m\x1b[KreadFreedriveModeCmd\x1b[m\x1b[K, this, std::placeholders::_1));\n'}
+[3.887222] (ur_controllers) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.896918] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual controller_interface::CallbackReturn ur_controllers::FreedriveModeController::on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.897114] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:138:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KdisableFreedriveMode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.897186] (ur_controllers) StderrLine: {'line': b'  138 |   \x1b[01;31m\x1b[KdisableFreedriveMode\x1b[m\x1b[K();\n'}
+[3.897248] (ur_controllers) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.907061] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:140:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kset_freedrive_mode_srv_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.907424] (ur_controllers) StderrLine: {'line': b'  140 |     \x1b[01;31m\x1b[Kset_freedrive_mode_srv_\x1b[m\x1b[K.reset();\n'}
+[3.907540] (ur_controllers) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.907610] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.907751] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:147:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid ur_controllers::FreedriveModeController::readFreedriveModeCmd(std_msgs::msg::Bool_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.907812] (ur_controllers) StderrLine: {'line': b'  147 | void \x1b[01;31m\x1b[KFreedriveModeController\x1b[m\x1b[K::readFreedriveModeCmd(const std_msgs::msg::Bool::SharedPtr msg)\n'}
+[3.907861] (ur_controllers) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.907926] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:147:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid ur_controllers::FreedriveModeController::readFreedriveModeCmd(std_msgs::msg::Bool_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.907993] (ur_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:40\x1b[m\x1b[K:\n'}
+[3.908049] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:92:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass ur_controllers::FreedriveModeController\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[3.908095] (ur_controllers) StderrLine: {'line': b'   92 | class \x1b[01;36m\x1b[KFreedriveModeController\x1b[m\x1b[K : public controller_interface::ControllerInterface\n'}
+[3.908139] (ur_controllers) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.908179] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:160:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kbool ur_controllers::FreedriveModeController::enableFreedriveMode()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.908226] (ur_controllers) StderrLine: {'line': b'  160 | bool \x1b[01;31m\x1b[KFreedriveModeController\x1b[m\x1b[K::enableFreedriveMode()\n'}
+[3.908267] (ur_controllers) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.908305] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:160:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kbool ur_controllers::FreedriveModeController::enableFreedriveMode()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.908346] (ur_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:40\x1b[m\x1b[K:\n'}
+[3.908402] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:92:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass ur_controllers::FreedriveModeController\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[3.908442] (ur_controllers) StderrLine: {'line': b'   92 | class \x1b[01;36m\x1b[KFreedriveModeController\x1b[m\x1b[K : public controller_interface::ControllerInterface\n'}
+[3.908488] (ur_controllers) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.908531] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:191:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kbool ur_controllers::FreedriveModeController::disableFreedriveMode()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.908574] (ur_controllers) StderrLine: {'line': b'  191 | bool \x1b[01;31m\x1b[KFreedriveModeController\x1b[m\x1b[K::disableFreedriveMode()\n'}
+[3.908617] (ur_controllers) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.908659] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:191:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kbool ur_controllers::FreedriveModeController::disableFreedriveMode()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.908703] (ur_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:40\x1b[m\x1b[K:\n'}
+[3.908745] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:92:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass ur_controllers::FreedriveModeController\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[3.908786] (ur_controllers) StderrLine: {'line': b'   92 | class \x1b[01;36m\x1b[KFreedriveModeController\x1b[m\x1b[K : public controller_interface::ControllerInterface\n'}
+[3.908829] (ur_controllers) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.910314] (-) TimerEvent: {}
+[3.933528] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:215:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected constructor, destructor, or type conversion before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.933733] (ur_controllers) StderrLine: {'line': b'  215 | find_package\x1b[01;31m\x1b[K(\x1b[m\x1b[Kcartesian_controllers REQUIRED)\n'}
+[3.933807] (ur_controllers) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.010449] (-) TimerEvent: {}
+[4.110783] (-) TimerEvent: {}
+[4.211141] (-) TimerEvent: {}
+[4.311510] (-) TimerEvent: {}
+[4.377937] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool ur_controllers::GPIOController::setAnalogOutput(ur_msgs::srv::SetAnalogOutput_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetAnalogOutput_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.378182] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:410:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison is always false due to limited range of data type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits\x07-Wtype-limits\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.378302] (ur_controllers) StderrLine: {'line': b'  410 |   if (\x1b[01;35m\x1b[Kreq->data.pin < 0\x1b[m\x1b[K || req->data.pin > 1) {\n'}
+[4.378382] (ur_controllers) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.411653] (-) TimerEvent: {}
+[4.512003] (-) TimerEvent: {}
+[4.612342] (-) TimerEvent: {}
+[4.712663] (-) TimerEvent: {}
+[4.812987] (-) TimerEvent: {}
+[4.880057] (ur_controllers) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ur_controllers.dir/build.make:132: CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o] Error 1\n'}
+[4.880249] (ur_controllers) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[4.913101] (-) TimerEvent: {}
+[5.013422] (-) TimerEvent: {}
+[5.113746] (-) TimerEvent: {}
+[5.214103] (-) TimerEvent: {}
+[5.314419] (-) TimerEvent: {}
+[5.414732] (-) TimerEvent: {}
+[5.515050] (-) TimerEvent: {}
+[5.615361] (-) TimerEvent: {}
+[5.715674] (-) TimerEvent: {}
+[5.815990] (-) TimerEvent: {}
+[5.916300] (-) TimerEvent: {}
+[6.016621] (-) TimerEvent: {}
+[6.116945] (-) TimerEvent: {}
+[6.217282] (-) TimerEvent: {}
+[6.317633] (-) TimerEvent: {}
+[6.417995] (-) TimerEvent: {}
+[6.518351] (-) TimerEvent: {}
+[6.618704] (-) TimerEvent: {}
+[6.719089] (-) TimerEvent: {}
+[6.819431] (-) TimerEvent: {}
+[6.919787] (-) TimerEvent: {}
+[7.020174] (-) TimerEvent: {}
+[7.120545] (-) TimerEvent: {}
+[7.220944] (-) TimerEvent: {}
+[7.321310] (-) TimerEvent: {}
+[7.421675] (-) TimerEvent: {}
+[7.522051] (-) TimerEvent: {}
+[7.622415] (-) TimerEvent: {}
+[7.722779] (-) TimerEvent: {}
+[7.823158] (-) TimerEvent: {}
+[7.923509] (-) TimerEvent: {}
+[8.023845] (-) TimerEvent: {}
+[8.124328] (-) TimerEvent: {}
+[8.224968] (-) TimerEvent: {}
+[8.325308] (-) TimerEvent: {}
+[8.425643] (-) TimerEvent: {}
+[8.525983] (-) TimerEvent: {}
+[8.626318] (-) TimerEvent: {}
+[8.726726] (-) TimerEvent: {}
+[8.827268] (-) TimerEvent: {}
+[8.927617] (-) TimerEvent: {}
+[9.027960] (-) TimerEvent: {}
+[9.128296] (-) TimerEvent: {}
+[9.228635] (-) TimerEvent: {}
+[9.328983] (-) TimerEvent: {}
+[9.429326] (-) TimerEvent: {}
+[9.529674] (-) TimerEvent: {}
+[9.630011] (-) TimerEvent: {}
+[9.730345] (-) TimerEvent: {}
+[9.830683] (-) TimerEvent: {}
+[9.931028] (-) TimerEvent: {}
+[10.031378] (-) TimerEvent: {}
+[10.131719] (-) TimerEvent: {}
+[10.232051] (-) TimerEvent: {}
+[10.332401] (-) TimerEvent: {}
+[10.432738] (-) TimerEvent: {}
+[10.533106] (-) TimerEvent: {}
+[10.633457] (-) TimerEvent: {}
+[10.733797] (-) TimerEvent: {}
+[10.834147] (-) TimerEvent: {}
+[10.934484] (-) TimerEvent: {}
+[10.960866] (ur_controllers) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:281: CMakeFiles/ur_controllers.dir/all] Error 2\n'}
+[10.961183] (ur_controllers) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.966756] (ur_controllers) CommandEnded: {'returncode': 2}
+[10.972546] (ur_controllers) JobEnded: {'identifier': 'ur_controllers', 'rc': 2}
+[10.983198] (-) EventReactorShutdown: {}

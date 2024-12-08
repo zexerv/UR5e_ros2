@@ -1,0 +1,15 @@
+/home/kadi/UR5e_ros2/ros2_real/install/ros2_control/share/ament_index/resource_index/package_run_dependencies/ros2_control
+/home/kadi/UR5e_ros2/ros2_real/install/ros2_control/share/ament_index/resource_index/parent_prefix_path/ros2_control
+/home/kadi/UR5e_ros2/ros2_real/install/ros2_control/share/ros2_control/environment/ament_prefix_path.sh
+/home/kadi/UR5e_ros2/ros2_real/install/ros2_control/share/ros2_control/environment/ament_prefix_path.dsv
+/home/kadi/UR5e_ros2/ros2_real/install/ros2_control/share/ros2_control/environment/path.sh
+/home/kadi/UR5e_ros2/ros2_real/install/ros2_control/share/ros2_control/environment/path.dsv
+/home/kadi/UR5e_ros2/ros2_real/install/ros2_control/share/ros2_control/local_setup.bash
+/home/kadi/UR5e_ros2/ros2_real/install/ros2_control/share/ros2_control/local_setup.sh
+/home/kadi/UR5e_ros2/ros2_real/install/ros2_control/share/ros2_control/local_setup.zsh
+/home/kadi/UR5e_ros2/ros2_real/install/ros2_control/share/ros2_control/local_setup.dsv
+/home/kadi/UR5e_ros2/ros2_real/install/ros2_control/share/ros2_control/package.dsv
+/home/kadi/UR5e_ros2/ros2_real/install/ros2_control/share/ament_index/resource_index/packages/ros2_control
+/home/kadi/UR5e_ros2/ros2_real/install/ros2_control/share/ros2_control/cmake/ros2_controlConfig.cmake
+/home/kadi/UR5e_ros2/ros2_real/install/ros2_control/share/ros2_control/cmake/ros2_controlConfig-version.cmake
+/home/kadi/UR5e_ros2/ros2_real/install/ros2_control/share/ros2_control/package.xml

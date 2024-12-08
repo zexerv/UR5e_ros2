@@ -1,0 +1,66 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found angles: 1.16.0 (/opt/ros/iron/share/angles/cmake)
+-- Found control_msgs: 5.2.0 (/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/share/control_msgs/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found control_toolbox: 3.3.0 (/opt/ros/iron/share/control_toolbox/cmake)
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/iron/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found parameter_traits: 0.3.9 (/opt/ros/iron/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 21.0.8 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+-- Found controller_interface: 3.28.1 (/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/cmake)
+-- Found std_srvs: 5.0.1 (/opt/ros/iron/share/std_srvs/cmake)
+-- Found ament_cmake_gmock: 2.0.7 (/opt/ros/iron/share/ament_cmake_gmock/cmake)
+-- Found controller_manager: 3.28.1 (/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/cmake)
+-- Found ros2_control_test_assets: 3.28.1 (/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+-- Found gmock sources under '/opt/ros/iron/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found ament_cmake_gtest: 2.0.7 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found gmock sources under '/opt/ros/iron/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 2.0.7 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found gmock sources under '/opt/ros/iron/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 2.0.7 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kadi/UR5e_ros2/ros2_real/build/pid_controller
+[  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 21%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/iron/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 21%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 28%] [34m[1mRunning `/opt/ros/iron/bin/generate_parameter_library_cpp /home/kadi/UR5e_ros2/ros2_real/build/pid_controller/pid_controller_parameters/include//pid_controller_parameters.hpp /home/kadi/UR5e_ros2/ros2_real/src/ros2_controllers/pid_controller/src/pid_controller.yaml `[0m
+[ 28%] Built target pid_controller_parameters
+[ 35%] [32mBuilding CXX object CMakeFiles/pid_controller.dir/src/pid_controller.cpp.o[0m
+[ 42%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 42%] Built target gmock_main
+[ 50%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 50%] Built target gmock
+[ 57%] [32mBuilding CXX object CMakeFiles/test_load_pid_controller.dir/test/test_load_pid_controller.cpp.o[0m
+[ 64%] [32m[1mLinking CXX executable test_load_pid_controller[0m
+[ 64%] Built target test_load_pid_controller
+[ 71%] [32m[1mLinking CXX shared library libpid_controller.so[0m
+[ 71%] Built target pid_controller
+[ 85%] [32mBuilding CXX object CMakeFiles/test_pid_controller.dir/test/test_pid_controller.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/test_pid_controller_preceding.dir/test/test_pid_controller_preceding.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable test_pid_controller_preceding[0m
+[ 92%] Built target test_pid_controller_preceding
+[100%] [32m[1mLinking CXX executable test_pid_controller[0m
+[100%] Built target test_pid_controller

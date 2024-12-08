@@ -1,0 +1,115 @@
+[0.015s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/transmission_interface': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/ros2_control/transmission_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/transmission_interface
+[0.075s] -- The CXX compiler identification is GNU 11.4.0
+[0.081s] -- Detecting CXX compiler ABI info
+[0.148s] -- Detecting CXX compiler ABI info - done
+[0.153s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.153s] -- Detecting CXX compile features
+[0.153s] -- Detecting CXX compile features - done
+[0.156s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.275s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.345s] -- Found hardware_interface: 3.28.1 (/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/share/hardware_interface/cmake)
+[0.374s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.383s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.397s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.411s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.968s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.970s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.002s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.058s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.060s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.073s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.077s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.085s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.094s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.246s] -- Found ament_cmake_gmock: 2.0.7 (/opt/ros/iron/share/ament_cmake_gmock/cmake)
+[1.248s] -- Found gmock sources under '/opt/ros/iron/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.279s] -- The C compiler identification is GNU 11.4.0
+[1.285s] -- Detecting C compiler ABI info
+[1.344s] -- Detecting C compiler ABI info - done
+[1.349s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.349s] -- Detecting C compile features
+[1.350s] -- Detecting C compile features - done
+[1.353s] -- Found ament_cmake_gtest: 2.0.7 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+[1.354s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.403s] -- Configuring done
+[1.444s] -- Generating done
+[1.457s] -- Build files have been written to: /home/kadi/UR5e_ros2/ros2_real/build/transmission_interface
+[1.470s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/ros2_control/transmission_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/transmission_interface
+[1.471s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/transmission_interface': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/transmission_interface -- -j16 -l16
+[1.520s] [  4%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/simple_transmission_loader.cpp.o[0m
+[1.520s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.521s] [ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/iron/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.522s] [ 17%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/differential_transmission_loader.cpp.o[0m
+[1.526s] [ 21%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/four_bar_linkage_transmission_loader.cpp.o[0m
+[1.526s] [ 26%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.190s] [ 30%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[3.305s] [ 30%] Built target gmock_main
+[6.949s] [ 34%] [32m[1mLinking CXX shared library libtransmission_interface.so[0m
+[7.055s] [ 34%] Built target transmission_interface
+[8.336s] [ 39%] [32m[1mLinking CXX static library libgmock.a[0m
+[8.412s] [ 39%] Built target gmock
+[8.440s] [ 56%] [32mBuilding CXX object CMakeFiles/test_four_bar_linkage_transmission_loader.dir/test/four_bar_linkage_transmission_loader_test.cpp.o[0m
+[8.440s] [ 56%] [32mBuilding CXX object CMakeFiles/test_four_bar_linkage_transmission.dir/test/four_bar_linkage_transmission_test.cpp.o[0m
+[8.440s] [ 56%] [32mBuilding CXX object CMakeFiles/test_differential_transmission.dir/test/differential_transmission_test.cpp.o[0m
+[8.440s] [ 56%] [32mBuilding CXX object CMakeFiles/test_simple_transmission_loader.dir/test/simple_transmission_loader_test.cpp.o[0m
+[8.441s] [ 60%] [32mBuilding CXX object CMakeFiles/test_simple_transmission.dir/test/simple_transmission_test.cpp.o[0m
+[8.441s] [ 65%] [32mBuilding CXX object CMakeFiles/test_differential_transmission_loader.dir/test/differential_transmission_loader_test.cpp.o[0m
+[8.441s] [ 69%] [32mBuilding CXX object CMakeFiles/test_utils.dir/test/utils_test.cpp.o[0m
+[10.612s] [ 73%] [32m[1mLinking CXX executable test_utils[0m
+[10.933s] [ 73%] Built target test_utils
+[12.839s] [ 78%] [32m[1mLinking CXX executable test_simple_transmission[0m
+[13.074s] [ 82%] [32m[1mLinking CXX executable test_differential_transmission[0m
+[13.138s] [ 82%] Built target test_simple_transmission
+[13.289s] [ 82%] Built target test_differential_transmission
+[13.541s] [ 86%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission[0m
+[13.741s] [ 86%] Built target test_four_bar_linkage_transmission
+[15.924s] [ 91%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission_loader[0m
+[16.007s] [ 95%] [32m[1mLinking CXX executable test_simple_transmission_loader[0m
+[16.067s] [ 95%] Built target test_four_bar_linkage_transmission_loader
+[16.144s] [ 95%] Built target test_simple_transmission_loader
+[16.192s] [100%] [32m[1mLinking CXX executable test_differential_transmission_loader[0m
+[16.327s] [100%] Built target test_differential_transmission_loader
+[16.340s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/transmission_interface -- -j16 -l16
+[16.341s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/transmission_interface': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/transmission_interface
+[16.348s] -- Install configuration: "Release"
+[16.348s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/transmission_interface/ros2_control_plugins.xml
+[16.348s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/include/transmission_interface
+[16.348s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/include/transmission_interface/transmission_interface
+[16.348s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/include/transmission_interface/transmission_interface/four_bar_linkage_transmission.hpp
+[16.348s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/include/transmission_interface/transmission_interface/exception.hpp
+[16.348s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/include/transmission_interface/transmission_interface/transmission_interface_exception.hpp
+[16.348s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/include/transmission_interface/transmission_interface/four_bar_linkage_transmission_loader.hpp
+[16.349s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/include/transmission_interface/transmission_interface/transmission.hpp
+[16.349s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/include/transmission_interface/transmission_interface/transmission_loader.hpp
+[16.349s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/include/transmission_interface/transmission_interface/visibility_control.h
+[16.349s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/include/transmission_interface/transmission_interface/simple_transmission.hpp
+[16.349s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/include/transmission_interface/transmission_interface/differential_transmission_loader.hpp
+[16.349s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/include/transmission_interface/transmission_interface/handle.hpp
+[16.349s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/include/transmission_interface/transmission_interface/simple_transmission_loader.hpp
+[16.349s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/include/transmission_interface/transmission_interface/differential_transmission.hpp
+[16.349s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/include/transmission_interface/transmission_interface/accessor.hpp
+[16.349s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/lib/libtransmission_interface.so
+[16.350s] -- Set runtime path of "/home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/lib/libtransmission_interface.so" to ""
+[16.350s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/transmission_interface/environment/library_path.sh
+[16.350s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/transmission_interface/environment/library_path.dsv
+[16.350s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+[16.350s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+[16.350s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.sh
+[16.350s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+[16.350s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/transmission_interface/environment/path.sh
+[16.350s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/transmission_interface/environment/path.dsv
+[16.350s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/transmission_interface/local_setup.bash
+[16.351s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/transmission_interface/local_setup.sh
+[16.351s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/transmission_interface/local_setup.zsh
+[16.351s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/transmission_interface/local_setup.dsv
+[16.351s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/transmission_interface/package.dsv
+[16.351s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+[16.351s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/ament_index/resource_index/transmission_interface__pluginlib__plugin/transmission_interface
+[16.351s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/transmission_interface/cmake/export_transmission_interfaceExport.cmake
+[16.351s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/transmission_interface/cmake/export_transmission_interfaceExport-release.cmake
+[16.351s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_targets-extras.cmake
+[16.351s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.352s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+[16.352s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+[16.352s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/transmission_interface/share/transmission_interface/package.xml
+[16.354s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/transmission_interface

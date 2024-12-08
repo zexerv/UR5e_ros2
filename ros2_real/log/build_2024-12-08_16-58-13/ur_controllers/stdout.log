@@ -1,0 +1,51 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found angles: 1.16.0 (/opt/ros/iron/share/angles/cmake)
+-- Found controller_interface: 3.28.1 (/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found FastRTPS: /opt/ros/iron/include  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found joint_trajectory_controller: 3.26.3 (/home/kadi/UR5e_ros2/ros2_real/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake)
+-- Found parameter_traits: 0.3.9 (/opt/ros/iron/share/parameter_traits/cmake)
+-- Found std_srvs: 5.0.1 (/opt/ros/iron/share/std_srvs/cmake)
+-- Found ur_dashboard_msgs: 2.3.10 (/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+-- Found ur_msgs: 2.0.1 (/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs/share/ur_msgs/cmake)
+-- Found tf2_ros: 0.31.8 (/opt/ros/iron/share/tf2_ros/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kadi/UR5e_ros2/ros2_real/build/ur_controllers
+[ 10%] [34m[1mRunning `/opt/ros/iron/bin/generate_parameter_library_cpp /home/kadi/UR5e_ros2/ros2_real/build/ur_controllers/gpio_controller_parameters/include//gpio_controller_parameters.hpp /home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller_parameters.yaml `[0m
+[ 40%] [34m[1mRunning `/opt/ros/iron/bin/generate_parameter_library_cpp /home/kadi/UR5e_ros2/ros2_real/build/ur_controllers/speed_scaling_state_broadcaster_parameters/include//speed_scaling_state_broadcaster_parameters.hpp /home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster_parameters.yaml `[0m
+[ 40%] [34m[1mRunning `/opt/ros/iron/bin/generate_parameter_library_cpp /home/kadi/UR5e_ros2/ros2_real/build/ur_controllers/ur_configuration_controller_parameters/include//ur_configuration_controller_parameters.hpp /home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller_parameters.yaml `[0m
+[ 40%] [34m[1mRunning `/opt/ros/iron/bin/generate_parameter_library_cpp /home/kadi/UR5e_ros2/ros2_real/build/ur_controllers/scaled_joint_trajectory_controller_parameters/include//scaled_joint_trajectory_controller_parameters.hpp /home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller_parameters.yaml `[0m
+[ 40%] Built target scaled_joint_trajectory_controller_parameters
+[ 40%] Built target ur_configuration_controller_parameters
+[ 40%] Built target speed_scaling_state_broadcaster_parameters
+[ 40%] Built target gpio_controller_parameters
+[ 90%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m

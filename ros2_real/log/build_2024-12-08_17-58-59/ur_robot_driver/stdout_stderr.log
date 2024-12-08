@@ -1,0 +1,59 @@
+[35m[1mConsolidate compiler generated dependencies of target ur_robot_driver_plugin[0m
+[ 53%] Built target ur_ros2_control_node
+[ 53%] Built target urscript_interface
+[ 73%] Built target controller_stopper_node
+[ 73%] Built target dashboard_client
+[ 80%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o[0m
+[ 80%] Built target ament_cmake_python_copy_ur_robot_driver
+running egg_info
+writing ur_robot_driver.egg-info/PKG-INFO
+writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+writing top-level names to ur_robot_driver.egg-info/top_level.txt
+reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[ 80%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ur_robot_driver::URPositionHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:672:104:[m[K [01;31m[Kerror: [m[K‘[01m[Kf[m[K’ was not declared in this scope
+  672 |       ur_driver_->writeFreedriveControlMessage(urcl::control::FreedriveControlMessage::FREEDRIVE_NOOP);[01;31m[Kf[m[K
+      |                                                                                                        [01;31m[K^[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:684:58:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  684 | void URPositionHardwareInterface::handleRobotProgramState[01;31m[K([m[Kbool program_running)
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:689:46:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  689 | void URPositionHardwareInterface::initAsyncIO[01;31m[K([m[K)
+      |                                              [01;31m[K^[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:707:47:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  707 | void URPositionHardwareInterface::checkAsyncIO[01;31m[K([m[K)
+      |                                               [01;31m[K^[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:780:56:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  780 | void URPositionHardwareInterface::updateNonDoubleValues[01;31m[K([m[K)
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:808:55:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  808 | void URPositionHardwareInterface::transformForceTorque[01;31m[K([m[K)
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:825:50:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  825 | void URPositionHardwareInterface::extractToolPose[01;31m[K([m[K)
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:845:89:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  845 | hardware_interface::return_type URPositionHardwareInterface::prepare_command_mode_switch[01;31m[K([m[K
+      |                                                                                         [01;31m[K^[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:897:89:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  897 | hardware_interface::return_type URPositionHardwareInterface::perform_command_mode_switch[01;31m[K([m[K
+      |                                                                                         [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/iron/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/iron/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:932[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:[m[K At global scope:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:934:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  934 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(ur_robot_driver::URPositionHardwareInterface, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:57:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   57 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ur_robot_driver::URPositionHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:930:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  930 | [01;35m[K}[m[K  // namespace ur_robot_driver
+      | [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/ur_robot_driver_plugin.dir/build.make:90: CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:148: CMakeFiles/ur_robot_driver_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

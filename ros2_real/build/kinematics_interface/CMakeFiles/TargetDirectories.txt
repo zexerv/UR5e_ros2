@@ -1,0 +1,10 @@
+/home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface/CMakeFiles/uninstall.dir
+/home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface/CMakeFiles/kinematics_interface_uninstall.dir
+/home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface/CMakeFiles/kinematics_interface.dir
+/home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface/CMakeFiles/test.dir
+/home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface/CMakeFiles/edit_cache.dir
+/home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface/CMakeFiles/rebuild_cache.dir
+/home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface/CMakeFiles/list_install_components.dir
+/home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface/CMakeFiles/install.dir
+/home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface/CMakeFiles/install/local.dir
+/home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface/CMakeFiles/install/strip.dir

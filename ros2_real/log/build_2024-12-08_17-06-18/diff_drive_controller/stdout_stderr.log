@@ -1,0 +1,45 @@
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[  7%] Built target diff_drive_controller_parameters
+[ 21%] Built target gmock_main
+[ 42%] Built target gmock
+[35m[1mConsolidate compiler generated dependencies of target diff_drive_controller[0m
+[35m[1mConsolidate compiler generated dependencies of target test_load_diff_drive_controller[0m
+[ 71%] Built target diff_drive_controller
+[ 85%] Built target test_load_diff_drive_controller
+[35m[1mConsolidate compiler generated dependencies of target test_diff_drive_controller[0m
+[100%] Built target test_diff_drive_controller
+-- Install configuration: "Release"
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/include/diff_drive_controller_parameters
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/include/diff_drive_controller_parameters/diff_drive_controller_parameters.hpp
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/diff_drive_controller/diff_drive_plugin.xml
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/include/diff_drive_controller
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/odometry.hpp
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/visibility_control.h
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/speed_limiter.hpp
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/diff_drive_controller.hpp
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/lib/libdiff_drive_controller.so
+-- Set runtime path of "/home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/lib/libdiff_drive_controller.so" to ""
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.sh
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.dsv
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/ament_index/resource_index/package_run_dependencies/diff_drive_controller
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/ament_index/resource_index/parent_prefix_path/diff_drive_controller
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.sh
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/diff_drive_controller/environment/path.sh
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/diff_drive_controller/environment/path.dsv
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/diff_drive_controller/local_setup.bash
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/diff_drive_controller/local_setup.sh
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/diff_drive_controller/local_setup.zsh
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/diff_drive_controller/local_setup.dsv
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/diff_drive_controller/package.dsv
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/ament_index/resource_index/packages/diff_drive_controller
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/diff_drive_controller
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/diff_drive_controller/cmake/export_diff_drive_controllerExport.cmake
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/diff_drive_controller/cmake/export_diff_drive_controllerExport-release.cmake
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig.cmake
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig-version.cmake
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller/share/diff_drive_controller/package.xml

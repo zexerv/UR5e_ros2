@@ -1,0 +1,213 @@
+[0.021s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/controller_manager': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/ros2_control/controller_manager -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager
+[0.078s] -- The CXX compiler identification is GNU 11.4.0
+[0.084s] -- Detecting CXX compiler ABI info
+[0.161s] -- Detecting CXX compiler ABI info - done
+[0.166s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.166s] -- Detecting CXX compile features
+[0.166s] -- Detecting CXX compile features - done
+[0.169s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.289s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.362s] -- Found ament_index_cpp: 1.5.2 (/opt/ros/iron/share/ament_index_cpp/cmake)
+[0.363s] -- Found controller_interface: 3.28.1 (/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/cmake)
+[0.397s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.405s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.419s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.984s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.986s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.018s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.083s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.085s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.097s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.101s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.108s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.119s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.278s] -- Found controller_manager_msgs: 3.28.1 (/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/share/controller_manager_msgs/cmake)
+[1.355s] -- Found diagnostic_updater: 4.1.0 (/opt/ros/iron/share/diagnostic_updater/cmake)
+[1.412s] -- Found realtime_tools: 2.8.1 (/opt/ros/iron/share/realtime_tools/cmake)
+[1.640s] -- Found ament_cmake_gmock: 2.0.7 (/opt/ros/iron/share/ament_cmake_gmock/cmake)
+[1.641s] -- Found ros2_control_test_assets: 3.28.1 (/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[1.644s] -- Found gmock sources under '/opt/ros/iron/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.679s] -- The C compiler identification is GNU 11.4.0
+[1.685s] -- Detecting C compiler ABI info
+[1.765s] -- Detecting C compiler ABI info - done
+[1.770s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.770s] -- Detecting C compile features
+[1.770s] -- Detecting C compile features - done
+[1.774s] -- Found ament_cmake_gtest: 2.0.7 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+[1.775s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.782s] -- Found ament_cmake_pytest: 2.0.7 (/opt/ros/iron/share/ament_cmake_pytest/cmake)
+[2.198s] -- Configuring done
+[2.278s] -- Generating done
+[2.299s] -- Build files have been written to: /home/kadi/UR5e_ros2/ros2_real/build/controller_manager
+[2.311s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/ros2_control/controller_manager -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager
+[2.312s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/controller_manager': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/controller_manager -- -j16 -l16
+[2.364s] [  5%] [32mBuilding CXX object CMakeFiles/controller_manager.dir/src/controller_manager.cpp.o[0m
+[2.364s] [  5%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.364s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.364s] [ 10%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/iron/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.372s] [ 10%] Built target ament_cmake_python_copy_controller_manager
+[2.372s] [ 10%] Built target ament_cmake_python_copy_controller_manager_setup
+[2.533s] running install_scripts
+[2.534s] running egg_info
+[2.534s] creating controller_manager.egg-info
+[2.534s] writing controller_manager.egg-info/PKG-INFO
+[2.534s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[2.534s] writing entry points to controller_manager.egg-info/entry_points.txt
+[2.535s] writing top-level names to controller_manager.egg-info/top_level.txt
+[2.535s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[2.536s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.536s]   warnings.warn(
+[2.538s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[2.538s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[2.552s] running egg_info
+[2.554s] writing controller_manager.egg-info/PKG-INFO
+[2.554s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[2.554s] writing entry points to controller_manager.egg-info/entry_points.txt
+[2.554s] writing top-level names to controller_manager.egg-info/top_level.txt
+[2.555s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[2.556s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[2.557s] Installing hardware_spawner script to scripts
+[2.557s] Installing spawner script to scripts
+[2.557s] Installing unspawner script to scripts
+[2.569s] [ 10%] Built target ament_cmake_python_build_controller_manager_egg
+[2.586s] [ 10%] Built target ament_cmake_python_build_controller_manager_scripts
+[3.206s] [ 13%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[3.276s] [ 13%] Built target gmock_main
+[7.246s] [ 16%] [32m[1mLinking CXX static library libgmock.a[0m
+[7.320s] [ 16%] Built target gmock
+[22.864s] [ 18%] [32m[1mLinking CXX shared library libcontroller_manager.so[0m
+[23.051s] [ 18%] Built target controller_manager
+[23.069s] [ 35%] [32mBuilding CXX object CMakeFiles/ros2_control_node.dir/src/ros2_control_node.cpp.o[0m
+[23.069s] [ 35%] [32mBuilding CXX object CMakeFiles/test_controller.dir/test/test_controller/test_controller.cpp.o[0m
+[23.069s] [ 35%] [32mBuilding CXX object CMakeFiles/test_chainable_controller.dir/test/test_chainable_controller/test_chainable_controller.cpp.o[0m
+[23.069s] [ 35%] [32mBuilding CXX object CMakeFiles/test_controller_manager_urdf_passing.dir/test/test_controller_manager_urdf_passing.cpp.o[0m
+[23.069s] [ 35%] [32mBuilding CXX object CMakeFiles/test_controller_with_interfaces.dir/test/test_controller_with_interfaces/test_controller_with_interfaces.cpp.o[0m
+[23.069s] [ 35%] [32mBuilding CXX object CMakeFiles/test_controller_failed_init.dir/test/test_controller_failed_init/test_controller_failed_init.cpp.o[0m
+[23.401s] In file included from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/ros2_control/controller_manager/src/ros2_control_node.cpp:24[m[K:
+[23.401s] [01m[K/opt/ros/iron/include/realtime_tools/realtime_tools/thread_priority.hpp:39:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_helpers.hpp' header and link against 'realtime_tools' library." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[23.401s]    39 | #[01;35m[Kwarning[m[K \
+[23.402s]       |  [01;35m[K^~~~~~~[m[K
+[26.485s] [ 37%] [32m[1mLinking CXX shared library libtest_controller.so[0m
+[26.588s] [ 37%] Built target test_controller
+[26.608s] [ 48%] [32mBuilding CXX object CMakeFiles/test_controller_manager_with_namespace.dir/test/test_controller_manager_with_namespace.cpp.o[0m
+[26.608s] [ 48%] [32mBuilding CXX object CMakeFiles/test_controller_manager_hardware_error_handling.dir/test/test_controller_manager_hardware_error_handling.cpp.o[0m
+[26.608s] [ 48%] [32mBuilding CXX object CMakeFiles/test_spawner_unspawner.dir/test/test_spawner_unspawner.cpp.o[0m
+[26.608s] [ 48%] [32mBuilding CXX object CMakeFiles/test_controller_manager.dir/test/test_controller_manager.cpp.o[0m
+[26.608s] [ 51%] [32mBuilding CXX object CMakeFiles/test_hardware_management_srvs.dir/test/test_hardware_management_srvs.cpp.o[0m
+[27.821s] [ 54%] [32m[1mLinking CXX shared library libtest_controller_with_interfaces.so[0m
+[27.937s] [ 54%] Built target test_controller_with_interfaces
+[27.959s] [ 56%] [32mBuilding CXX object CMakeFiles/test_release_interfaces.dir/test/test_release_interfaces.cpp.o[0m
+[28.046s] [ 59%] [32m[1mLinking CXX executable ros2_control_node[0m
+[28.226s] [ 59%] Built target ros2_control_node
+[28.254s] [ 62%] [32m[1mLinking CXX shared library libtest_controller_failed_init.so[0m
+[28.368s] [ 62%] Built target test_controller_failed_init
+[28.389s] [ 64%] [32mBuilding CXX object CMakeFiles/test_load_controller.dir/test/test_load_controller.cpp.o[0m
+[30.880s] [ 67%] [32m[1mLinking CXX executable test_controller_manager_urdf_passing[0m
+[31.085s] [ 67%] Built target test_controller_manager_urdf_passing
+[32.046s] [ 70%] [32m[1mLinking CXX shared library libtest_chainable_controller.so[0m
+[32.233s] [ 70%] Built target test_chainable_controller
+[32.258s] [ 72%] [32mBuilding CXX object CMakeFiles/test_controller_manager_srvs.dir/test/test_controller_manager_srvs.cpp.o[0m
+[32.262s] [ 75%] [32mBuilding CXX object CMakeFiles/test_controllers_chaining_with_controller_manager.dir/test/test_controllers_chaining_with_controller_manager.cpp.o[0m
+[32.330s] In file included from [01m[K/opt/ros/iron/src/gtest_vendor/include/gtest/gtest.h:375[m[K,
+[32.330s]                  from [01m[K/opt/ros/iron/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:47[m[K,
+[32.330s]                  from [01m[K/opt/ros/iron/src/gmock_vendor/include/gmock/gmock-actions.h:51[m[K,
+[32.330s]                  from [01m[K/opt/ros/iron/src/gmock_vendor/include/gmock/gmock.h:59[m[K,
+[32.330s]                  from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/ros2_control/controller_manager/test/test_controller_manager.cpp:15[m[K:
+[32.330s] [01m[K/home/kadi/UR5e_ros2/ros2_real/src/ros2_control/controller_manager/test/test_controller_manager.cpp:[m[K In member function ‘[01m[Kvirtual void TestControllerUpdateRates_check_the_controller_update_rate_Test::TestBody()[m[K’:
+[32.331s] [01m[K/home/kadi/UR5e_ros2/ros2_real/src/ros2_control/controller_manager/test/test_controller_manager.cpp:458:33:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Klong unsigned int[m[K’ to ‘[01m[Kdouble[m[K’ may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion-Wconversion]8;;[m[K]
+[32.331s]   458 |         [01;35m[K(controller_update_rate * no_of_secs_passed)[m[K, 1);
+[32.331s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[34.572s] [ 78%] [32m[1mLinking CXX executable test_controller_manager_with_namespace[0m
+[34.848s] [ 78%] Built target test_controller_manager_with_namespace
+[36.022s] [ 81%] [32m[1mLinking CXX executable test_release_interfaces[0m
+[36.173s] [ 83%] [32m[1mLinking CXX executable test_hardware_management_srvs[0m
+[36.249s] [ 83%] Built target test_release_interfaces
+[36.311s] [ 86%] [32m[1mLinking CXX executable test_spawner_unspawner[0m
+[36.388s] [ 86%] Built target test_hardware_management_srvs
+[36.512s] [ 86%] Built target test_spawner_unspawner
+[38.001s] [ 89%] [32m[1mLinking CXX executable test_controller_manager_hardware_error_handling[0m
+[38.010s] [ 91%] [32m[1mLinking CXX executable test_controller_manager[0m
+[38.203s] [ 91%] Built target test_controller_manager_hardware_error_handling
+[38.225s] [ 91%] Built target test_controller_manager
+[38.724s] [ 94%] [32m[1mLinking CXX executable test_load_controller[0m
+[38.914s] [ 94%] Built target test_load_controller
+[42.752s] [ 97%] [32m[1mLinking CXX executable test_controllers_chaining_with_controller_manager[0m
+[42.936s] [ 97%] Built target test_controllers_chaining_with_controller_manager
+[47.019s] [100%] [32m[1mLinking CXX executable test_controller_manager_srvs[0m
+[47.205s] [100%] Built target test_controller_manager_srvs
+[47.219s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/controller_manager -- -j16 -l16
+[47.221s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/controller_manager': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/controller_manager
+[47.227s] -- Install configuration: "Release"
+[47.228s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/test/test_controller/test_controller.xml
+[47.228s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/libtest_controller.so
+[47.228s] -- Set runtime path of "/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/libtest_controller.so" to ""
+[47.228s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+[47.229s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/libtest_controller_failed_init.so
+[47.229s] -- Set runtime path of "/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/libtest_controller_failed_init.so" to ""
+[47.229s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/test/test_chainable_controller/test_chainable_controller.xml
+[47.229s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/libtest_chainable_controller.so
+[47.230s] -- Set runtime path of "/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/libtest_chainable_controller.so" to ""
+[47.230s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml
+[47.230s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/libtest_controller_with_interfaces.so
+[47.231s] -- Set runtime path of "/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/libtest_controller_with_interfaces.so" to ""
+[47.231s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/test/test_controller_spawner_with_type.yaml
+[47.231s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/test/test_ros2_control_node.yaml
+[47.231s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/include/controller_manager
+[47.231s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/include/controller_manager/controller_manager
+[47.231s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/include/controller_manager/controller_manager/controller_manager.hpp
+[47.231s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/include/controller_manager/controller_manager/controller_spec.hpp
+[47.231s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/include/controller_manager/controller_manager/visibility_control.h
+[47.231s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/libcontroller_manager.so
+[47.234s] -- Set runtime path of "/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/libcontroller_manager.so" to ""
+[47.234s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/controller_manager/ros2_control_node
+[47.234s] -- Set runtime path of "/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/controller_manager/ros2_control_node" to ""
+[47.234s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/environment/pythonpath.sh
+[47.234s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/environment/pythonpath.dsv
+[47.235s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages/controller_manager-3.28.1-py3.10.egg-info
+[47.235s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages/controller_manager-3.28.1-py3.10.egg-info/entry_points.txt
+[47.235s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages/controller_manager-3.28.1-py3.10.egg-info/SOURCES.txt
+[47.235s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages/controller_manager-3.28.1-py3.10.egg-info/dependency_links.txt
+[47.235s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages/controller_manager-3.28.1-py3.10.egg-info/PKG-INFO
+[47.235s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages/controller_manager-3.28.1-py3.10.egg-info/top_level.txt
+[47.235s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/controller_manager/
+[47.235s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/controller_manager//spawner
+[47.235s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/controller_manager//hardware_spawner
+[47.235s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/controller_manager//unspawner
+[47.235s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages/controller_manager
+[47.235s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages/controller_manager/__init__.py
+[47.236s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages/controller_manager/controller_manager_services.py
+[47.236s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages/controller_manager/hardware_spawner.py
+[47.236s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages/controller_manager/unspawner.py
+[47.236s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages/controller_manager/launch_utils.py
+[47.236s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages/controller_manager/spawner.py
+[47.258s] Listing '/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages/controller_manager'...
+[47.258s] Compiling '/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages/controller_manager/__init__.py'...
+[47.258s] Compiling '/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages/controller_manager/controller_manager_services.py'...
+[47.258s] Compiling '/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages/controller_manager/hardware_spawner.py'...
+[47.258s] Compiling '/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages/controller_manager/launch_utils.py'...
+[47.258s] Compiling '/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages/controller_manager/spawner.py'...
+[47.258s] Compiling '/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages/controller_manager/unspawner.py'...
+[47.261s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/environment/library_path.sh
+[47.261s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/environment/library_path.dsv
+[47.261s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+[47.262s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+[47.262s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+[47.262s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+[47.262s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/environment/path.sh
+[47.262s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/environment/path.dsv
+[47.262s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/local_setup.bash
+[47.262s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/local_setup.sh
+[47.262s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/local_setup.zsh
+[47.262s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/local_setup.dsv
+[47.262s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/package.dsv
+[47.262s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+[47.262s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+[47.262s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/cmake/export_controller_managerExport.cmake
+[47.263s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/cmake/export_controller_managerExport-release.cmake
+[47.263s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_targets-extras.cmake
+[47.263s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[47.263s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+[47.263s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+[47.263s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/package.xml
+[47.265s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/controller_manager

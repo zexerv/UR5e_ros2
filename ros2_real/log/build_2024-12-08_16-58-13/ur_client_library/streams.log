@@ -1,0 +1,172 @@
+[0.024s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/ur_client_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_Client_Library -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/ur_client_library
+[0.173s] -- The C compiler identification is GNU 11.4.0
+[0.302s] -- The CXX compiler identification is GNU 11.4.0
+[0.319s] -- Detecting C compiler ABI info
+[0.484s] -- Detecting C compiler ABI info - done
+[0.503s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.503s] -- Detecting C compile features
+[0.510s] -- Detecting C compile features - done
+[0.516s] -- Detecting CXX compiler ABI info
+[0.763s] -- Detecting CXX compiler ABI info - done
+[0.789s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.796s] -- Detecting CXX compile features
+[0.796s] -- Detecting CXX compile features - done
+[0.805s] -- Performing C++17 Test
+[0.809s] -- Performing Test COMPILER_SUPPORTS_CXX17
+[1.016s] -- Performing Test COMPILER_SUPPORTS_CXX17 - Success
+[1.017s] -- Looking for pthread.h
+[1.215s] -- Looking for pthread.h - found
+[1.215s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.377s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.378s] -- Found Threads: TRUE  
+[1.381s] -- Building tests disabled.
+[1.396s] -- Configuring done
+[1.434s] -- Generating done
+[1.449s] -- Build files have been written to: /home/kadi/UR5e_ros2/ros2_real/build/ur_client_library
+[1.457s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_Client_Library -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/ur_client_library
+[1.461s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/ur_client_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/ur_client_library -- -j16 -l16
+[1.607s] [  2%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/comm/tcp_server.cpp.o[0m
+[1.607s] [  4%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/reverse_interface.cpp.o[0m
+[1.607s] [  6%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/comm/tcp_socket.cpp.o[0m
+[1.610s] [  8%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/script_sender.cpp.o[0m
+[1.614s] [ 10%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/trajectory_point_interface.cpp.o[0m
+[1.619s] [ 12%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/primary_package.cpp.o[0m
+[1.622s] [ 14%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_message.cpp.o[0m
+[1.632s] [ 16%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_message/version_message.cpp.o[0m
+[1.632s] [ 18%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/script_command_interface.cpp.o[0m
+[1.632s] [ 20%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_state.cpp.o[0m
+[1.654s] [ 24%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/control_package_pause.cpp.o[0m
+[1.654s] [ 24%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/control_package_setup_inputs.cpp.o[0m
+[1.654s] [ 26%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_state/kinematics_info.cpp.o[0m
+[1.655s] [ 28%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/control_package_setup_outputs.cpp.o[0m
+[1.655s] [ 30%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/control_package_start.cpp.o[0m
+[1.669s] [ 32%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/data_package.cpp.o[0m
+[2.791s] [ 34%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/get_urcontrol_version.cpp.o[0m
+[2.844s] [ 36%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/request_protocol_version.cpp.o[0m
+[2.919s] [ 38%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/rtde_package.cpp.o[0m
+[3.004s] [ 40%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/text_message.cpp.o[0m
+[3.055s] [ 42%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/rtde_client.cpp.o[0m
+[3.069s] [ 44%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/calibration_checker.cpp.o[0m
+[3.072s] [ 46%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/ur_driver.cpp.o[0m
+[3.214s] [ 48%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/dashboard_client.cpp.o[0m
+[3.320s] [ 50%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/tool_communication.cpp.o[0m
+[3.443s] [ 52%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/robot_receive_timeout.cpp.o[0m
+[3.455s] [ 54%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/version_information.cpp.o[0m
+[3.663s] [ 56%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/rtde_writer.cpp.o[0m
+[3.685s] [ 58%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/default_log_handler.cpp.o[0m
+[3.717s] [ 60%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/log.cpp.o[0m
+[3.757s] [ 62%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/helpers.cpp.o[0m
+[4.611s] [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_Client_Library/src/ur/ur_driver.cpp:[m[K In member function ‘[01m[Kvoid urcl::UrDriver::setKeepaliveCount(uint32_t)[m[K’:
+[4.611s] [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_Client_Library/src/ur/ur_driver.cpp:593:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void urcl::control::ReverseInterface::setKeepaliveCount(uint32_t)[m[K’ is deprecated: Set keepaliveCount is deprecated, instead use the robot receive timeout directly in the write commands. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.611s]   593 |   [01;35m[Kreverse_interface_->setKeepaliveCount(count)[m[K;
+[4.611s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[4.612s] In file included from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_Client_Library/include/ur_client_library/ur/ur_driver.h:34[m[K,
+[4.612s]                  from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_Client_Library/src/ur/ur_driver.cpp:34[m[K:
+[4.612s] [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_Client_Library/include/ur_client_library/control/reverse_interface.h:142:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.612s]   142 |   [01;36m[KsetKeepaliveCount[m[K(const uint32_t count);
+[4.612s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[9.040s] [ 64%] [32m[1mLinking CXX shared library liburcl.so[0m
+[9.132s] [ 64%] Built target urcl
+[9.153s] [ 78%] [32mBuilding CXX object examples/CMakeFiles/dashboard_example.dir/dashboard_example.cpp.o[0m
+[9.153s] [ 78%] [32mBuilding CXX object examples/CMakeFiles/primary_pipeline_example.dir/primary_pipeline.cpp.o[0m
+[9.153s] [ 78%] [32mBuilding CXX object examples/CMakeFiles/primary_pipeline_calibration_example.dir/primary_pipeline_calibration.cpp.o[0m
+[9.153s] [ 78%] [32mBuilding CXX object examples/CMakeFiles/rtde_client_example.dir/rtde_client.cpp.o[0m
+[9.153s] [ 78%] [32mBuilding CXX object examples/CMakeFiles/driver_example.dir/full_driver.cpp.o[0m
+[9.154s] [ 78%] [32mBuilding CXX object examples/CMakeFiles/spline_example.dir/spline_example.cpp.o[0m
+[9.154s] [ 78%] [32mBuilding CXX object examples/CMakeFiles/tool_contact_example.dir/tool_contact_example.cpp.o[0m
+[9.154s] [ 80%] [32mBuilding CXX object examples/CMakeFiles/freedrive_example.dir/freedrive_example.cpp.o[0m
+[9.154s] [ 82%] [32mBuilding CXX object examples/CMakeFiles/force_mode_example.dir/force_mode_example.cpp.o[0m
+[9.556s] [ 84%] [32m[1mLinking CXX executable dashboard_example[0m
+[9.645s] [ 84%] Built target dashboard_example
+[10.072s] [ 86%] [32m[1mLinking CXX executable rtde_client_example[0m
+[10.143s] [ 88%] [32m[1mLinking CXX executable primary_pipeline_example[0m
+[10.146s] [ 90%] [32m[1mLinking CXX executable primary_pipeline_calibration_example[0m
+[10.200s] [ 90%] Built target rtde_client_example
+[10.216s] [ 92%] [32m[1mLinking CXX executable freedrive_example[0m
+[10.232s] [ 92%] Built target primary_pipeline_calibration_example
+[10.267s] [ 94%] [32m[1mLinking CXX executable driver_example[0m
+[10.267s] [ 94%] Built target primary_pipeline_example
+[10.298s] [ 94%] Built target freedrive_example
+[10.348s] [ 94%] Built target driver_example
+[10.385s] [ 96%] [32m[1mLinking CXX executable force_mode_example[0m
+[10.406s] [ 98%] [32m[1mLinking CXX executable tool_contact_example[0m
+[10.467s] [ 98%] Built target force_mode_example
+[10.483s] [ 98%] Built target tool_contact_example
+[10.514s] [100%] [32m[1mLinking CXX executable spline_example[0m
+[10.583s] [100%] Built target spline_example
+[10.596s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/ur_client_library -- -j16 -l16
+[10.599s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/ur_client_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/ur_client_library
+[10.606s] -- Install configuration: "Release"
+[10.606s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/lib/liburcl.so
+[10.607s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include
+[10.607s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library
+[10.607s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/comm
+[10.607s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/comm/tcp_socket.h
+[10.608s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/comm/package_serializer.h
+[10.608s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/comm/stream.h
+[10.608s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/comm/bin_parser.h
+[10.608s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/comm/tcp_server.h
+[10.608s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/comm/producer.h
+[10.608s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/comm/parser.h
+[10.608s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/comm/control_mode.h
+[10.608s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/comm/pipeline.h
+[10.608s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/comm/package.h
+[10.608s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/comm/shell_consumer.h
+[10.608s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/rtde
+[10.608s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/rtde/control_package_setup_outputs.h
+[10.609s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/rtde/text_message.h
+[10.609s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/rtde/rtde_parser.h
+[10.609s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/rtde/rtde_writer.h
+[10.609s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/rtde/request_protocol_version.h
+[10.609s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/rtde/get_urcontrol_version.h
+[10.609s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/rtde/control_package_start.h
+[10.609s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/rtde/rtde_package.h
+[10.609s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/rtde/control_package_pause.h
+[10.609s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/rtde/data_package.h
+[10.609s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/rtde/package_header.h
+[10.609s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/rtde/rtde_client.h
+[10.609s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/rtde/control_package_setup_inputs.h
+[10.610s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/ur
+[10.610s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/ur/dashboard_client.h
+[10.610s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/ur/tool_communication.h
+[10.610s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/ur/ur_driver.h
+[10.610s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/ur/datatypes.h
+[10.610s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/ur/robot_receive_timeout.h
+[10.610s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/ur/version_information.h
+[10.610s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/ur/calibration_checker.h
+[10.610s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/control
+[10.610s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/control/script_command_interface.h
+[10.610s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/control/script_sender.h
+[10.610s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/control/reverse_interface.h
+[10.611s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/control/trajectory_point_interface.h
+[10.611s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/helpers.h
+[10.611s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/log.h
+[10.611s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/exceptions.h
+[10.611s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/default_log_handler.h
+[10.611s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/primary
+[10.611s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/primary/robot_message.h
+[10.611s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/primary/primary_package.h
+[10.611s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/primary/robot_message
+[10.611s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/primary/robot_message/version_message.h
+[10.612s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/primary/primary_parser.h
+[10.612s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/primary/robot_state.h
+[10.612s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/primary/robot_state
+[10.612s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/primary/robot_state/kinematics_info.h
+[10.612s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/primary/abstract_primary_consumer.h
+[10.612s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/primary/package_header.h
+[10.612s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/types.h
+[10.612s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/queue
+[10.612s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/queue/atomicops.h
+[10.612s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/queue/readerwriterqueue.h
+[10.613s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/include/ur_client_library/queue/LICENSE.md
+[10.613s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/lib/cmake/ur_client_library/urclTargets.cmake
+[10.613s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/lib/cmake/ur_client_library/urclTargets-release.cmake
+[10.613s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/lib/ur_client_library/start_ursim.sh
+[10.614s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/lib/cmake/ur_client_library/ur_client_libraryConfig.cmake
+[10.614s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/share/ur_client_library/package.xml
+[10.614s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/share/ament_index/resource_index/packages/ur_client_library
+[10.614s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/share/ur_client_library/hook/ament_prefix_path.dsv
+[10.614s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/share/ur_client_library/hook/ros_package_path.dsv
+[10.614s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/share/ur_client_library/resources
+[10.614s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/share/ur_client_library/resources/external_control.urscript
+[10.617s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/ur_client_library

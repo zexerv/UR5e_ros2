@@ -1,0 +1,8 @@
+In file included from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:40[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:73:10:[m[K [01;31m[Kfatal error: [m[Kfreedrive_mode_controller_parameters.hpp: No such file or directory
+   73 | #include [01;31m[K"freedrive_mode_controller_parameters.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ur_controllers.dir/build.make:132: CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:252: CMakeFiles/ur_controllers.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

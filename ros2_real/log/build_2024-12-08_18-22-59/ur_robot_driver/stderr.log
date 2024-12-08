@@ -1,0 +1,419 @@
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvoid ur_robot_driver::URPositionHardwareInterface::checkAsyncIO()[m[K’:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:781:35:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+  781 |     RCLCPP_INFO([01;31m[Krclcpp::get_logger()[m[K, "Starting freedrive mode.");
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:781:35:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+  781 |     RCLCPP_INFO([01;31m[Krclcpp::get_logger()[m[K, "Starting freedrive mode.");
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:781:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  781 |     [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(), "Starting freedrive mode.");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:781:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  781 |     [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(), "Starting freedrive mode.");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:781:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  781 |     [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(), "Starting freedrive mode.");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:781:35:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+  781 |     RCLCPP_INFO([01;31m[Krclcpp::get_logger()[m[K, "Starting freedrive mode.");
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:781:35:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+  781 |     RCLCPP_INFO([01;31m[Krclcpp::get_logger()[m[K, "Starting freedrive mode.");
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:790:35:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+  790 |     RCLCPP_INFO([01;31m[Krclcpp::get_logger()[m[K, "Stopping freedrive mode.");
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:790:35:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+  790 |     RCLCPP_INFO([01;31m[Krclcpp::get_logger()[m[K, "Stopping freedrive mode.");
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:790:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  790 |     [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(), "Stopping freedrive mode.");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:790:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  790 |     [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(), "Stopping freedrive mode.");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:790:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  790 |     [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger(), "Stopping freedrive mode.");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:790:35:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+  790 |     RCLCPP_INFO([01;31m[Krclcpp::get_logger()[m[K, "Stopping freedrive mode.");
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:790:35:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+  790 |     RCLCPP_INFO([01;31m[Krclcpp::get_logger()[m[K, "Stopping freedrive mode.");
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ur_robot_driver::URPositionHardwareInterface::prepare_command_mode_switch(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:942:36:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+  942 |     RCLCPP_ERROR([01;31m[Krclcpp::get_logger()[m[K, "Start modes of all joints have to be the same.");
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:942:36:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+  942 |     RCLCPP_ERROR([01;31m[Krclcpp::get_logger()[m[K, "Start modes of all joints have to be the same.");
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:942:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  942 |     [01;31m[KRCLCPP_ERROR[m[K(rclcpp::get_logger(), "Start modes of all joints have to be the same.");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:942:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  942 |     [01;31m[KRCLCPP_ERROR[m[K(rclcpp::get_logger(), "Start modes of all joints have to be the same.");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:942:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  942 |     [01;31m[KRCLCPP_ERROR[m[K(rclcpp::get_logger(), "Start modes of all joints have to be the same.");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:942:36:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+  942 |     RCLCPP_ERROR([01;31m[Krclcpp::get_logger()[m[K, "Start modes of all joints have to be the same.");
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:942:36:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Krclcpp::Logger rclcpp::get_logger(const string&)[m[K’
+  942 |     RCLCPP_ERROR([01;31m[Krclcpp::get_logger()[m[K, "Start modes of all joints have to be the same.");
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/logger.hpp:107:17:[m[K [01;36m[Knote: [m[Kdeclared here
+  107 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur_robot_driver_plugin.dir/build.make:90: CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:148: CMakeFiles/ur_robot_driver_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

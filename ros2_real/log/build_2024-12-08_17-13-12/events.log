@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.000224] (-) JobUnselected: {'identifier': 'ackermann_steering_controller'}
+[0.000250] (-) JobUnselected: {'identifier': 'admittance_controller'}
+[0.000260] (-) JobUnselected: {'identifier': 'bicycle_steering_controller'}
+[0.000268] (-) JobUnselected: {'identifier': 'cartesian_compliance_controller'}
+[0.000277] (-) JobUnselected: {'identifier': 'cartesian_controller_base'}
+[0.000287] (-) JobUnselected: {'identifier': 'cartesian_controller_handles'}
+[0.000296] (-) JobUnselected: {'identifier': 'cartesian_controller_simulation'}
+[0.000303] (-) JobUnselected: {'identifier': 'cartesian_controller_simulation_ur5e'}
+[0.000310] (-) JobUnselected: {'identifier': 'cartesian_controller_tests'}
+[0.000317] (-) JobUnselected: {'identifier': 'cartesian_controller_utilities'}
+[0.000325] (-) JobUnselected: {'identifier': 'cartesian_force_controller'}
+[0.000332] (-) JobUnselected: {'identifier': 'cartesian_motion_controller'}
+[0.000339] (-) JobUnselected: {'identifier': 'control_msgs'}
+[0.000347] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.000354] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.000361] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.000368] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.000375] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.000382] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.000389] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.000396] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.000403] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.000409] (-) JobUnselected: {'identifier': 'hardware_interface_testing'}
+[0.000416] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.000423] (-) JobUnselected: {'identifier': 'joint_limits'}
+[0.000430] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.000437] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.000444] (-) JobUnselected: {'identifier': 'kinematics_interface'}
+[0.000450] (-) JobUnselected: {'identifier': 'kinematics_interface_kdl'}
+[0.000457] (-) JobUnselected: {'identifier': 'pid_controller'}
+[0.000464] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.000471] (-) JobUnselected: {'identifier': 'range_sensor_broadcaster'}
+[0.000477] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.000484] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.000491] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.000497] (-) JobUnselected: {'identifier': 'ros2_controllers_test_nodes'}
+[0.000504] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.000511] (-) JobUnselected: {'identifier': 'rqt_controller_manager'}
+[0.000518] (-) JobUnselected: {'identifier': 'rqt_joint_trajectory_controller'}
+[0.000524] (-) JobUnselected: {'identifier': 'steering_controllers_library'}
+[0.000531] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.000538] (-) JobUnselected: {'identifier': 'tricycle_controller'}
+[0.000544] (-) JobUnselected: {'identifier': 'tricycle_steering_controller'}
+[0.000551] (-) JobUnselected: {'identifier': 'ur'}
+[0.000558] (-) JobUnselected: {'identifier': 'ur_calibration'}
+[0.000565] (-) JobUnselected: {'identifier': 'ur_client_library'}
+[0.000572] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.000578] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.000585] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.000592] (-) JobUnselected: {'identifier': 'ur_msgs'}
+[0.000599] (-) JobUnselected: {'identifier': 'ur_robot_driver'}
+[0.000605] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.000614] (ur_controllers) JobQueued: {'identifier': 'ur_controllers', 'dependencies': OrderedDict([('control_msgs', '/home/kadi/UR5e_ros2/ros2_real/install/control_msgs'), ('controller_manager_msgs', '/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs'), ('ros2_control_test_assets', '/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets'), ('ur_dashboard_msgs', '/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs'), ('ur_msgs', '/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs'), ('hardware_interface', '/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface'), ('controller_interface', '/home/kadi/UR5e_ros2/ros2_real/install/controller_interface'), ('hardware_interface_testing', '/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing'), ('controller_manager', '/home/kadi/UR5e_ros2/ros2_real/install/controller_manager'), ('joint_trajectory_controller', '/home/kadi/UR5e_ros2/ros2_real/install/joint_trajectory_controller')])}
+[0.000639] (ur_controllers) JobStarted: {'identifier': 'ur_controllers'}
+[0.036583] (ur_controllers) JobProgress: {'identifier': 'ur_controllers', 'progress': 'cmake'}
+[0.037505] (ur_controllers) JobProgress: {'identifier': 'ur_controllers', 'progress': 'build'}
+[0.037568] (ur_controllers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kadi/UR5e_ros2/ros2_real/build/ur_controllers', '--', '-j16', '-l16'], 'cwd': '/home/kadi/UR5e_ros2/ros2_real/build/ur_controllers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('C_INCLUDE_PATH', '/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:'), ('LANGUAGE', 'en_US:en'), ('USER', 'kadi'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '9'), ('LD_LIBRARY_PATH', '/home/kadi/UR5e_ros2/ros2_real/install/joint_trajectory_controller/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/kadi'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '3809739'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('CPLUS_INCLUDE_PATH', '/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:'), ('COLCON_PREFIX_PATH', '/home/kadi/UR5e_ros2/ros2_real/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kadi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kadi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/opt/ros/iron/bin:/home/kadi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kadi:@/tmp/.ICE-unix/1563,unix/kadi:/tmp/.ICE-unix/1563'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('MUJOCO_DIR', '/home/kadi/mujoco-3.0.0'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b907e6b7_0871_44b7_b9ab_6924a400692a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/kadi/.mujoco/mujoco'), ('ZEITGEIST_DATA_PATH', '/home/kadi/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.7540'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kadi/UR5e_ros2/ros2_real/install/joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kadi/UR5e_ros2/ros2_real/build/ur_controllers'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kadi/UR5e_ros2/ros2_real/install/joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron')]), 'shell': False}
+[0.090043] (ur_controllers) StdoutLine: {'line': b'[ 20%] Built target ur_configuration_controller_parameters\n'}
+[0.090296] (ur_controllers) StdoutLine: {'line': b'[ 20%] Built target gpio_controller_parameters\n'}
+[0.090424] (ur_controllers) StdoutLine: {'line': b'[ 30%] Built target speed_scaling_state_broadcaster_parameters\n'}
+[0.090492] (ur_controllers) StdoutLine: {'line': b'[ 40%] Built target scaled_joint_trajectory_controller_parameters\n'}
+[0.099394] (-) TimerEvent: {}
+[0.122192] (ur_controllers) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o\x1b[0m\n'}
+[0.199533] (-) TimerEvent: {}
+[0.299870] (-) TimerEvent: {}
+[0.400218] (-) TimerEvent: {}
+[0.454432] (ur_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:40\x1b[m\x1b[K:\n'}
+[0.454682] (ur_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:73:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kfreedrive_mode_controller_parameters.hpp: No such file or directory\n'}
+[0.454780] (ur_controllers) StderrLine: {'line': b'   73 | #include \x1b[01;31m\x1b[K"freedrive_mode_controller_parameters.hpp"\x1b[m\x1b[K\n'}
+[0.454856] (ur_controllers) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.454925] (ur_controllers) StderrLine: {'line': b'compilation terminated.\n'}
+[0.467152] (ur_controllers) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ur_controllers.dir/build.make:132: CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o] Error 1\n'}
+[0.467653] (ur_controllers) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:252: CMakeFiles/ur_controllers.dir/all] Error 2\n'}
+[0.468083] (ur_controllers) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[0.470475] (ur_controllers) CommandEnded: {'returncode': 2}
+[0.475675] (ur_controllers) JobEnded: {'identifier': 'ur_controllers', 'rc': 2}
+[0.486059] (-) EventReactorShutdown: {}

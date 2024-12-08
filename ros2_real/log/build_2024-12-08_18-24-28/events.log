@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.000172] (-) JobUnselected: {'identifier': 'ackermann_steering_controller'}
+[0.000204] (-) JobUnselected: {'identifier': 'admittance_controller'}
+[0.000228] (-) JobUnselected: {'identifier': 'bicycle_steering_controller'}
+[0.000247] (-) JobUnselected: {'identifier': 'cartesian_compliance_controller'}
+[0.000278] (-) JobUnselected: {'identifier': 'cartesian_controller_base'}
+[0.000296] (-) JobUnselected: {'identifier': 'cartesian_controller_handles'}
+[0.000303] (-) JobUnselected: {'identifier': 'cartesian_controller_simulation'}
+[0.000309] (-) JobUnselected: {'identifier': 'cartesian_controller_simulation_ur5e'}
+[0.000316] (-) JobUnselected: {'identifier': 'cartesian_controller_tests'}
+[0.000323] (-) JobUnselected: {'identifier': 'cartesian_controller_utilities'}
+[0.000330] (-) JobUnselected: {'identifier': 'cartesian_force_controller'}
+[0.000336] (-) JobUnselected: {'identifier': 'cartesian_motion_controller'}
+[0.000343] (-) JobUnselected: {'identifier': 'control_msgs'}
+[0.000350] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.000357] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.000363] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.000370] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.000377] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.000383] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.000390] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.000397] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.000403] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.000410] (-) JobUnselected: {'identifier': 'hardware_interface_testing'}
+[0.000417] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.000424] (-) JobUnselected: {'identifier': 'joint_limits'}
+[0.000430] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.000437] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.000443] (-) JobUnselected: {'identifier': 'kinematics_interface'}
+[0.000450] (-) JobUnselected: {'identifier': 'kinematics_interface_kdl'}
+[0.000457] (-) JobUnselected: {'identifier': 'pid_controller'}
+[0.000463] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.000470] (-) JobUnselected: {'identifier': 'range_sensor_broadcaster'}
+[0.000477] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.000483] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.000490] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.000497] (-) JobUnselected: {'identifier': 'ros2_controllers_test_nodes'}
+[0.000504] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.000510] (-) JobUnselected: {'identifier': 'rqt_controller_manager'}
+[0.000522] (-) JobUnselected: {'identifier': 'rqt_joint_trajectory_controller'}
+[0.000529] (-) JobUnselected: {'identifier': 'steering_controllers_library'}
+[0.000536] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.000542] (-) JobUnselected: {'identifier': 'tricycle_controller'}
+[0.000549] (-) JobUnselected: {'identifier': 'tricycle_steering_controller'}
+[0.000556] (-) JobUnselected: {'identifier': 'ur'}
+[0.000562] (-) JobUnselected: {'identifier': 'ur_calibration'}
+[0.000569] (-) JobUnselected: {'identifier': 'ur_client_library'}
+[0.000576] (-) JobUnselected: {'identifier': 'ur_controllers'}
+[0.000583] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.000589] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.000596] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.000603] (-) JobUnselected: {'identifier': 'ur_msgs'}
+[0.000609] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.000618] (ur_robot_driver) JobQueued: {'identifier': 'ur_robot_driver', 'dependencies': OrderedDict([('control_msgs', '/home/kadi/UR5e_ros2/ros2_real/install/control_msgs'), ('controller_manager_msgs', '/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs'), ('ros2_control_test_assets', '/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets'), ('ros2_controllers_test_nodes', '/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes'), ('ur_client_library', '/home/kadi/UR5e_ros2/ros2_real/install/ur_client_library'), ('ur_dashboard_msgs', '/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs'), ('ur_description', '/home/kadi/UR5e_ros2/ros2_real/install/ur_description'), ('ur_msgs', '/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs'), ('hardware_interface', '/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface'), ('controller_interface', '/home/kadi/UR5e_ros2/ros2_real/install/controller_interface'), ('hardware_interface_testing', '/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing'), ('controller_manager', '/home/kadi/UR5e_ros2/ros2_real/install/controller_manager'), ('force_torque_sensor_broadcaster', '/home/kadi/UR5e_ros2/ros2_real/install/force_torque_sensor_broadcaster'), ('forward_command_controller', '/home/kadi/UR5e_ros2/ros2_real/install/forward_command_controller'), ('joint_state_broadcaster', '/home/kadi/UR5e_ros2/ros2_real/install/joint_state_broadcaster'), ('joint_trajectory_controller', '/home/kadi/UR5e_ros2/ros2_real/install/joint_trajectory_controller'), ('position_controllers', '/home/kadi/UR5e_ros2/ros2_real/install/position_controllers'), ('ur_controllers', '/home/kadi/UR5e_ros2/ros2_real/install/ur_controllers'), ('velocity_controllers', '/home/kadi/UR5e_ros2/ros2_real/install/velocity_controllers')])}
+[0.000645] (ur_robot_driver) JobStarted: {'identifier': 'ur_robot_driver'}
+[0.054802] (ur_robot_driver) JobProgress: {'identifier': 'ur_robot_driver', 'progress': 'cmake'}
+[0.055794] (ur_robot_driver) JobProgress: {'identifier': 'ur_robot_driver', 'progress': 'build'}
+[0.055824] (ur_robot_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kadi/UR5e_ros2/ros2_real/build/ur_robot_driver', '--', '-j16', '-l16'], 'cwd': '/home/kadi/UR5e_ros2/ros2_real/build/ur_robot_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('C_INCLUDE_PATH', '/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:'), ('LANGUAGE', 'en_US:en'), ('USER', 'kadi'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '9'), ('LD_LIBRARY_PATH', '/home/kadi/UR5e_ros2/ros2_real/install/velocity_controllers/lib:/home/kadi/UR5e_ros2/ros2_real/install/ur_controllers/lib:/home/kadi/UR5e_ros2/ros2_real/install/position_controllers/lib:/home/kadi/UR5e_ros2/ros2_real/install/joint_trajectory_controller/lib:/home/kadi/UR5e_ros2/ros2_real/install/joint_state_broadcaster/lib:/home/kadi/UR5e_ros2/ros2_real/install/forward_command_controller/lib:/home/kadi/UR5e_ros2/ros2_real/install/force_torque_sensor_broadcaster/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/kadi'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '3809739'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('CPLUS_INCLUDE_PATH', '/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:'), ('COLCON_PREFIX_PATH', '/home/kadi/UR5e_ros2/ros2_real/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kadi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PKG_CONFIG_PATH', '/home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/lib/x86_64-linux-gnu/pkgconfig:/home/kadi/UR5e_ros2/ros2_real/install/ur_client_library/lib/pkgconfig'), ('USERNAME', 'kadi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/opt/ros/iron/bin:/home/kadi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kadi:@/tmp/.ICE-unix/1563,unix/kadi:/tmp/.ICE-unix/1563'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('MUJOCO_DIR', '/home/kadi/mujoco-3.0.0'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b907e6b7_0871_44b7_b9ab_6924a400692a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/kadi/.mujoco/mujoco'), ('ZEITGEIST_DATA_PATH', '/home/kadi/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.7540'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kadi/UR5e_ros2/ros2_real/install/velocity_controllers:/home/kadi/UR5e_ros2/ros2_real/install/ur_controllers:/home/kadi/UR5e_ros2/ros2_real/install/position_controllers:/home/kadi/UR5e_ros2/ros2_real/install/joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/joint_state_broadcaster:/home/kadi/UR5e_ros2/ros2_real/install/forward_command_controller:/home/kadi/UR5e_ros2/ros2_real/install/force_torque_sensor_broadcaster:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kadi/UR5e_ros2/ros2_real/build/ur_robot_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kadi/UR5e_ros2/ros2_real/install/velocity_controllers:/home/kadi/UR5e_ros2/ros2_real/install/ur_controllers:/home/kadi/UR5e_ros2/ros2_real/install/position_controllers:/home/kadi/UR5e_ros2/ros2_real/install/joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/joint_state_broadcaster:/home/kadi/UR5e_ros2/ros2_real/install/forward_command_controller:/home/kadi/UR5e_ros2/ros2_real/install/force_torque_sensor_broadcaster:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/home/kadi/UR5e_ros2/ros2_real/install/ur_dashboard_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_client_library:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/opt/ros/iron')]), 'shell': False}
+[0.099399] (-) TimerEvent: {}
+[0.103051] (ur_robot_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ur_robot_driver_plugin\x1b[0m\n'}
+[0.118584] (ur_robot_driver) StdoutLine: {'line': b'[ 66%] Built target ur_ros2_control_node\n'}
+[0.118742] (ur_robot_driver) StdoutLine: {'line': b'[ 66%] Built target urscript_interface\n'}
+[0.118805] (ur_robot_driver) StdoutLine: {'line': b'[ 73%] Built target controller_stopper_node\n'}
+[0.118839] (ur_robot_driver) StdoutLine: {'line': b'[ 73%] Built target dashboard_client\n'}
+[0.123619] (ur_robot_driver) StdoutLine: {'line': b'[ 73%] Built target ament_cmake_python_copy_ur_robot_driver\n'}
+[0.125714] (ur_robot_driver) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o\x1b[0m\n'}
+[0.199531] (-) TimerEvent: {}
+[0.282750] (ur_robot_driver) StdoutLine: {'line': b'running egg_info\n'}
+[0.283102] (ur_robot_driver) StdoutLine: {'line': b'writing ur_robot_driver.egg-info/PKG-INFO\n'}
+[0.283312] (ur_robot_driver) StdoutLine: {'line': b'writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt\n'}
+[0.283416] (ur_robot_driver) StdoutLine: {'line': b'writing top-level names to ur_robot_driver.egg-info/top_level.txt\n'}
+[0.284447] (ur_robot_driver) StdoutLine: {'line': b"reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'\n"}
+[0.284791] (ur_robot_driver) StdoutLine: {'line': b"writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'\n"}
+[0.299808] (-) TimerEvent: {}
+[0.309676] (ur_robot_driver) StdoutLine: {'line': b'[ 80%] Built target ament_cmake_python_build_ur_robot_driver_egg\n'}
+[0.399921] (-) TimerEvent: {}
+[0.500266] (-) TimerEvent: {}
+[0.600603] (-) TimerEvent: {}
+[0.700950] (-) TimerEvent: {}
+[0.801293] (-) TimerEvent: {}
+[0.901782] (-) TimerEvent: {}
+[1.002485] (-) TimerEvent: {}
+[1.102858] (-) TimerEvent: {}
+[1.203202] (-) TimerEvent: {}
+[1.303563] (-) TimerEvent: {}
+[1.403915] (-) TimerEvent: {}
+[1.504289] (-) TimerEvent: {}
+[1.604627] (-) TimerEvent: {}
+[1.704995] (-) TimerEvent: {}
+[1.805348] (-) TimerEvent: {}
+[1.905720] (-) TimerEvent: {}
+[2.006075] (-) TimerEvent: {}
+[2.106429] (-) TimerEvent: {}
+[2.207183] (-) TimerEvent: {}
+[2.307557] (-) TimerEvent: {}
+[2.407910] (-) TimerEvent: {}
+[2.508271] (-) TimerEvent: {}
+[2.608626] (-) TimerEvent: {}
+[2.709040] (-) TimerEvent: {}
+[2.809470] (-) TimerEvent: {}
+[2.864297] (ur_robot_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.864567] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.864668] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.864739] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.864804] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.864865] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.864925] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.864984] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.865044] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.865106] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.865166] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.865227] (ur_robot_driver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:49\x1b[m\x1b[K:\n'}
+[2.865289] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ur_robot_driver::URPositionHardwareInterface::checkAsyncIO()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.865354] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:781:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.865415] (ur_robot_driver) StderrLine: {'line': b'  781 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(rclcpp::get_logger( "Starting freedrive mode."));\n'}
+[2.865475] (ur_robot_driver) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.865503] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:790:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.865539] (ur_robot_driver) StderrLine: {'line': b'  790 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(rclcpp::get_logger("Stopping freedrive mode.") );\n'}
+[2.865565] (ur_robot_driver) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.866312] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type ur_robot_driver::URPositionHardwareInterface::prepare_command_mode_switch(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::__cxx11::basic_string<char> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.866374] (ur_robot_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/hardware_interface.cpp:942:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.866414] (ur_robot_driver) StderrLine: {'line': b'  942 |     \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(rclcpp::get_logger("Start modes of all joints have to be the same."));\n'}
+[2.866444] (ur_robot_driver) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.909602] (-) TimerEvent: {}
+[3.009948] (-) TimerEvent: {}
+[3.110299] (-) TimerEvent: {}
+[3.210651] (-) TimerEvent: {}
+[3.311007] (-) TimerEvent: {}
+[3.411369] (-) TimerEvent: {}
+[3.511731] (-) TimerEvent: {}
+[3.612080] (-) TimerEvent: {}
+[3.712430] (-) TimerEvent: {}
+[3.812787] (-) TimerEvent: {}
+[3.875383] (ur_robot_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ur_robot_driver_plugin.dir/build.make:90: CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o] Error 1\n'}
+[3.875800] (ur_robot_driver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:148: CMakeFiles/ur_robot_driver_plugin.dir/all] Error 2\n'}
+[3.876159] (ur_robot_driver) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.879361] (ur_robot_driver) CommandEnded: {'returncode': 2}
+[3.889200] (ur_robot_driver) JobEnded: {'identifier': 'ur_robot_driver', 'rc': 2}
+[3.899621] (-) EventReactorShutdown: {}

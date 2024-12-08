@@ -1,0 +1,6 @@
+Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Description -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/ur_description
+Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Description -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/ur_description
+Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/ur_description -- -j16 -l16
+Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/ur_description -- -j16 -l16
+Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/ur_description
+Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/ur_description

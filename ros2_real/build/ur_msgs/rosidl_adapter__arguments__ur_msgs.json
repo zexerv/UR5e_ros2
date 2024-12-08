@@ -1,0 +1,17 @@
+{
+  "package_name": "ur_msgs",
+  "non_idl_tuples": [
+    "/home/kadi/UR5e_ros2/ros2_real/src/ur_msgs:msg/Analog.msg",
+    "/home/kadi/UR5e_ros2/ros2_real/src/ur_msgs:msg/Digital.msg",
+    "/home/kadi/UR5e_ros2/ros2_real/src/ur_msgs:msg/IOStates.msg",
+    "/home/kadi/UR5e_ros2/ros2_real/src/ur_msgs:msg/RobotStateRTMsg.msg",
+    "/home/kadi/UR5e_ros2/ros2_real/src/ur_msgs:msg/MasterboardDataMsg.msg",
+    "/home/kadi/UR5e_ros2/ros2_real/src/ur_msgs:msg/RobotModeDataMsg.msg",
+    "/home/kadi/UR5e_ros2/ros2_real/src/ur_msgs:msg/ToolDataMsg.msg",
+    "/home/kadi/UR5e_ros2/ros2_real/src/ur_msgs:srv/SetAnalogOutput.srv",
+    "/home/kadi/UR5e_ros2/ros2_real/src/ur_msgs:srv/SetPayload.srv",
+    "/home/kadi/UR5e_ros2/ros2_real/src/ur_msgs:srv/SetSpeedSliderFraction.srv",
+    "/home/kadi/UR5e_ros2/ros2_real/src/ur_msgs:srv/SetIO.srv",
+    "/home/kadi/UR5e_ros2/ros2_real/src/ur_msgs:srv/GetRobotSoftwareVersion.srv"
+  ]
+}

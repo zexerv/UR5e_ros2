@@ -1,0 +1,326 @@
+[0.000000] (-) TimerEvent: {}
+[0.000162] (-) JobUnselected: {'identifier': 'ackermann_steering_controller'}
+[0.000199] (-) JobUnselected: {'identifier': 'admittance_controller'}
+[0.000223] (-) JobUnselected: {'identifier': 'bicycle_steering_controller'}
+[0.000241] (-) JobUnselected: {'identifier': 'cartesian_compliance_controller'}
+[0.000263] (-) JobUnselected: {'identifier': 'cartesian_controller_base'}
+[0.000282] (-) JobUnselected: {'identifier': 'cartesian_controller_handles'}
+[0.000299] (-) JobUnselected: {'identifier': 'cartesian_controller_simulation'}
+[0.000317] (-) JobUnselected: {'identifier': 'cartesian_controller_simulation_ur5e'}
+[0.000334] (-) JobUnselected: {'identifier': 'cartesian_controller_tests'}
+[0.000351] (-) JobUnselected: {'identifier': 'cartesian_controller_utilities'}
+[0.000370] (-) JobUnselected: {'identifier': 'cartesian_force_controller'}
+[0.000382] (-) JobUnselected: {'identifier': 'cartesian_motion_controller'}
+[0.000389] (-) JobUnselected: {'identifier': 'control_msgs'}
+[0.000400] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.000409] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.000416] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.000423] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.000432] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.000439] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.000446] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.000452] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.000461] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.000468] (-) JobUnselected: {'identifier': 'hardware_interface_testing'}
+[0.000474] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.000483] (-) JobUnselected: {'identifier': 'joint_limits'}
+[0.000489] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.000496] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.000508] (-) JobUnselected: {'identifier': 'kinematics_interface'}
+[0.000522] (-) JobUnselected: {'identifier': 'kinematics_interface_kdl'}
+[0.000530] (-) JobUnselected: {'identifier': 'pid_controller'}
+[0.000537] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.000544] (-) JobUnselected: {'identifier': 'range_sensor_broadcaster'}
+[0.000551] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.000560] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.000567] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.000573] (-) JobUnselected: {'identifier': 'ros2_controllers_test_nodes'}
+[0.000582] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.000589] (-) JobUnselected: {'identifier': 'rqt_controller_manager'}
+[0.000596] (-) JobUnselected: {'identifier': 'rqt_joint_trajectory_controller'}
+[0.000603] (-) JobUnselected: {'identifier': 'steering_controllers_library'}
+[0.000610] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.000618] (-) JobUnselected: {'identifier': 'tricycle_controller'}
+[0.000625] (-) JobUnselected: {'identifier': 'tricycle_steering_controller'}
+[0.000632] (-) JobUnselected: {'identifier': 'ur'}
+[0.000639] (-) JobUnselected: {'identifier': 'ur_calibration'}
+[0.000647] (-) JobUnselected: {'identifier': 'ur_client_library'}
+[0.000654] (-) JobUnselected: {'identifier': 'ur_controllers'}
+[0.000661] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.000668] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.000676] (-) JobUnselected: {'identifier': 'ur_msgs'}
+[0.000683] (-) JobUnselected: {'identifier': 'ur_robot_driver'}
+[0.000690] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.000698] (ur_description) JobQueued: {'identifier': 'ur_description', 'dependencies': OrderedDict()}
+[0.000712] (ur_description) JobStarted: {'identifier': 'ur_description'}
+[0.006168] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'cmake'}
+[0.006490] (ur_description) Command: {'cmd': ['/usr/bin/cmake', '/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_ROS2_Description', '-DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/ur_description'], 'cwd': '/home/kadi/UR5e_ros2/ros2_real/build/ur_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('C_INCLUDE_PATH', '/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:'), ('LANGUAGE', 'en_US:en'), ('USER', 'kadi'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '9'), ('LD_LIBRARY_PATH', '/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/kadi'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '3809739'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('CPLUS_INCLUDE_PATH', '/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kadi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kadi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/opt/ros/iron/bin:/home/kadi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kadi:@/tmp/.ICE-unix/1563,unix/kadi:/tmp/.ICE-unix/1563'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('MUJOCO_DIR', '/home/kadi/mujoco-3.0.0'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b907e6b7_0871_44b7_b9ab_6924a400692a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/kadi/.mujoco/mujoco'), ('ZEITGEIST_DATA_PATH', '/home/kadi/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.7540'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kadi/UR5e_ros2/ros2_real/build/ur_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.063479] (ur_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099418] (-) TimerEvent: {}
+[0.103181] (ur_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.108574] (ur_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.171914] (ur_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.176464] (ur_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.176676] (ur_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.176813] (ur_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.178739] (ur_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199550] (-) TimerEvent: {}
+[0.246986] (ur_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.251737] (ur_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.251934] (ur_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.252228] (ur_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.254181] (ur_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.299639] (-) TimerEvent: {}
+[0.362829] (ur_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.399767] (-) TimerEvent: {}
+[0.413650] (ur_description) StdoutLine: {'line': b'-- Found ament_cmake_pytest: 2.0.7 (/opt/ros/iron/share/ament_cmake_pytest/cmake)\n'}
+[0.499893] (-) TimerEvent: {}
+[0.600209] (-) TimerEvent: {}
+[0.700537] (-) TimerEvent: {}
+[0.800875] (-) TimerEvent: {}
+[0.901251] (-) TimerEvent: {}
+[1.001574] (-) TimerEvent: {}
+[1.078124] (ur_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.079821] (ur_description) StdoutLine: {'line': b'-- Generating done\n'}
+[1.081052] (ur_description) StdoutLine: {'line': b'-- Build files have been written to: /home/kadi/UR5e_ros2/ros2_real/build/ur_description\n'}
+[1.084849] (ur_description) CommandEnded: {'returncode': 0}
+[1.085640] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'build'}
+[1.085655] (ur_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kadi/UR5e_ros2/ros2_real/build/ur_description', '--', '-j16', '-l16'], 'cwd': '/home/kadi/UR5e_ros2/ros2_real/build/ur_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('C_INCLUDE_PATH', '/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:'), ('LANGUAGE', 'en_US:en'), ('USER', 'kadi'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '9'), ('LD_LIBRARY_PATH', '/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/kadi'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '3809739'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('CPLUS_INCLUDE_PATH', '/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kadi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kadi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/opt/ros/iron/bin:/home/kadi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kadi:@/tmp/.ICE-unix/1563,unix/kadi:/tmp/.ICE-unix/1563'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('MUJOCO_DIR', '/home/kadi/mujoco-3.0.0'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b907e6b7_0871_44b7_b9ab_6924a400692a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/kadi/.mujoco/mujoco'), ('ZEITGEIST_DATA_PATH', '/home/kadi/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.7540'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kadi/UR5e_ros2/ros2_real/build/ur_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.101649] (-) TimerEvent: {}
+[1.114684] (ur_description) CommandEnded: {'returncode': 0}
+[1.115389] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'install'}
+[1.121518] (ur_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kadi/UR5e_ros2/ros2_real/build/ur_description'], 'cwd': '/home/kadi/UR5e_ros2/ros2_real/build/ur_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('C_INCLUDE_PATH', '/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:'), ('LANGUAGE', 'en_US:en'), ('USER', 'kadi'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '9'), ('LD_LIBRARY_PATH', '/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/home/kadi/mujoco-3.0.0/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/kadi'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '3809739'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('CPLUS_INCLUDE_PATH', '/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:/home/kadi/mujoco-3.0.0/include:'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kadi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kadi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/home/kadi/mujoco-3.0.0/bin:/opt/ros/iron/bin:/home/kadi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kadi:@/tmp/.ICE-unix/1563,unix/kadi:/tmp/.ICE-unix/1563'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('MUJOCO_DIR', '/home/kadi/mujoco-3.0.0'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b907e6b7_0871_44b7_b9ab_6924a400692a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/kadi/.mujoco/mujoco'), ('ZEITGEIST_DATA_PATH', '/home/kadi/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.7540'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kadi/UR5e_ros2/ros2_real/build/ur_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.127348] (ur_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.127564] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config\n'}
+[1.127651] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur20\n'}
+[1.127717] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml\n'}
+[1.127809] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml\n'}
+[1.127891] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml\n'}
+[1.128051] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml\n'}
+[1.128212] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur3e\n'}
+[1.128287] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml\n'}
+[1.128423] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml\n'}
+[1.128623] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml\n'}
+[1.128777] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml\n'}
+[1.128945] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur16e\n'}
+[1.128994] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml\n'}
+[1.129456] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml\n'}
+[1.130415] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml\n'}
+[1.131256] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml\n'}
+[1.131845] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/initial_positions.yaml\n'}
+[1.131975] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur10e\n'}
+[1.132047] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml\n'}
+[1.132240] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml\n'}
+[1.132430] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml\n'}
+[1.132776] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml\n'}
+[1.132956] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur10\n'}
+[1.133011] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml\n'}
+[1.133184] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml\n'}
+[1.133351] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml\n'}
+[1.133530] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml\n'}
+[1.133690] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur5e\n'}
+[1.133750] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml\n'}
+[1.133925] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml\n'}
+[1.134099] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml\n'}
+[1.134269] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml\n'}
+[1.134439] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur3\n'}
+[1.134518] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml\n'}
+[1.134687] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml\n'}
+[1.134860] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml\n'}
+[1.135030] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml\n'}
+[1.135198] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur5\n'}
+[1.135256] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml\n'}
+[1.135424] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml\n'}
+[1.135598] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml\n'}
+[1.135786] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml\n'}
+[1.135949] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur30\n'}
+[1.136009] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml\n'}
+[1.136176] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml\n'}
+[1.136344] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml\n'}
+[1.136519] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml\n'}
+[1.136857] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/launch\n'}
+[1.136946] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/launch/view_ur.launch.py\n'}
+[1.137076] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes\n'}
+[1.137155] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur20\n'}
+[1.137238] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur20/visual\n'}
+[1.137298] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae\n'}
+[1.137644] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae\n'}
+[1.138460] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae\n'}
+[1.138792] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae\n'}
+[1.139064] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae\n'}
+[1.139789] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae\n'}
+[1.140248] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png\n'}
+[1.141732] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae\n'}
+[1.142169] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur20/collision\n'}
+[1.142253] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl\n'}
+[1.142554] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl\n'}
+[1.142748] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl\n'}
+[1.143021] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl\n'}
+[1.143211] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl\n'}
+[1.143405] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl\n'}
+[1.143675] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl\n'}
+[1.143791] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt\n'}
+[1.143984] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3e\n'}
+[1.144037] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3e/visual\n'}
+[1.144094] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae\n'}
+[1.144392] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae\n'}
+[1.145678] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae\n'}
+[1.147399] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae\n'}
+[1.149596] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae\n'}
+[1.152976] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae\n'}
+[1.153129] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae\n'}
+[1.154804] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3e/collision\n'}
+[1.154917] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl\n'}
+[1.155214] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl\n'}
+[1.155389] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl\n'}
+[1.155636] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl\n'}
+[1.155822] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl\n'}
+[1.155962] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl\n'}
+[1.156057] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl\n'}
+[1.156190] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur16e\n'}
+[1.156243] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur16e/visual\n'}
+[1.156298] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae\n'}
+[1.157628] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae\n'}
+[1.160575] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur16e/collision\n'}
+[1.160703] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl\n'}
+[1.160784] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl\n'}
+[1.160947] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10e\n'}
+[1.161021] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10e/visual\n'}
+[1.161101] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae\n'}
+[1.161464] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae\n'}
+[1.162801] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae\n'}
+[1.164422] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae\n'}
+[1.166674] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae\n'}
+[1.169600] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae\n'}
+[1.169739] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae\n'}
+[1.171014] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10e/collision\n'}
+[1.171069] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl\n'}
+[1.171642] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl\n'}
+[1.171814] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl\n'}
+[1.171974] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl\n'}
+[1.172164] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl\n'}
+[1.172313] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl\n'}
+[1.172475] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl\n'}
+[1.172597] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/deburring_tool\n'}
+[1.172656] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/deburring_tool/Supporto_Seghetto.stl\n'}
+[1.184006] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10\n'}
+[1.184268] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10/visual\n'}
+[1.184350] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae\n'}
+[1.184419] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae\n'}
+[1.185528] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae\n'}
+[1.187864] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae\n'}
+[1.188766] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae\n'}
+[1.190336] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae\n'}
+[1.190540] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae\n'}
+[1.191720] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10/collision\n'}
+[1.191793] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl\n'}
+[1.192096] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl\n'}
+[1.192225] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl\n'}
+[1.192355] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl\n'}
+[1.192626] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl\n'}
+[1.192812] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl\n'}
+[1.192949] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl\n'}
+[1.193017] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/realsense\n'}
+[1.193106] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/realsense/d435.dae\n'}
+[1.201773] (-) TimerEvent: {}
+[1.206519] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/gripper\n'}
+[1.206752] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/gripper/Supporto_ventose_e_generatore.stl\n'}
+[1.215105] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/gripper/Gripper_con_camera.stl\n'}
+[1.233274] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/gripper/puntale.stl\n'}
+[1.233722] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5e\n'}
+[1.233861] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5e/visual\n'}
+[1.233941] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae\n'}
+[1.234053] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae\n'}
+[1.235429] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae\n'}
+[1.237006] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae\n'}
+[1.238678] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae\n'}
+[1.241766] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae\n'}
+[1.241892] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae\n'}
+[1.243174] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5e/collision\n'}
+[1.243274] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl\n'}
+[1.243557] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl\n'}
+[1.243737] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl\n'}
+[1.243883] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl\n'}
+[1.244086] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl\n'}
+[1.244219] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl\n'}
+[1.244358] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl\n'}
+[1.244489] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3\n'}
+[1.244544] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3/visual\n'}
+[1.244605] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae\n'}
+[1.245285] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae\n'}
+[1.246200] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae\n'}
+[1.247072] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae\n'}
+[1.248871] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae\n'}
+[1.251157] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae\n'}
+[1.251276] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae\n'}
+[1.252027] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3/collision\n'}
+[1.252149] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl\n'}
+[1.252533] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl\n'}
+[1.253090] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl\n'}
+[1.253525] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl\n'}
+[1.253848] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl\n'}
+[1.254170] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl\n'}
+[1.254393] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl\n'}
+[1.254668] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/table\n'}
+[1.254760] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/table/table_simplified.stl\n'}
+[1.261358] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5\n'}
+[1.261507] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5/visual\n'}
+[1.261627] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae\n'}
+[1.261755] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae\n'}
+[1.263067] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae\n'}
+[1.264024] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae\n'}
+[1.265030] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae\n'}
+[1.266917] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae\n'}
+[1.267114] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae\n'}
+[1.268301] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5/collision\n'}
+[1.268382] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl\n'}
+[1.268574] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl\n'}
+[1.268709] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl\n'}
+[1.268823] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl\n'}
+[1.269105] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl\n'}
+[1.269238] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl\n'}
+[1.269352] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl\n'}
+[1.269473] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur30\n'}
+[1.269539] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur30/visual\n'}
+[1.269595] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae\n'}
+[1.270433] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae\n'}
+[1.271190] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png\n'}
+[1.272695] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur30/collision\n'}
+[1.272806] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl\n'}
+[1.272966] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl\n'}
+[1.273208] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt\n'}
+[1.273409] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/sole\n'}
+[1.273459] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/meshes/sole/Suola_bave.stl\n'}
+[1.273639] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/rviz\n'}
+[1.273701] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/rviz/view_robot.rviz\n'}
+[1.273778] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/urdf\n'}
+[1.273830] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/urdf/virtual_walls.xacro\n'}
+[1.273913] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/urdf/ur.urdf.xacro\n'}
+[1.273995] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro\n'}
+[1.274091] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/urdf/fixed_parts.xacro\n'}
+[1.274157] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/urdf/inc\n'}
+[1.274212] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro\n'}
+[1.274314] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro\n'}
+[1.274394] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/urdf/ur_macro.xacro\n'}
+[1.274483] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/urdf/_d435.urdf.xacro\n'}
+[1.274578] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/test\n'}
+[1.274628] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py\n'}
+[1.274713] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/test/test_view_ur_launch.py\n'}
+[1.274937] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description\n'}
+[1.275087] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description\n'}
+[1.275234] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/environment/ament_prefix_path.sh\n'}
+[1.275342] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv\n'}
+[1.275447] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/environment/path.sh\n'}
+[1.275555] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/environment/path.dsv\n'}
+[1.275668] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/local_setup.bash\n'}
+[1.275771] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/local_setup.sh\n'}
+[1.275873] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/local_setup.zsh\n'}
+[1.275976] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/local_setup.dsv\n'}
+[1.276080] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/package.dsv\n'}
+[1.276217] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ament_index/resource_index/packages/ur_description\n'}
+[1.276834] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake\n'}
+[1.276921] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake\n'}
+[1.277017] (ur_description) StdoutLine: {'line': b'-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ur_description/share/ur_description/package.xml\n'}
+[1.279369] (ur_description) CommandEnded: {'returncode': 0}
+[1.287828] (ur_description) JobEnded: {'identifier': 'ur_description', 'rc': 0}
+[1.288344] (-) EventReactorShutdown: {}

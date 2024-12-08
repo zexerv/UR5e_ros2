@@ -1,0 +1,4 @@
+Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface -- -j16 -l16
+Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface -- -j16 -l16
+Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface
+Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface

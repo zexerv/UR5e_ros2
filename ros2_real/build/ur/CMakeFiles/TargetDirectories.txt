@@ -1,0 +1,9 @@
+/home/kadi/UR5e_ros2/ros2_real/build/ur/CMakeFiles/uninstall.dir
+/home/kadi/UR5e_ros2/ros2_real/build/ur/CMakeFiles/ur_uninstall.dir
+/home/kadi/UR5e_ros2/ros2_real/build/ur/CMakeFiles/test.dir
+/home/kadi/UR5e_ros2/ros2_real/build/ur/CMakeFiles/edit_cache.dir
+/home/kadi/UR5e_ros2/ros2_real/build/ur/CMakeFiles/rebuild_cache.dir
+/home/kadi/UR5e_ros2/ros2_real/build/ur/CMakeFiles/list_install_components.dir
+/home/kadi/UR5e_ros2/ros2_real/build/ur/CMakeFiles/install.dir
+/home/kadi/UR5e_ros2/ros2_real/build/ur/CMakeFiles/install/local.dir
+/home/kadi/UR5e_ros2/ros2_real/build/ur/CMakeFiles/install/strip.dir

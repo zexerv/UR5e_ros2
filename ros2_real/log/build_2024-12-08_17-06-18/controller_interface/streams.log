@@ -1,0 +1,60 @@
+[0.012s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/controller_interface': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/controller_interface -- -j16 -l16
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target controller_interface[0m
+[0.064s] [  8%] Built target gmock_main
+[0.064s] [ 21%] Built target gmock
+[0.075s] [ 39%] Built target controller_interface
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target test_controller_interface[0m
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target test_controller_with_options[0m
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target test_force_torque_sensor[0m
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target test_semantic_component_interface[0m
+[0.089s] [35m[1mConsolidate compiler generated dependencies of target test_imu_sensor[0m
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target test_pose_sensor[0m
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target test_chainable_controller_interface[0m
+[0.103s] [ 60%] Built target test_imu_sensor
+[0.104s] [ 65%] Built target test_semantic_component_interface
+[0.104s] [ 65%] Built target test_force_torque_sensor
+[0.104s] [ 73%] Built target test_pose_sensor
+[0.106s] [ 82%] Built target test_controller_with_options
+[0.106s] [ 91%] Built target test_controller_interface
+[0.108s] [100%] Built target test_chainable_controller_interface
+[0.118s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/controller_interface -- -j16 -l16
+[0.120s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/controller_interface': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/controller_interface
+[0.125s] -- Install configuration: "Release"
+[0.126s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/include/controller_interface
+[0.126s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/include/controller_interface/semantic_components
+[0.126s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/include/controller_interface/semantic_components/range_sensor.hpp
+[0.126s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/include/controller_interface/semantic_components/imu_sensor.hpp
+[0.126s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/include/controller_interface/semantic_components/force_torque_sensor.hpp
+[0.126s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/include/controller_interface/semantic_components/pose_sensor.hpp
+[0.126s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/include/controller_interface/semantic_components/semantic_component_interface.hpp
+[0.126s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/include/controller_interface/controller_interface
+[0.126s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/include/controller_interface/controller_interface/helpers.hpp
+[0.126s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp
+[0.126s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/include/controller_interface/controller_interface/visibility_control.h
+[0.126s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/include/controller_interface/controller_interface/chainable_controller_interface.hpp
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/include/controller_interface/controller_interface/controller_interface.hpp
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/lib/libcontroller_interface.so
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/environment/library_path.sh
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/environment/library_path.dsv
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/ament_index/resource_index/package_run_dependencies/controller_interface
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/ament_index/resource_index/parent_prefix_path/controller_interface
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/environment/ament_prefix_path.sh
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/environment/ament_prefix_path.dsv
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/environment/path.sh
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/environment/path.dsv
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/local_setup.bash
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/local_setup.sh
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/local_setup.zsh
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/local_setup.dsv
+[0.127s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/package.dsv
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/ament_index/resource_index/packages/controller_interface
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/cmake/export_controller_interfaceExport.cmake
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/cmake/export_controller_interfaceExport-release.cmake
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_targets-extras.cmake
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig.cmake
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig-version.cmake
+[0.127s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/package.xml
+[0.129s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/controller_interface

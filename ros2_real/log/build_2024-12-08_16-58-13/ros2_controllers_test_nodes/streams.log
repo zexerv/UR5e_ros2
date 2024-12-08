@@ -1,0 +1,42 @@
+[0.563s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/src/ros2_controllers/ros2_controllers_test_nodes': PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2_controllers_test_nodes build --build-base /home/kadi/UR5e_ros2/ros2_real/build/ros2_controllers_test_nodes/build install --record /home/kadi/UR5e_ros2/ros2_real/build/ros2_controllers_test_nodes/install.log --single-version-externally-managed install_data
+[0.924s] running egg_info
+[0.924s] creating ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info
+[0.924s] writing ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/PKG-INFO
+[0.928s] writing dependency_links to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/dependency_links.txt
+[0.928s] writing entry points to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/entry_points.txt
+[0.928s] writing requirements to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/requires.txt
+[0.928s] writing top-level names to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/top_level.txt
+[0.930s] writing manifest file '../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[0.935s] reading manifest file '../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[0.936s] writing manifest file '../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[0.936s] running build
+[0.936s] running build_py
+[0.938s] creating /home/kadi/UR5e_ros2/ros2_real/build/ros2_controllers_test_nodes/build
+[0.938s] creating /home/kadi/UR5e_ros2/ros2_real/build/ros2_controllers_test_nodes/build/lib
+[0.938s] creating /home/kadi/UR5e_ros2/ros2_real/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[0.938s] copying ros2_controllers_test_nodes/__init__.py -> /home/kadi/UR5e_ros2/ros2_real/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[0.938s] copying ros2_controllers_test_nodes/publisher_forward_position_controller.py -> /home/kadi/UR5e_ros2/ros2_real/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[0.938s] copying ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py -> /home/kadi/UR5e_ros2/ros2_real/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[0.938s] running install
+[0.939s] running install_lib
+[0.939s] creating /home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[0.939s] copying /home/kadi/UR5e_ros2/ros2_real/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/__init__.py -> /home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[0.939s] copying /home/kadi/UR5e_ros2/ros2_real/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/publisher_forward_position_controller.py -> /home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[0.941s] copying /home/kadi/UR5e_ros2/ros2_real/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py -> /home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[0.942s] byte-compiling /home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/__init__.py to __init__.cpython-310.pyc
+[0.943s] byte-compiling /home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/publisher_forward_position_controller.py to publisher_forward_position_controller.cpython-310.pyc
+[0.944s] byte-compiling /home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py to publisher_joint_trajectory_controller.cpython-310.pyc
+[0.946s] running install_data
+[0.946s] creating /home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes/share/ament_index
+[0.946s] creating /home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes/share/ament_index/resource_index
+[0.947s] creating /home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[0.947s] copying resource/ros2_controllers_test_nodes -> /home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[0.947s] copying package.xml -> /home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes
+[0.947s] creating /home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/configs
+[0.950s] running install_egg_info
+[0.951s] Copying ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info to /home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes-3.26.3-py3.10.egg-info
+[0.951s] running install_scripts
+[0.983s] Installing publisher_forward_position_controller script to /home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[0.983s] Installing publisher_joint_trajectory_controller script to /home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[0.984s] writing list of installed files to '/home/kadi/UR5e_ros2/ros2_real/build/ros2_controllers_test_nodes/install.log'
+[1.041s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/src/ros2_controllers/ros2_controllers_test_nodes' returned '0': PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2_controllers_test_nodes build --build-base /home/kadi/UR5e_ros2/ros2_real/build/ros2_controllers_test_nodes/build install --record /home/kadi/UR5e_ros2/ros2_real/build/ros2_controllers_test_nodes/install.log --single-version-externally-managed install_data

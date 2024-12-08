@@ -86,6 +86,7 @@ URPositionHardwareInterface::on_init(const hardware_interface::HardwareInfo& sys
   start_modes_ = {};
   position_controller_running_ = false;
   velocity_controller_running_ = false;
+  freedrive_mode_controller_running_ = false;
   runtime_state_ = static_cast<uint32_t>(rtde::RUNTIME_STATE::STOPPED);
   pausing_state_ = PausingState::RUNNING;
   pausing_ramp_up_increment_ = 0.01;
@@ -94,6 +95,7 @@ URPositionHardwareInterface::on_init(const hardware_interface::HardwareInfo& sys
   initialized_ = false;
   async_thread_shutdown_ = false;
   system_interface_initialized_ = 0.0;
+  freedrive_mode_abort_ = 0.0;
 
   for (const hardware_interface::ComponentInfo& joint : info_.joints) {
     if (joint.command_interfaces.size() != 2) {
@@ -312,6 +314,16 @@ std::vector<hardware_interface::CommandInterface> URPositionHardwareInterface::e
 
   command_interfaces.emplace_back(hardware_interface::CommandInterface(
       tf_prefix + "zero_ftsensor", "zero_ftsensor_async_success", &zero_ftsensor_async_success_));
+
+
+  command_interfaces.emplace_back(hardware_interface::CommandInterface(
+      tf_prefix + FREEDRIVE_MODE_GPIO, "async_success", &freedrive_mode_async_success_));
+
+  command_interfaces.emplace_back(hardware_interface::CommandInterface(
+      tf_prefix + FREEDRIVE_MODE_GPIO, "enable", &freedrive_mode_enable_));
+
+  command_interfaces.emplace_back(hardware_interface::CommandInterface(
+      tf_prefix + FREEDRIVE_MODE_GPIO, "abort", &freedrive_mode_abort_));
 
   return command_interfaces;
 }
@@ -626,6 +638,8 @@ hardware_interface::return_type URPositionHardwareInterface::read(const rclcpp::
       resend_robot_program_cmd_ = NO_NEW_CMD_;
       zero_ftsensor_cmd_ = NO_NEW_CMD_;
       hand_back_control_cmd_ = NO_NEW_CMD_;
+      freedrive_mode_abort_ = NO_NEW_CMD_;
+      freedrive_mode_enable_ = NO_NEW_CMD_;
       initialized_ = true;
     }
 
@@ -653,6 +667,9 @@ hardware_interface::return_type URPositionHardwareInterface::write(const rclcpp:
 
     } else if (velocity_controller_running_) {
       ur_driver_->writeJointCommand(urcl_velocity_commands_, urcl::comm::ControlMode::MODE_SPEEDJ, receive_timeout_);
+    
+    } else if (freedrive_mode_controller_running_ && freedrive_activated_) {
+      ur_driver_->writeFreedriveControlMessage(urcl::control::FreedriveControlMessage::FREEDRIVE_NOOP);
 
     } else {
       ur_driver_->writeKeepalive();
@@ -758,6 +775,24 @@ void URPositionHardwareInterface::checkAsyncIO()
     zero_ftsensor_async_success_ = ur_driver_->zeroFTSensor();
     zero_ftsensor_cmd_ = NO_NEW_CMD_;
   }
+
+
+  if (!std::isnan(freedrive_mode_enable_) && ur_driver_ != nullptr) {
+    RCLCPP_INFO(rclcpp::get_logger("ur_robot_driver"), "Starting freedrive mode.");
+    freedrive_mode_async_success_ =
+        ur_driver_->writeFreedriveControlMessage(urcl::control::FreedriveControlMessage::FREEDRIVE_START);
+    freedrive_mode_enable_ = NO_NEW_CMD_;
+    freedrive_activated_ = true;
+  }
+
+  if (!std::isnan(freedrive_mode_abort_) && freedrive_mode_abort_ == 1.0 && freedrive_activated_ &&
+      ur_driver_ != nullptr) {
+    RCLCPP_INFO(rclcpp::get_logger("ur_robot_driver"), "Stopping freedrive mode.");
+    freedrive_mode_async_success_ =
+        ur_driver_->writeFreedriveControlMessage(urcl::control::FreedriveControlMessage::FREEDRIVE_STOP);
+    freedrive_activated_ = false;
+    freedrive_mode_abort_ = NO_NEW_CMD_;
+}
 }
 
 void URPositionHardwareInterface::updateNonDoubleValues()
@@ -825,34 +860,111 @@ void URPositionHardwareInterface::extractToolPose()
   tcp_transform_.transform.rotation = tf2::toMsg(rotation);
 }
 
+// hardware_interface::return_type URPositionHardwareInterface::prepare_command_mode_switch(
+//     const std::vector<std::string>& start_interfaces, const std::vector<std::string>& stop_interfaces)
+// {
+//   hardware_interface::return_type ret_val = hardware_interface::return_type::OK;
+
+//   start_modes_.clear();
+//   stop_modes_.clear();
+
+//   // Starting interfaces
+//   // add start interface per joint in tmp var for later check
+//   for (const auto& key : start_interfaces) {
+//     for (auto i = 0u; i < info_.joints.size(); i++) {
+//       if (key == info_.joints[i].name + "/" + hardware_interface::HW_IF_POSITION) {
+//         start_modes_.push_back(hardware_interface::HW_IF_POSITION);
+//       }
+//       if (key == info_.joints[i].name + "/" + hardware_interface::HW_IF_VELOCITY) {
+//         start_modes_.push_back(hardware_interface::HW_IF_VELOCITY);
+//       }
+//     }
+//   }
+//   // set new mode to all interfaces at the same time
+//   if (start_modes_.size() != 0 && start_modes_.size() != 6) {
+//     ret_val = hardware_interface::return_type::ERROR;
+//   }
+
+//   // all start interfaces must be the same - can't mix position and velocity control
+//   if (start_modes_.size() != 0 && !std::equal(start_modes_.begin() + 1, start_modes_.end(), start_modes_.begin())) {
+//     ret_val = hardware_interface::return_type::ERROR;
+//   }
+
+//   // Stopping interfaces
+//   // add stop interface per joint in tmp var for later check
+//   for (const auto& key : stop_interfaces) {
+//     for (auto i = 0u; i < info_.joints.size(); i++) {
+//       if (key == info_.joints[i].name + "/" + hardware_interface::HW_IF_POSITION) {
+//         stop_modes_.push_back(StoppingInterface::STOP_POSITION);
+//       }
+//       if (key == info_.joints[i].name + "/" + hardware_interface::HW_IF_VELOCITY) {
+//         stop_modes_.push_back(StoppingInterface::STOP_VELOCITY);
+//       }
+//     }
+//   }
+//   // stop all interfaces at the same time
+//   if (stop_modes_.size() != 0 &&
+//       (stop_modes_.size() != 6 || !std::equal(stop_modes_.begin() + 1, stop_modes_.end(), stop_modes_.begin()))) {
+//     ret_val = hardware_interface::return_type::ERROR;
+//   }
+
+//   controllers_initialized_ = true;
+//   return ret_val;
+// }
+
+
+
 hardware_interface::return_type URPositionHardwareInterface::prepare_command_mode_switch(
-    const std::vector<std::string>& start_interfaces, const std::vector<std::string>& stop_interfaces)
+   const std::vector<std::string>& start_interfaces, const std::vector<std::string>& stop_interfaces)
 {
   hardware_interface::return_type ret_val = hardware_interface::return_type::OK;
 
-  start_modes_.clear();
+  start_modes_ = std::vector<std::string>(info_.joints.size(), "UNDEFINED");
   stop_modes_.clear();
+  std::vector<std::string> control_modes(info_.joints.size());
+  const std::string tf_prefix = info_.hardware_parameters.at("tf_prefix");
+
+  // Assess current state
+  for (auto i = 0u; i < info_.joints.size(); i++) {
+    if (position_controller_running_) {
+      control_modes[i] = hardware_interface::HW_IF_POSITION;
+    }
+    if (velocity_controller_running_) {
+      control_modes[i] = hardware_interface::HW_IF_VELOCITY;
+    }
+    if (freedrive_mode_controller_running_) {
+      control_modes[i] = FREEDRIVE_MODE_GPIO;
+    }
+  }
+
+  if (!std::all_of(start_modes_.begin() + 1, start_modes_.end(),
+                   [&](const std::string& other) { return other == start_modes_[0]; })) {
+    RCLCPP_ERROR(rclcpp::get_logger("ur_robot_driver"), "Start modes of all joints have to be the same.");
+    return hardware_interface::return_type::ERROR;
+  }
 
   // Starting interfaces
-  // add start interface per joint in tmp var for later check
+  // If a joint has been reserved already, raise an error.
+  // Modes that are not directly mapped to a single joint such as force_mode reserve all joints.
   for (const auto& key : start_interfaces) {
     for (auto i = 0u; i < info_.joints.size(); i++) {
       if (key == info_.joints[i].name + "/" + hardware_interface::HW_IF_POSITION) {
-        start_modes_.push_back(hardware_interface::HW_IF_POSITION);
-      }
-      if (key == info_.joints[i].name + "/" + hardware_interface::HW_IF_VELOCITY) {
-        start_modes_.push_back(hardware_interface::HW_IF_VELOCITY);
+        if (start_modes_[i] != "UNDEFINED") {
+          return hardware_interface::return_type::ERROR;
+        }
+        start_modes_[i] = hardware_interface::HW_IF_POSITION;
+      } else if (key == info_.joints[i].name + "/" + hardware_interface::HW_IF_VELOCITY) {
+        if (start_modes_[i] != "UNDEFINED") {
+          return hardware_interface::return_type::ERROR;
+        }
+        start_modes_[i] = hardware_interface::HW_IF_VELOCITY;
+      } else if (key == tf_prefix + FREEDRIVE_MODE_GPIO + "/async_success") {
+        if (start_modes_[i] != "UNDEFINED") {
+          return hardware_interface::return_type::ERROR;
+        }
+        start_modes_[i] = FREEDRIVE_MODE_GPIO;
       }
     }
-  }
-  // set new mode to all interfaces at the same time
-  if (start_modes_.size() != 0 && start_modes_.size() != 6) {
-    ret_val = hardware_interface::return_type::ERROR;
-  }
-
-  // all start interfaces must be the same - can't mix position and velocity control
-  if (start_modes_.size() != 0 && !std::equal(start_modes_.begin() + 1, start_modes_.end(), start_modes_.begin())) {
-    ret_val = hardware_interface::return_type::ERROR;
   }
 
   // Stopping interfaces
@@ -861,21 +973,67 @@ hardware_interface::return_type URPositionHardwareInterface::prepare_command_mod
     for (auto i = 0u; i < info_.joints.size(); i++) {
       if (key == info_.joints[i].name + "/" + hardware_interface::HW_IF_POSITION) {
         stop_modes_.push_back(StoppingInterface::STOP_POSITION);
+        if (control_modes[i] == hardware_interface::HW_IF_POSITION) {
+          control_modes[i] = "UNDEFINED";
+        }
       }
       if (key == info_.joints[i].name + "/" + hardware_interface::HW_IF_VELOCITY) {
         stop_modes_.push_back(StoppingInterface::STOP_VELOCITY);
+        if (control_modes[i] == hardware_interface::HW_IF_VELOCITY) {
+          control_modes[i] = "UNDEFINED";
+        }
+      }
+      if (key == tf_prefix + FREEDRIVE_MODE_GPIO + "/async_success") {
+        stop_modes_.push_back(StoppingInterface::STOP_FREEDRIVE);
+        if (control_modes[i] == FREEDRIVE_MODE_GPIO) {
+          control_modes[i] = "UNDEFINED";
+        }
       }
     }
   }
-  // stop all interfaces at the same time
-  if (stop_modes_.size() != 0 &&
-      (stop_modes_.size() != 6 || !std::equal(stop_modes_.begin() + 1, stop_modes_.end(), stop_modes_.begin()))) {
+
+  // Do not start conflicting controllers
+  if (std::any_of(start_modes_.begin(), start_modes_.end(),
+                  [this](auto& item) { return (item == FREEDRIVE_MODE_GPIO); }) &&
+      (std::any_of(start_modes_.begin(), start_modes_.end(),
+                   [this](auto& item) {
+                     return (item == hardware_interface::HW_IF_VELOCITY || item == hardware_interface::HW_IF_POSITION);
+                   }) ||
+       std::any_of(control_modes.begin(), control_modes.end(), [this](auto& item) {
+         return (item == hardware_interface::HW_IF_VELOCITY || item == hardware_interface::HW_IF_POSITION || item == FREEDRIVE_MODE_GPIO);
+       }))) {
+    ret_val = hardware_interface::return_type::ERROR;
+  }
+  if (std::any_of(start_modes_.begin(), start_modes_.end(),
+                  [](auto& item) { return (item == hardware_interface::HW_IF_POSITION); }) &&
+      (std::any_of(start_modes_.begin(), start_modes_.end(),
+                   [this](auto& item) {
+                     return (item == hardware_interface::HW_IF_VELOCITY || item == FREEDRIVE_MODE_GPIO);
+                   }) ||
+       std::any_of(control_modes.begin(), control_modes.end(), [this](auto& item) {
+         return (item == hardware_interface::HW_IF_VELOCITY || item == hardware_interface::HW_IF_POSITION ||
+                 item == FREEDRIVE_MODE_GPIO);
+       }))) {
+    ret_val = hardware_interface::return_type::ERROR;
+  }
+  if (std::any_of(start_modes_.begin(), start_modes_.end(),
+                  [](auto& item) { return (item == hardware_interface::HW_IF_VELOCITY); }) &&
+      std::any_of(start_modes_.begin(), start_modes_.end(), [this](auto& item) {
+        return (item == hardware_interface::HW_IF_VELOCITY || item == hardware_interface::HW_IF_POSITION ||
+                item == FREEDRIVE_MODE_GPIO);
+      })) {
     ret_val = hardware_interface::return_type::ERROR;
   }
 
   controllers_initialized_ = true;
   return ret_val;
 }
+
+
+
+
+
+
 
 hardware_interface::return_type URPositionHardwareInterface::perform_command_mode_switch(
     const std::vector<std::string>& start_interfaces, const std::vector<std::string>& stop_interfaces)
@@ -890,6 +1048,11 @@ hardware_interface::return_type URPositionHardwareInterface::perform_command_mod
              std::find(stop_modes_.begin(), stop_modes_.end(), StoppingInterface::STOP_VELOCITY) != stop_modes_.end()) {
     velocity_controller_running_ = false;
     urcl_velocity_commands_ = { { 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 } };
+  } else if (stop_modes_.size() != 0 && std::find(stop_modes_.begin(), stop_modes_.end(),
+                                                  StoppingInterface::STOP_FREEDRIVE) != stop_modes_.end()) {
+    freedrive_mode_controller_running_ = false;
+    freedrive_activated_ = false;
+    freedrive_mode_abort_ = 1.0;
   }
 
   if (start_modes_.size() != 0 &&
@@ -903,6 +1066,12 @@ hardware_interface::return_type URPositionHardwareInterface::perform_command_mod
     position_controller_running_ = false;
     urcl_velocity_commands_ = { { 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 } };
     velocity_controller_running_ = true;
+  } else if (start_modes_.size() != 0 &&
+             std::find(start_modes_.begin(), start_modes_.end(), FREEDRIVE_MODE_GPIO) != start_modes_.end()) {
+    velocity_controller_running_ = false;
+    position_controller_running_ = false;
+    freedrive_mode_controller_running_ = true;
+    freedrive_activated_ = false;
   }
 
   start_modes_.clear();

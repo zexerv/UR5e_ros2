@@ -1,0 +1,66 @@
+[0.023s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/diff_drive_controller': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/ros2_controllers/diff_drive_controller -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller
+[0.089s] -- The CXX compiler identification is GNU 11.4.0
+[0.096s] -- Detecting CXX compiler ABI info
+[0.179s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.184s] -- Detecting CXX compile features - done
+[0.187s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.323s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.406s] -- Found controller_interface: 3.28.1 (/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/cmake)
+[0.448s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.459s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.474s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.077s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.080s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.116s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.190s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.193s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.214s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.221s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.233s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.247s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.416s] -- Found generate_parameter_library: 0.3.9 (/opt/ros/iron/share/generate_parameter_library/cmake)
+[1.421s] -- Found parameter_traits: 0.3.9 (/opt/ros/iron/share/parameter_traits/cmake)
+[1.446s] -- Found nav_msgs: 5.0.1 (/opt/ros/iron/share/nav_msgs/cmake)
+[1.524s] -- Found realtime_tools: 2.8.1 (/opt/ros/iron/share/realtime_tools/cmake)
+[1.783s] -- Found tf2: 0.31.8 (/opt/ros/iron/share/tf2/cmake)
+[1.790s] -- Found tf2_msgs: 0.31.8 (/opt/ros/iron/share/tf2_msgs/cmake)
+[1.889s] -- Found ament_cmake_gmock: 2.0.7 (/opt/ros/iron/share/ament_cmake_gmock/cmake)
+[1.889s] -- Found controller_manager: 3.28.1 (/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/share/controller_manager/cmake)
+[2.082s] -- Found ros2_control_test_assets: 3.28.1 (/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.085s] -- Found gmock sources under '/opt/ros/iron/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.118s] -- The C compiler identification is GNU 11.4.0
+[2.125s] -- Detecting C compiler ABI info
+[2.221s] -- Detecting C compiler ABI info - done
+[2.226s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.226s] -- Detecting C compile features
+[2.226s] -- Detecting C compile features - done
+[2.234s] -- Found ament_cmake_gtest: 2.0.7 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+[2.234s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.293s] -- Configuring done
+[2.321s] -- Generating done
+[2.333s] -- Build files have been written to: /home/kadi/UR5e_ros2/ros2_real/build/diff_drive_controller
+[2.353s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/diff_drive_controller' returned '0': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/ros2_controllers/diff_drive_controller -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/diff_drive_controller
+[2.354s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/diff_drive_controller': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_msgs:/home/kadi/UR5e_ros2/ros2_real/install/ur_description:/opt/ros/iron LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/diff_drive_controller -- -j16 -l16
+[2.407s] [ 21%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/iron/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.407s] [ 21%] [34m[1mRunning `/opt/ros/iron/bin/generate_parameter_library_cpp /home/kadi/UR5e_ros2/ros2_real/build/diff_drive_controller/diff_drive_controller_parameters/include//diff_drive_controller_parameters.hpp /home/kadi/UR5e_ros2/ros2_real/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller_parameter.yaml `[0m
+[2.407s] [ 21%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.407s] [ 28%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.997s] [ 28%] Built target diff_drive_controller_parameters
+[3.018s] [ 35%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o[0m
+[3.018s] [ 42%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/speed_limiter.cpp.o[0m
+[3.019s] [ 50%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/odometry.cpp.o[0m
+[3.322s] [ 57%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[3.397s] [ 57%] Built target gmock_main
+[7.795s] [ 64%] [32m[1mLinking CXX static library libgmock.a[0m
+[7.872s] [ 64%] Built target gmock
+[7.895s] [ 71%] [32mBuilding CXX object CMakeFiles/test_load_diff_drive_controller.dir/test/test_load_diff_drive_controller.cpp.o[0m
+[14.965s] [ 78%] [32m[1mLinking CXX executable test_load_diff_drive_controller[0m
+[15.178s] [ 78%] Built target test_load_diff_drive_controller
+[19.724s] [ 85%] [32m[1mLinking CXX shared library libdiff_drive_controller.so[0m
+[19.924s] [ 85%] Built target diff_drive_controller
+[19.948s] [ 92%] [32mBuilding CXX object CMakeFiles/test_diff_drive_controller.dir/test/test_diff_drive_controller.cpp.o[0m
+[27.083s] [100%] [32m[1mLinking CXX executable test_diff_drive_controller[0m
+[27.255s] [100%] Built target test_diff_drive_controller

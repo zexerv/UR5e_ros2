@@ -1,0 +1,238 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-641eab87734209128aed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"build" : "gmock",
+					"jsonFile" : "directory-gmock-Release-72236c9cabeabd8c5207.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/iron/src/gmock_vendor",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-ec7bb8c6a0ce843eb376.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "/opt/ros/iron/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "transmission_interface",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gmock",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock-Release-5bf2c21af3fc20f82277.json",
+					"name" : "gmock",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock_main::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock_main-Release-a9c93df43478e7f8fddb.json",
+					"name" : "gmock_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-f508b0cd5224088bb36a.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-88f90a4744c11d2823b8.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_differential_transmission::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_differential_transmission-Release-760085348a7de95c989e.json",
+					"name" : "test_differential_transmission",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_differential_transmission_loader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_differential_transmission_loader-Release-3c5bafeb74c1713f8677.json",
+					"name" : "test_differential_transmission_loader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_four_bar_linkage_transmission::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_four_bar_linkage_transmission-Release-ffae27c1e84075cd1a49.json",
+					"name" : "test_four_bar_linkage_transmission",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_four_bar_linkage_transmission_loader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_four_bar_linkage_transmission_loader-Release-9e7e5125027a45d33e4f.json",
+					"name" : "test_four_bar_linkage_transmission_loader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_simple_transmission::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_simple_transmission-Release-9e10b1bbdfc766474d88.json",
+					"name" : "test_simple_transmission",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_simple_transmission_loader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_simple_transmission_loader-Release-a9641b7c555f3160518a.json",
+					"name" : "test_simple_transmission_loader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_utils-Release-22757968bb63be9f3239.json",
+					"name" : "test_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "transmission_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-transmission_interface-Release-ab5aeb0ebec0f0665827.json",
+					"name" : "transmission_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "transmission_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-transmission_interface_uninstall-Release-9c09cc37844cb99a2f45.json",
+					"name" : "transmission_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-166809516a4cbaad4164.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kadi/UR5e_ros2/ros2_real/build/transmission_interface",
+		"source" : "/home/kadi/UR5e_ros2/ros2_real/src/ros2_control/transmission_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

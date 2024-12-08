@@ -1,0 +1,91 @@
+[0.016s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/joint_limits': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/ros2_control/joint_limits -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/joint_limits
+[0.153s] -- The CXX compiler identification is GNU 11.4.0
+[0.175s] -- Detecting CXX compiler ABI info
+[0.347s] -- Detecting CXX compiler ABI info - done
+[0.358s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.358s] -- Detecting CXX compile features
+[0.358s] -- Detecting CXX compile features - done
+[0.366s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.703s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.831s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[0.948s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.973s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.009s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.032s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.329s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.333s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.548s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.631s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.742s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.063s] -- Found rclcpp_lifecycle: 21.0.8 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+[2.311s] -- Found urdf: 2.8.2 (/opt/ros/iron/share/urdf/cmake)
+[2.405s] -- Found ament_cmake_gtest: 2.0.7 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+[2.417s] -- Found launch_testing_ament_cmake: 2.0.4 (/opt/ros/iron/share/launch_testing_ament_cmake/cmake)
+[2.421s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[2.482s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.493s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.496s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.497s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.497s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.553s] -- Found PythonExtra: .so  
+[2.562s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.635s] -- The C compiler identification is GNU 11.4.0
+[2.655s] -- Detecting C compiler ABI info
+[2.812s] -- Detecting C compiler ABI info - done
+[2.834s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.835s] -- Detecting C compile features
+[2.835s] -- Detecting C compile features - done
+[2.835s] -- Looking for C++ include pthread.h
+[3.097s] -- Looking for C++ include pthread.h - found
+[3.097s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.252s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.253s] -- Found Threads: TRUE  
+[3.343s] -- Configuring done
+[3.367s] -- Generating done
+[3.374s] -- Build files have been written to: /home/kadi/UR5e_ros2/ros2_real/build/joint_limits
+[3.396s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/ros2_control/joint_limits -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/joint_limits
+[3.398s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/joint_limits': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/joint_limits -- -j16 -l16
+[3.550s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.560s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.288s] [ 37%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.355s] [ 37%] Built target gtest_main
+[9.237s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.301s] [ 50%] Built target gtest
+[9.318s] [ 75%] [32mBuilding CXX object CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o[0m
+[9.318s] [ 75%] [32mBuilding CXX object CMakeFiles/joint_limits_urdf_test.dir/test/joint_limits_urdf_test.cpp.o[0m
+[10.783s] [ 87%] [32m[1mLinking CXX executable joint_limits_urdf_test[0m
+[10.902s] [ 87%] Built target joint_limits_urdf_test
+[15.685s] [100%] [32m[1mLinking CXX executable joint_limits_rosparam_test[0m
+[15.815s] [100%] Built target joint_limits_rosparam_test
+[15.828s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/joint_limits -- -j16 -l16
+[15.830s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/joint_limits': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/joint_limits
+[15.839s] -- Install configuration: "Release"
+[15.839s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/lib/joint_limits/joint_limits_rosparam_test
+[15.840s] -- Set runtime path of "/home/kadi/UR5e_ros2/ros2_real/install/joint_limits/lib/joint_limits/joint_limits_rosparam_test" to ""
+[15.840s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/joint_limits/test/joint_limits_rosparam.yaml
+[15.840s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/include/joint_limits
+[15.840s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/include/joint_limits/joint_limits
+[15.840s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/include/joint_limits/joint_limits/joint_limits.hpp
+[15.840s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/include/joint_limits/joint_limits/joint_limits_rosparam.hpp
+[15.840s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/include/joint_limits/joint_limits/joint_limits_urdf.hpp
+[15.840s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/joint_limits/environment/library_path.sh
+[15.840s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/joint_limits/environment/library_path.dsv
+[15.841s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/ament_index/resource_index/package_run_dependencies/joint_limits
+[15.841s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/ament_index/resource_index/parent_prefix_path/joint_limits
+[15.841s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/joint_limits/environment/ament_prefix_path.sh
+[15.841s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/joint_limits/environment/ament_prefix_path.dsv
+[15.841s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/joint_limits/environment/path.sh
+[15.841s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/joint_limits/environment/path.dsv
+[15.841s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/joint_limits/local_setup.bash
+[15.841s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/joint_limits/local_setup.sh
+[15.841s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/joint_limits/local_setup.zsh
+[15.842s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/joint_limits/local_setup.dsv
+[15.842s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/joint_limits/package.dsv
+[15.842s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/ament_index/resource_index/packages/joint_limits
+[15.842s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/joint_limits/cmake/export_joint_limitsExport.cmake
+[15.842s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_targets-extras.cmake
+[15.842s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.842s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig.cmake
+[15.842s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig-version.cmake
+[15.842s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/joint_limits/share/joint_limits/package.xml
+[15.845s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/joint_limits

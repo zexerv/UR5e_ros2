@@ -1,0 +1,175 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d4d1a684ce107bc11ff5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "examples",
+					"jsonFile" : "directory-examples-Release-1c8b83b621b6ef38a245.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ur_client_library",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "ur_driver_examples",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "dashboard_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-dashboard_example-Release-72b6e6b48e510df7defd.json",
+					"name" : "dashboard_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "driver_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-driver_example-Release-12b67e3c718befe2d0fb.json",
+					"name" : "driver_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "force_mode_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-force_mode_example-Release-aa2fda1cf321cd87711f.json",
+					"name" : "force_mode_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "freedrive_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-freedrive_example-Release-7cb839cdaa34099cf567.json",
+					"name" : "freedrive_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "primary_pipeline_calibration_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-primary_pipeline_calibration_example-Release-66c96d0bae4942a8f978.json",
+					"name" : "primary_pipeline_calibration_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "primary_pipeline_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-primary_pipeline_example-Release-2ae42622c0f689018ae3.json",
+					"name" : "primary_pipeline_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rtde_client_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-rtde_client_example-Release-bedb48ebd2e85a3bb165.json",
+					"name" : "rtde_client_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "spline_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-spline_example-Release-5c67a183a5240d6dafa5.json",
+					"name" : "spline_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tool_contact_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-tool_contact_example-Release-28b6e07c8293f6df75eb.json",
+					"name" : "tool_contact_example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urcl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urcl-Release-89559888610348bcd8ff.json",
+					"name" : "urcl",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kadi/UR5e_ros2/ros2_real/build/ur_client_library",
+		"source" : "/home/kadi/UR5e_ros2/ros2_real/src/Universal_Robots_Client_Library"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

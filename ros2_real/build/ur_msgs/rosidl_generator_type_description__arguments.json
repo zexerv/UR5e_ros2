@@ -1,0 +1,24 @@
+{
+  "package_name": "ur_msgs",
+  "output_dir": "/home/kadi/UR5e_ros2/ros2_real/build/ur_msgs/rosidl_generator_type_description/ur_msgs",
+  "idl_tuples": [
+    "/home/kadi/UR5e_ros2/ros2_real/build/ur_msgs/rosidl_adapter/ur_msgs:msg/Analog.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/ur_msgs/rosidl_adapter/ur_msgs:msg/Digital.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/ur_msgs/rosidl_adapter/ur_msgs:msg/IOStates.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/ur_msgs/rosidl_adapter/ur_msgs:msg/RobotStateRTMsg.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/ur_msgs/rosidl_adapter/ur_msgs:msg/MasterboardDataMsg.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/ur_msgs/rosidl_adapter/ur_msgs:msg/RobotModeDataMsg.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/ur_msgs/rosidl_adapter/ur_msgs:msg/ToolDataMsg.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetAnalogOutput.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetPayload.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetSpeedSliderFraction.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetIO.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/ur_msgs/rosidl_adapter/ur_msgs:srv/GetRobotSoftwareVersion.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/iron/share/geometry_msgs",
+    "std_msgs:/opt/ros/iron/share/std_msgs",
+    "service_msgs:/opt/ros/iron/share/service_msgs"
+  ]
+}

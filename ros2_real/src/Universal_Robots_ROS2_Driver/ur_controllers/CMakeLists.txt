@@ -19,6 +19,7 @@ find_package(std_srvs REQUIRED)
 find_package(ur_dashboard_msgs REQUIRED)
 find_package(ur_msgs REQUIRED)
 find_package(generate_parameter_library REQUIRED)
+find_package(tf2_ros REQUIRED) # commit 1 
 
 set(THIS_PACKAGE_INCLUDE_DEPENDS
   angles
@@ -34,6 +35,7 @@ set(THIS_PACKAGE_INCLUDE_DEPENDS
   ur_dashboard_msgs
   ur_msgs
   generate_parameter_library
+  tf2_ros # commit 1 
 )
 
 include_directories(include)
@@ -47,6 +49,12 @@ generate_parameter_library(
 generate_parameter_library(
   speed_scaling_state_broadcaster_parameters
   src/speed_scaling_state_broadcaster_parameters.yaml
+)
+
+
+generate_parameter_library(
+  freedrive_mode_controller_parameters
+  src/freedrive_mode_controller_parameters.yaml
 )
 
 generate_parameter_library(
@@ -63,7 +71,9 @@ add_library(${PROJECT_NAME} SHARED
   src/scaled_joint_trajectory_controller.cpp
   src/speed_scaling_state_broadcaster.cpp
   src/gpio_controller.cpp
-  src/ur_configuration_controller.cpp)
+  src/ur_configuration_controller.cpp
+  src/freedrive_mode_controller.cpp # commit 1 
+  ) 
 
 target_include_directories(${PROJECT_NAME} PRIVATE
   include
@@ -72,6 +82,7 @@ target_link_libraries(${PROJECT_NAME}
   gpio_controller_parameters
   speed_scaling_state_broadcaster_parameters
   scaled_joint_trajectory_controller_parameters
+  freedrive_mode_controller_parameters
   ur_configuration_controller_parameters
 )
 ament_target_dependencies(${PROJECT_NAME}

@@ -1,0 +1,84 @@
+[0.476s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/src/ros2_control/ros2controlcli': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2controlcli build --build-base /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build install --record /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/install.log --single-version-externally-managed install_data
+[0.624s] running egg_info
+[0.625s] creating ../../../build/ros2controlcli/ros2controlcli.egg-info
+[0.625s] writing ../../../build/ros2controlcli/ros2controlcli.egg-info/PKG-INFO
+[0.625s] writing dependency_links to ../../../build/ros2controlcli/ros2controlcli.egg-info/dependency_links.txt
+[0.625s] writing entry points to ../../../build/ros2controlcli/ros2controlcli.egg-info/entry_points.txt
+[0.625s] writing requirements to ../../../build/ros2controlcli/ros2controlcli.egg-info/requires.txt
+[0.625s] writing top-level names to ../../../build/ros2controlcli/ros2controlcli.egg-info/top_level.txt
+[0.625s] writing manifest file '../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[0.626s] reading manifest file '../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[0.627s] writing manifest file '../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[0.627s] running build
+[0.627s] running build_py
+[0.627s] creating /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build
+[0.627s] creating /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib
+[0.627s] creating /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli
+[0.627s] copying ros2controlcli/__init__.py -> /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli
+[0.627s] creating /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/command
+[0.627s] copying ros2controlcli/command/__init__.py -> /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/command
+[0.627s] copying ros2controlcli/command/control.py -> /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/command
+[0.627s] creating /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.627s] copying ros2controlcli/verb/list_hardware_interfaces.py -> /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.627s] copying ros2controlcli/verb/__init__.py -> /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.627s] copying ros2controlcli/verb/view_controller_chains.py -> /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.628s] copying ros2controlcli/verb/load_controller.py -> /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.628s] copying ros2controlcli/verb/unload_controller.py -> /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.628s] copying ros2controlcli/verb/list_controllers.py -> /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.628s] copying ros2controlcli/verb/reload_controller_libraries.py -> /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.628s] copying ros2controlcli/verb/list_controller_types.py -> /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.628s] copying ros2controlcli/verb/switch_controllers.py -> /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.628s] copying ros2controlcli/verb/set_hardware_component_state.py -> /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.628s] copying ros2controlcli/verb/list_hardware_components.py -> /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.628s] copying ros2controlcli/verb/set_controller_state.py -> /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb
+[0.628s] creating /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/api
+[0.628s] copying ros2controlcli/api/__init__.py -> /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/api
+[0.628s] running install
+[0.628s] running install_lib
+[0.629s] creating /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli
+[0.629s] copying /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/__init__.py -> /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli
+[0.629s] creating /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+[0.629s] copying /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/command/__init__.py -> /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+[0.629s] copying /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/command/control.py -> /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+[0.629s] creating /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.629s] copying /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb/list_hardware_interfaces.py -> /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.630s] copying /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb/__init__.py -> /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.630s] copying /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb/view_controller_chains.py -> /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.630s] copying /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb/load_controller.py -> /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.630s] copying /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb/unload_controller.py -> /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.630s] copying /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb/list_controllers.py -> /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.630s] copying /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb/reload_controller_libraries.py -> /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.630s] copying /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb/list_controller_types.py -> /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.630s] copying /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb/switch_controllers.py -> /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.630s] copying /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb/set_hardware_component_state.py -> /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.630s] copying /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb/list_hardware_components.py -> /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.630s] copying /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/verb/set_controller_state.py -> /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[0.630s] creating /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api
+[0.630s] copying /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build/lib/ros2controlcli/api/__init__.py -> /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api
+[0.630s] byte-compiling /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/__init__.py to __init__.cpython-310.pyc
+[0.631s] byte-compiling /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command/__init__.py to __init__.cpython-310.pyc
+[0.631s] byte-compiling /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command/control.py to control.cpython-310.pyc
+[0.631s] byte-compiling /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_hardware_interfaces.py to list_hardware_interfaces.cpython-310.pyc
+[0.631s] byte-compiling /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/__init__.py to __init__.cpython-310.pyc
+[0.631s] byte-compiling /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/view_controller_chains.py to view_controller_chains.cpython-310.pyc
+[0.632s] byte-compiling /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/load_controller.py to load_controller.cpython-310.pyc
+[0.632s] byte-compiling /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/unload_controller.py to unload_controller.cpython-310.pyc
+[0.633s] byte-compiling /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_controllers.py to list_controllers.cpython-310.pyc
+[0.633s] byte-compiling /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/reload_controller_libraries.py to reload_controller_libraries.cpython-310.pyc
+[0.633s] byte-compiling /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_controller_types.py to list_controller_types.cpython-310.pyc
+[0.634s] byte-compiling /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/switch_controllers.py to switch_controllers.cpython-310.pyc
+[0.634s] byte-compiling /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/set_hardware_component_state.py to set_hardware_component_state.cpython-310.pyc
+[0.634s] byte-compiling /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_hardware_components.py to list_hardware_components.cpython-310.pyc
+[0.634s] byte-compiling /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/set_controller_state.py to set_controller_state.cpython-310.pyc
+[0.635s] byte-compiling /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api/__init__.py to __init__.cpython-310.pyc
+[0.635s] running install_data
+[0.635s] copying package.xml -> /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/share/ros2controlcli
+[0.635s] creating /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/share/ament_index
+[0.635s] creating /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/share/ament_index/resource_index
+[0.635s] creating /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/share/ament_index/resource_index/packages
+[0.635s] copying resource/ros2controlcli -> /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/share/ament_index/resource_index/packages
+[0.635s] running install_egg_info
+[0.636s] Copying ../../../build/ros2controlcli/ros2controlcli.egg-info to /home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli-3.28.1-py3.10.egg-info
+[0.637s] running install_scripts
+[0.649s] writing list of installed files to '/home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/install.log'
+[0.667s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/src/ros2_control/ros2controlcli' returned '0': AMENT_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface_testing/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/controller_manager_msgs/lib/python3.10/site-packages:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2controlcli build --build-base /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/build install --record /home/kadi/UR5e_ros2/ros2_real/build/ros2controlcli/install.log --single-version-externally-managed install_data

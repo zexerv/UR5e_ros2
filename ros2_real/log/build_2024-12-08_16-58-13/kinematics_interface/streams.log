@@ -1,0 +1,59 @@
+[0.022s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/kinematics_interface/kinematics_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface
+[0.213s] -- The CXX compiler identification is GNU 11.4.0
+[0.226s] -- Detecting CXX compiler ABI info
+[0.538s] -- Detecting CXX compiler ABI info - done
+[0.550s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.557s] -- Detecting CXX compile features
+[0.557s] -- Detecting CXX compile features - done
+[0.562s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.069s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.332s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[1.475s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.514s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.555s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.642s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.208s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.219s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.453s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.506s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.579s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.774s] -- Found rclcpp_lifecycle: 21.0.8 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+[3.039s] -- Configuring done
+[3.053s] -- Generating done
+[3.058s] -- Build files have been written to: /home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface
+[3.073s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/kinematics_interface/kinematics_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface
+[3.080s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface -- -j16 -l16
+[3.156s] [ 50%] [32mBuilding CXX object CMakeFiles/kinematics_interface.dir/src/kinematics_interface.cpp.o[0m
+[4.491s] [100%] [32m[1mLinking CXX shared library libkinematics_interface.so[0m
+[4.570s] [100%] Built target kinematics_interface
+[4.580s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface -- -j16 -l16
+[4.582s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface
+[4.589s] -- Install configuration: "Release"
+[4.589s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/include/kinematics_interface
+[4.589s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/include/kinematics_interface/kinematics_interface
+[4.589s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/include/kinematics_interface/kinematics_interface/kinematics_interface.hpp
+[4.589s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/include/kinematics_interface/kinematics_interface/visibility_control.h
+[4.589s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/lib/libkinematics_interface.so
+[4.589s] -- Set runtime path of "/home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/lib/libkinematics_interface.so" to ""
+[4.589s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/kinematics_interface/environment/library_path.sh
+[4.590s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/kinematics_interface/environment/library_path.dsv
+[4.590s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/ament_index/resource_index/package_run_dependencies/kinematics_interface
+[4.590s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/ament_index/resource_index/parent_prefix_path/kinematics_interface
+[4.590s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/kinematics_interface/environment/ament_prefix_path.sh
+[4.590s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/kinematics_interface/environment/ament_prefix_path.dsv
+[4.590s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/kinematics_interface/environment/path.sh
+[4.590s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/kinematics_interface/environment/path.dsv
+[4.590s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/kinematics_interface/local_setup.bash
+[4.590s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/kinematics_interface/local_setup.sh
+[4.591s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/kinematics_interface/local_setup.zsh
+[4.591s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/kinematics_interface/local_setup.dsv
+[4.591s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/kinematics_interface/package.dsv
+[4.591s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/ament_index/resource_index/packages/kinematics_interface
+[4.591s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/kinematics_interface/cmake/export_kinematics_interfaceExport.cmake
+[4.591s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/kinematics_interface/cmake/export_kinematics_interfaceExport-release.cmake
+[4.591s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/kinematics_interface/cmake/ament_cmake_export_targets-extras.cmake
+[4.591s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/kinematics_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.591s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/kinematics_interface/cmake/kinematics_interfaceConfig.cmake
+[4.592s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/kinematics_interface/cmake/kinematics_interfaceConfig-version.cmake
+[4.592s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/kinematics_interface/share/kinematics_interface/package.xml
+[4.595s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/kinematics_interface

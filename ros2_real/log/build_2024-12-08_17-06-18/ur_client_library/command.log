@@ -1,0 +1,4 @@
+Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/ur_client_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/ur_client_library -- -j16 -l16
+Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/ur_client_library -- -j16 -l16
+Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/ur_client_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/ur_client_library
+Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/ur_client_library

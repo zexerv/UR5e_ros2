@@ -1,0 +1,15 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+In file included from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/ros2_control/controller_manager/src/ros2_control_node.cpp:24[m[K:
+[01m[K/opt/ros/iron/include/realtime_tools/realtime_tools/thread_priority.hpp:39:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_helpers.hpp' header and link against 'realtime_tools' library." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   39 | #[01;35m[Kwarning[m[K \
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/src/gtest_vendor/include/gtest/gtest.h:375[m[K,
+                 from [01m[K/opt/ros/iron/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:47[m[K,
+                 from [01m[K/opt/ros/iron/src/gmock_vendor/include/gmock/gmock-actions.h:51[m[K,
+                 from [01m[K/opt/ros/iron/src/gmock_vendor/include/gmock/gmock.h:59[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/ros2_control/controller_manager/test/test_controller_manager.cpp:15[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/ros2_control/controller_manager/test/test_controller_manager.cpp:[m[K In member function ‘[01m[Kvirtual void TestControllerUpdateRates_check_the_controller_update_rate_Test::TestBody()[m[K’:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/ros2_control/controller_manager/test/test_controller_manager.cpp:458:33:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Klong unsigned int[m[K’ to ‘[01m[Kdouble[m[K’ may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion-Wconversion]8;;[m[K]
+  458 |         [01;35m[K(controller_update_rate * no_of_secs_passed)[m[K, 1);
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K

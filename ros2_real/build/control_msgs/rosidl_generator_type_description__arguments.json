@@ -1,0 +1,41 @@
+{
+  "package_name": "control_msgs",
+  "output_dir": "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_generator_type_description/control_msgs",
+  "idl_tuples": [
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:action/ParallelGripperCommand.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:action/FollowJointTrajectory.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:action/GripperCommand.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:action/JointTrajectory.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:action/PointHead.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:action/SingleJointPosition.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:msg/AdmittanceControllerState.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:msg/DynamicInterfaceValues.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:msg/DynamicJointState.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:msg/GripperCommand.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:msg/InterfaceValue.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:msg/JointComponentTolerance.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:msg/JointControllerState.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:msg/JointJog.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:msg/JointTolerance.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:msg/JointTrajectoryControllerState.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:msg/MecanumDriveControllerState.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:msg/MultiDOFCommand.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:msg/MultiDOFStateStamped.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:msg/PidState.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:msg/SingleDOFState.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:msg/SingleDOFStateStamped.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:msg/SteeringControllerStatus.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:srv/QueryCalibrationState.idl",
+    "/home/kadi/UR5e_ros2/ros2_real/build/control_msgs/rosidl_adapter/control_msgs:srv/QueryTrajectoryState.idl"
+  ],
+  "include_paths": [
+    "action_msgs:/opt/ros/iron/share/action_msgs",
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces",
+    "unique_identifier_msgs:/opt/ros/iron/share/unique_identifier_msgs",
+    "service_msgs:/opt/ros/iron/share/service_msgs",
+    "geometry_msgs:/opt/ros/iron/share/geometry_msgs",
+    "std_msgs:/opt/ros/iron/share/std_msgs",
+    "sensor_msgs:/opt/ros/iron/share/sensor_msgs",
+    "trajectory_msgs:/opt/ros/iron/share/trajectory_msgs"
+  ]
+}
