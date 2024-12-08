@@ -1,0 +1,56 @@
+[0.012s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/cartesian_controller_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/cartesian_controllers/cartesian_controller_utilities -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities
+[0.082s] -- The C compiler identification is GNU 11.4.0
+[0.134s] -- The CXX compiler identification is GNU 11.4.0
+[0.140s] -- Detecting C compiler ABI info
+[0.215s] -- Detecting C compiler ABI info - done
+[0.219s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.219s] -- Detecting C compile features
+[0.219s] -- Detecting C compile features - done
+[0.224s] -- Detecting CXX compiler ABI info
+[0.311s] -- Detecting CXX compiler ABI info - done
+[0.316s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.316s] -- Detecting CXX compile features
+[0.316s] -- Detecting CXX compile features - done
+[0.324s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.472s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.586s] -- Found rclpy: 4.1.7 (/opt/ros/iron/share/rclpy/cmake)
+[0.590s] -- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)
+[0.652s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.672s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.691s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.713s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.790s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[0.902s] -- Configuring done
+[0.905s] -- Generating done
+[0.906s] -- Build files have been written to: /home/kadi/UR5e_ros2/ros2_real/build/cartesian_controller_utilities
+[0.913s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/cartesian_controller_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/cartesian_controllers/cartesian_controller_utilities -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities
+[0.915s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/cartesian_controller_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/cartesian_controller_utilities -- -j16 -l16
+[0.967s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/cartesian_controller_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/cartesian_controller_utilities -- -j16 -l16
+[0.979s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/cartesian_controller_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/cartesian_controller_utilities
+[0.986s] -- Install configuration: "Release"
+[0.986s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/lib/cartesian_controller_utilities/buttons.py
+[0.986s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/lib/cartesian_controller_utilities/converter.py
+[0.987s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/lib/cartesian_controller_utilities/pose.py
+[0.987s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/cartesian_controller_utilities/etc
+[0.987s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/cartesian_controller_utilities/etc/button_cmds.yaml
+[0.987s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/cartesian_controller_utilities/launch
+[0.987s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/cartesian_controller_utilities/launch/spacenav_to_pose.launch.py
+[0.987s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/cartesian_controller_utilities/launch/spacenav_buttons.launch.py
+[0.987s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/cartesian_controller_utilities/launch/spacenav_to_wrench.launch.py
+[0.987s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/cartesian_controller_utilities/launch/spacenav.launch.py
+[0.987s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/ament_index/resource_index/package_run_dependencies/cartesian_controller_utilities
+[0.987s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/ament_index/resource_index/parent_prefix_path/cartesian_controller_utilities
+[0.988s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/cartesian_controller_utilities/environment/ament_prefix_path.sh
+[0.988s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/cartesian_controller_utilities/environment/ament_prefix_path.dsv
+[0.988s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/cartesian_controller_utilities/environment/path.sh
+[0.988s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/cartesian_controller_utilities/environment/path.dsv
+[0.988s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/cartesian_controller_utilities/local_setup.bash
+[0.988s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/cartesian_controller_utilities/local_setup.sh
+[0.988s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/cartesian_controller_utilities/local_setup.zsh
+[0.988s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/cartesian_controller_utilities/local_setup.dsv
+[0.988s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/cartesian_controller_utilities/package.dsv
+[0.988s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/ament_index/resource_index/packages/cartesian_controller_utilities
+[0.988s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/cartesian_controller_utilities/cmake/cartesian_controller_utilitiesConfig.cmake
+[0.989s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/cartesian_controller_utilities/cmake/cartesian_controller_utilitiesConfig-version.cmake
+[0.989s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_utilities/share/cartesian_controller_utilities/package.xml
+[0.990s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/cartesian_controller_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/cartesian_controller_utilities

@@ -1,0 +1,197 @@
+[0.067s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--base-paths', 'src/ros2_robotiq_gripper/']
+[0.067s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['src/ros2_robotiq_gripper/'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d5d29760ee0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d5d29875ea0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d5d29875ea0>>, mixin_verb=('build',))
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.156s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'ros'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_controllers) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_robotiq_gripper/robotiq_controllers' with type 'ros.ament_cmake' and name 'robotiq_controllers'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_description) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_robotiq_gripper/robotiq_description' with type 'ros.ament_cmake' and name 'robotiq_description'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_driver) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_robotiq_gripper/robotiq_driver' with type 'ros.ament_cmake' and name 'robotiq_driver'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_hardware_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_hardware_tests) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_hardware_tests) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_hardware_tests) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_hardware_tests) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_hardware_tests) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_hardware_tests) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_hardware_tests) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotiq_gripper/robotiq_hardware_tests) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_robotiq_gripper/robotiq_hardware_tests' with type 'ros.ament_cmake' and name 'robotiq_hardware_tests'
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.185s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 54 installed packages in /home/kadi/UR5e_ros2/ros2_real/install
+[0.187s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 393 installed packages in /opt/ros/iron
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robotiq_controllers' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robotiq_controllers' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robotiq_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robotiq_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robotiq_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robotiq_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robotiq_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robotiq_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robotiq_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kadi/UR5e_ros2/ros2_real/build/robotiq_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_controllers', 'merge_install': False, 'path': '/home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kadi/UR5e_ros2/ros2_real/build/robotiq_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description', 'merge_install': False, 'path': '/home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_description', 'symlink_install': False, 'test_result_base': None}
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'robotiq_driver' build argument 'cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'robotiq_driver' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'robotiq_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'robotiq_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'robotiq_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'robotiq_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'robotiq_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'robotiq_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'robotiq_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kadi/UR5e_ros2/ros2_real/build/robotiq_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_driver', 'merge_install': False, 'path': '/home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_driver', 'symlink_install': False, 'test_result_base': None}
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'robotiq_hardware_tests' build argument 'cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'robotiq_hardware_tests' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'robotiq_hardware_tests' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'robotiq_hardware_tests' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'robotiq_hardware_tests' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'robotiq_hardware_tests' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'robotiq_hardware_tests' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'robotiq_hardware_tests' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'robotiq_hardware_tests' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_hardware_tests' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kadi/UR5e_ros2/ros2_real/build/robotiq_hardware_tests', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_hardware_tests', 'merge_install': False, 'path': '/home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_hardware_tests', 'symlink_install': False, 'test_result_base': None}
+[0.217s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.218s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.218s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_driver' with build type 'ament_cmake'
+[0.218s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_driver'
+[0.219s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.219s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.219s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.223s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_controllers' with build type 'ament_cmake'
+[0.223s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_controllers'
+[0.224s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.224s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.227s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_description' with build type 'ament_cmake'
+[0.227s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_description'
+[0.227s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.228s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/robotiq_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_driver -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/robotiq_driver
+[0.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_controllers -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/robotiq_controllers
+[0.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_description -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description
+[0.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_description -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description
+[0.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/robotiq_description -- -j16 -l16
+[0.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/robotiq_description -- -j16 -l16
+[0.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/robotiq_description
+[0.963s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_description)
+[0.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/robotiq_description
+[0.965s] Level 1:colcon.colcon_core.environment:checking '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description' for CMake module files
+[0.965s] Level 1:colcon.colcon_core.environment:checking '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description' for CMake config files
+[0.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_description', 'cmake_prefix_path')
+[0.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.ps1'
+[0.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.dsv'
+[0.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.sh'
+[0.967s] Level 1:colcon.colcon_core.environment:checking '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/bin'
+[0.967s] Level 1:colcon.colcon_core.environment:checking '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/lib/pkgconfig/robotiq_description.pc'
+[0.967s] Level 1:colcon.colcon_core.environment:checking '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/lib/python3.10/site-packages'
+[0.967s] Level 1:colcon.colcon_core.environment:checking '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/bin'
+[0.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/share/robotiq_description/package.ps1'
+[0.968s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/share/robotiq_description/package.dsv'
+[0.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/share/robotiq_description/package.sh'
+[0.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/share/robotiq_description/package.bash'
+[0.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/share/robotiq_description/package.zsh'
+[0.969s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/share/colcon-core/packages/robotiq_description)
+[0.970s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_description)
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description' for CMake module files
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description' for CMake config files
+[0.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_description', 'cmake_prefix_path')
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.ps1'
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.dsv'
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.sh'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/bin'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/lib/pkgconfig/robotiq_description.pc'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/lib/python3.10/site-packages'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/bin'
+[0.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/share/robotiq_description/package.ps1'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/share/robotiq_description/package.dsv'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/share/robotiq_description/package.sh'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/share/robotiq_description/package.bash'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/share/robotiq_description/package.zsh'
+[0.973s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kadi/UR5e_ros2/ros2_real/install/robotiq_description/share/colcon-core/packages/robotiq_description)
+[1.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/robotiq_driver' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_driver -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/robotiq_driver
+[1.816s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_driver)
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_driver' for CMake module files
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_driver' for CMake config files
+[1.817s] Level 1:colcon.colcon_core.environment:checking '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_driver/bin'
+[1.817s] Level 1:colcon.colcon_core.environment:checking '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_driver/lib/pkgconfig/robotiq_driver.pc'
+[1.817s] Level 1:colcon.colcon_core.environment:checking '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_driver/lib/python3.10/site-packages'
+[1.817s] Level 1:colcon.colcon_core.environment:checking '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_driver/bin'
+[1.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_driver/share/robotiq_driver/package.ps1'
+[1.818s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_driver/share/robotiq_driver/package.dsv'
+[1.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_driver/share/robotiq_driver/package.sh'
+[1.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_driver/share/robotiq_driver/package.bash'
+[1.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/kadi/UR5e_ros2/ros2_real/install/robotiq_driver/share/robotiq_driver/package.zsh'
+[1.818s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kadi/UR5e_ros2/ros2_real/install/robotiq_driver/share/colcon-core/packages/robotiq_driver)
+[2.074s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.074s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.074s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.074s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.079s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.079s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.079s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.088s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.088s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kadi/UR5e_ros2/ros2_real/install/local_setup.ps1'
+[2.089s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kadi/UR5e_ros2/ros2_real/install/_local_setup_util_ps1.py'
+[2.090s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kadi/UR5e_ros2/ros2_real/install/setup.ps1'
+[2.092s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kadi/UR5e_ros2/ros2_real/install/local_setup.sh'
+[2.092s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kadi/UR5e_ros2/ros2_real/install/_local_setup_util_sh.py'
+[2.093s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kadi/UR5e_ros2/ros2_real/install/setup.sh'
+[2.094s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kadi/UR5e_ros2/ros2_real/install/local_setup.bash'
+[2.094s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kadi/UR5e_ros2/ros2_real/install/setup.bash'
+[2.096s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kadi/UR5e_ros2/ros2_real/install/local_setup.zsh'
+[2.096s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kadi/UR5e_ros2/ros2_real/install/setup.zsh'

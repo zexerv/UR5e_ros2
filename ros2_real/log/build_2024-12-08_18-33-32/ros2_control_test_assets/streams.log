@@ -1,0 +1,29 @@
+[0.020s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/ros2_control_test_assets -- -j16 -l16
+[0.064s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/ros2_control_test_assets -- -j16 -l16
+[0.076s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/ros2_control_test_assets
+[0.085s] -- Install configuration: "Release"
+[0.085s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/include/ros2_control_test_assets
+[0.085s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets
+[0.085s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/components_urdfs.hpp
+[0.085s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/test_hardware_interface_constants.hpp
+[0.085s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/descriptions.hpp
+[0.086s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/library_path.sh
+[0.086s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/library_path.dsv
+[0.086s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+[0.086s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+[0.086s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+[0.086s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+[0.086s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+[0.086s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+[0.086s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+[0.086s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+[0.086s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+[0.086s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+[0.086s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+[0.086s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+[0.086s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/export_ros2_control_test_assetsExport.cmake
+[0.086s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_targets-extras.cmake
+[0.086s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+[0.086s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+[0.086s] -- Up-to-date: /home/kadi/UR5e_ros2/ros2_real/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+[0.088s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/ros2_control_test_assets

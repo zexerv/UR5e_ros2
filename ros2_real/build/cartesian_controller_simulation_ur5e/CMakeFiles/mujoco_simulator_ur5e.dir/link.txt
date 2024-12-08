@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libmujoco_simulator_ur5e.so -o libmujoco_simulator_ur5e.so CMakeFiles/mujoco_simulator_ur5e.dir/src/mujoco_simulator_ur5e.cpp.o  -Wl,-rpath,/home/kadi/UR5e_ros2/mujoco-3.0.0/lib:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: /home/kadi/UR5e_ros2/mujoco-3.0.0/lib/libmujoco.so 

@@ -1,0 +1,27 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 500  # Hz
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    robotiq_gripper_controller:
+      type: parallel_gripper_action_controller/GripperActionController
+    robotiq_activation_controller:
+      type: robotiq_controllers/RobotiqActivationController
+
+robotiq_gripper_controller:
+  ros__parameters:
+
+    joint: hande_finger_distance
+    state_interfaces: ["position", "velocity"]
+
+    allow_stalling: true
+
+    max_effort_interface: hande_finger_distance/set_gripper_max_effort
+    max_effort: 20.0  #adjustable between 20 and 185 N
+
+    max_velocity_interface: hande_finger_distance/set_gripper_max_velocity
+    max_velocity: 0.15  # adjustable between 0.02 and 0.15 m/s
+
+robotiq_activation_controller:
+  ros__parameters:
+    default: true

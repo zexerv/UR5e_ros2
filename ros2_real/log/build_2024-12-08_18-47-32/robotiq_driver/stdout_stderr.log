@@ -1,0 +1,94 @@
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found hardware_interface: 3.28.1 (/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found serial: 1.2.1 (/home/kadi/UR5e_ros2/ros2_real/install/serial/share/serial/cmake)
+-- Found ament_cmake_gtest: 2.0.7 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+-- Found ament_cmake_gmock: 2.0.7 (/opt/ros/iron/share/ament_cmake_gmock/cmake)
+-- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Found gmock sources under '/opt/ros/iron/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kadi/UR5e_ros2/ros2_real/build/robotiq_driver
+[ 16%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/default_driver_factory.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/fake/fake_driver.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/default_driver.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/crc_utils.cpp.o[0m
+[ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/iron/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/data_utils.cpp.o[0m
+[ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 37%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/default_serial.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/default_serial_factory.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 50%] Built target gmock_main
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_driver/include/robotiq_driver/hardware_interface.hpp:48[m[K,
+                 from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_driver/src/hardware_interface.cpp:36[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_driver/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn robotiq_driver::RobotiqGripperHardwareInterface::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_driver/src/hardware_interface.cpp:106:27:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+  106 |     RCLCPP_FATAL(kLogger, [01;35m[K"Joint '%s' has does not have expected '%s' interface."[m[K, joint.name.c_str(),
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 54%] Built target gmock
+[ 58%] [32m[1mLinking CXX shared library librobotiq_driver.so[0m
+[ 58%] Built target robotiq_driver
+[ 75%] [32mBuilding CXX object tests/CMakeFiles/test_data_utils.dir/test_data_utils.cpp.o[0m
+[ 75%] [32mBuilding CXX object tests/CMakeFiles/test_robotiq_gripper_hardware_interface.dir/test_robotiq_gripper_hardware_interface.cpp.o[0m
+[ 75%] [32mBuilding CXX object tests/CMakeFiles/test_crc_utils.dir/test_crc_utils.cpp.o[0m
+[ 75%] [32mBuilding CXX object tests/CMakeFiles/test_default_serial_factory.dir/test_default_serial_factory.cpp.o[0m
+[ 79%] [32mBuilding CXX object tests/CMakeFiles/test_default_driver_factory.dir/test_default_driver_factory.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable test_crc_utils[0m
+[ 87%] [32m[1mLinking CXX executable test_data_utils[0m
+[ 87%] Built target test_crc_utils
+[ 87%] Built target test_data_utils
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_driver/tests/test_robotiq_gripper_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual void robotiq_driver::test::TestRobotiqGripperHardwareInterface_load_urdf_Test::TestBody()[m[K’:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_driver/tests/test_robotiq_gripper_hardware_interface.cpp:79:114:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Khardware_interface::ResourceManager::ResourceManager(std::string&, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr)[m[K’
+   79 |   hardware_interface::ResourceManager rm(urdf, node.get_node_clock_interface(), node.get_node_logging_interface()[01;31m[K)[m[K;
+      |                                                                                                                  [01;31m[K^[m[K
+In file included from [01m[K/home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_driver/tests/test_robotiq_gripper_hardware_interface.cpp:31[m[K:
+[01m[K/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/include/hardware_interface/hardware_interface/resource_manager.hpp:71:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khardware_interface::ResourceManager::ResourceManager(const string&, bool, bool, unsigned int, rclcpp::node_interfaces::NodeClockInterface::SharedPtr)[m[K’
+   71 |   explicit [01;36m[KResourceManager[m[K(
+      |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/include/hardware_interface/hardware_interface/resource_manager.hpp:72:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Krclcpp::node_interfaces::NodeClockInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeClockInterface>[m[K’} to ‘[01m[Kbool[m[K’
+   72 |     const std::string & urdf, [01;36m[Kbool validate_interfaces = true[m[K, bool activate_all = false,
+      |                               [01;36m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/include/hardware_interface/hardware_interface/resource_manager.hpp:52:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khardware_interface::ResourceManager::ResourceManager(unsigned int, rclcpp::node_interfaces::NodeClockInterface::SharedPtr)[m[K’
+   52 |   [01;36m[KResourceManager[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/include/hardware_interface/hardware_interface/resource_manager.hpp:52:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+gmake[2]: *** [tests/CMakeFiles/test_robotiq_gripper_hardware_interface.dir/build.make:76: tests/CMakeFiles/test_robotiq_gripper_hardware_interface.dir/test_robotiq_gripper_hardware_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1037: tests/CMakeFiles/test_robotiq_gripper_hardware_interface.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 91%] [32m[1mLinking CXX executable test_default_serial_factory[0m
+[ 91%] Built target test_default_serial_factory
+[ 95%] [32m[1mLinking CXX executable test_default_driver_factory[0m
+[ 95%] Built target test_default_driver_factory
+gmake: *** [Makefile:146: all] Error 2

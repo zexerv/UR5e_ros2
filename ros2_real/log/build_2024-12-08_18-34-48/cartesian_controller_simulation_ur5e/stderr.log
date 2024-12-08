@@ -1,0 +1,4 @@
+gmake[2]: *** No rule to make target '/../UR5e_ros2_iron/mujoco-3.0.0/lib/libmujoco.so', needed by 'libmujoco_simulator_ur5e.so'.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mujoco_simulator_ur5e.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

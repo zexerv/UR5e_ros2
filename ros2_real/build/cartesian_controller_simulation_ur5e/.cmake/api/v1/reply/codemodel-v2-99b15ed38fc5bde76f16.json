@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e8a87515e1bc20d43c86.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cartesian_controller_simulation_ur5e",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cartesian_controller_simulation_ur5e::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartesian_controller_simulation_ur5e-4b8920ef9e4cc69288e5.json",
+					"name" : "cartesian_controller_simulation_ur5e",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartesian_controller_simulation_ur5e_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartesian_controller_simulation_ur5e_uninstall-e79fcc95f7e3d9d3a6e8.json",
+					"name" : "cartesian_controller_simulation_ur5e_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_simulator_ur5e::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_simulator_ur5e-4f7560732d50c1d3a2ba.json",
+					"name" : "mujoco_simulator_ur5e",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3db6f75c4c6b1f521802.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kadi/UR5e_ros2/ros2_real/build/cartesian_controller_simulation_ur5e",
+		"source" : "/home/kadi/UR5e_ros2/ros2_real/src/cartesian_controllers/cartesian_controller_simulation_ur5e"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

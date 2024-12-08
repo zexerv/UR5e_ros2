@@ -1,0 +1,59 @@
+[0.012s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/serial -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/serial
+[0.076s] -- The C compiler identification is GNU 11.4.0
+[0.126s] -- The CXX compiler identification is GNU 11.4.0
+[0.133s] -- Detecting C compiler ABI info
+[0.209s] -- Detecting C compiler ABI info - done
+[0.213s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.213s] -- Detecting C compile features
+[0.213s] -- Detecting C compile features - done
+[0.215s] -- Detecting CXX compiler ABI info
+[0.302s] -- Detecting CXX compiler ABI info - done
+[0.306s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.306s] -- Detecting CXX compile features
+[0.307s] -- Detecting CXX compile features - done
+[0.312s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.463s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.613s] -- Configuring done
+[0.617s] -- Generating done
+[0.618s] -- Build files have been written to: /home/kadi/UR5e_ros2/ros2_real/build/serial
+[0.622s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/serial -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/serial
+[0.623s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/serial -- -j16 -l16
+[0.690s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[0.691s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[0.691s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[1.011s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[1.085s] [100%] Built target serial
+[1.097s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake --build /home/kadi/UR5e_ros2/ros2_real/build/serial -- -j16 -l16
+[1.108s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/serial
+[1.115s] -- Install configuration: ""
+[1.115s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/lib/libserial.a
+[1.115s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/include
+[1.115s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/include/serial
+[1.115s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/include/serial/serial.h
+[1.115s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/include/serial/v8stdint.h
+[1.115s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/include/serial/impl
+[1.116s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/include/serial/impl/unix.h
+[1.116s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/include/serial/impl/win.h
+[1.116s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/serial/environment/library_path.sh
+[1.116s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/serial/environment/library_path.dsv
+[1.116s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[1.116s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[1.116s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/serial/environment/ament_prefix_path.sh
+[1.116s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/serial/environment/ament_prefix_path.dsv
+[1.116s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/serial/environment/path.sh
+[1.116s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/serial/environment/path.dsv
+[1.116s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/serial/local_setup.bash
+[1.117s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/serial/local_setup.sh
+[1.117s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/serial/local_setup.zsh
+[1.117s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/serial/local_setup.dsv
+[1.117s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/serial/package.dsv
+[1.117s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/ament_index/resource_index/packages/serial
+[1.117s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/serial/cmake/export_serialExport.cmake
+[1.117s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/serial/cmake/export_serialExport-noconfig.cmake
+[1.117s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.117s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[1.117s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/serial/cmake/ament_cmake_export_targets-extras.cmake
+[1.117s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/serial/cmake/serialConfig.cmake
+[1.118s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/serial/cmake/serialConfig-version.cmake
+[1.118s] -- Installing: /home/kadi/UR5e_ros2/ros2_real/install/serial/share/serial/package.xml
+[1.119s] Invoked command in '/home/kadi/UR5e_ros2/ros2_real/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake --install /home/kadi/UR5e_ros2/ros2_real/build/serial

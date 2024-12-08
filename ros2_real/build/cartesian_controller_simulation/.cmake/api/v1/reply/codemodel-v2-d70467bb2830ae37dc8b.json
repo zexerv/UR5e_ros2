@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a0d1447bae4aec7f8bf4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cartesian_controller_simulation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cartesian_controller_simulation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartesian_controller_simulation-d50b37ffeaf0260ac81e.json",
+					"name" : "cartesian_controller_simulation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartesian_controller_simulation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartesian_controller_simulation_uninstall-329c5d2790f3b98ff00b.json",
+					"name" : "cartesian_controller_simulation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_simulator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_simulator-b4e35f3d75c6b60692af.json",
+					"name" : "mujoco_simulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ce9a645ff5baabaaf0dd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kadi/UR5e_ros2/ros2_real/build/cartesian_controller_simulation",
+		"source" : "/home/kadi/UR5e_ros2/ros2_real/src/cartesian_controllers/cartesian_controller_simulation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

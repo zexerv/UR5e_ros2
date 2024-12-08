@@ -1,0 +1,38 @@
+[0.016s] Invoking command in '/home/kadi/UR5e_ros2/ros2_real/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kadi/UR5e_ros2/ros2_real/install/rqt_joint_trajectory_controller:/home/kadi/UR5e_ros2/ros2_real/install/rqt_controller_manager:/home/kadi/UR5e_ros2/ros2_real/install/ros2controlcli:/home/kadi/UR5e_ros2/ros2_real/install/ros2_controllers_test_nodes:/opt/ros/iron /usr/bin/cmake /home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_controllers -DCMAKE_INSTALL_PREFIX=/home/kadi/UR5e_ros2/ros2_real/install/robotiq_controllers
+[0.076s] -- The C compiler identification is GNU 11.4.0
+[0.128s] -- The CXX compiler identification is GNU 11.4.0
+[0.136s] -- Detecting C compiler ABI info
+[0.212s] -- Detecting C compiler ABI info - done
+[0.216s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.216s] -- Detecting C compile features
+[0.216s] -- Detecting C compile features - done
+[0.218s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.314s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.314s] -- Detecting CXX compile features
+[0.314s] -- Detecting CXX compile features - done
+[0.319s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.477s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.589s] -- Found controller_interface: 3.28.1 (/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/share/controller_interface/cmake)
+[0.659s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.678s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.698s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.720s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.337s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.343s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.393s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.480s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.482s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.494s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.498s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.505s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.514s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.698s] -- Found std_srvs: 5.0.1 (/opt/ros/iron/share/std_srvs/cmake)
+[1.731s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.800s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.800s] -- Configured cppcheck include dirs: /home/kadi/UR5e_ros2/ros2_real/src/ros2_robotiq_gripper/robotiq_controllers/include
+[1.800s] -- Configured cppcheck exclude dirs and/or files: 
+[1.801s] -- Added test 'lint_cmake' to check CMake code style
+[1.803s] -- Configuring done
+[1.823s] -- Generating done
+[1.829s] -- Build files have been written to: /home/kadi/UR5e_ros2/ros2_real/build/robotiq_controllers

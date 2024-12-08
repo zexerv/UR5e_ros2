@@ -1,0 +1,61 @@
+-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found cartesian_controller_base: 0.0.0 (/home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_base/share/cartesian_controller_base/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kadi/UR5e_ros2/ros2_real/build/cartesian_controller_simulation
+[ 25%] [32mBuilding CXX object CMakeFiles/mujoco_simulator.dir/src/mujoco_simulator.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libmujoco_simulator.so[0m
+[ 50%] Built target mujoco_simulator
+[ 75%] [32mBuilding CXX object CMakeFiles/cartesian_controller_simulation.dir/src/system_interface.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libcartesian_controller_simulation.so[0m
+[100%] Built target cartesian_controller_simulation
+-- Install configuration: ""
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/cartesian_controller_simulation.xml
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/include
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/include/cartesian_controller_simulation
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/include/cartesian_controller_simulation/system_interface.h
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/include/cartesian_controller_simulation/mujoco_simulator.h
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/config
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/config/controller_manager.yaml
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/etc
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/etc/initial_joint_states.xml
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/etc/robot_mujoco.xml
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/etc/robot.rviz
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/launch
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/launch/simulation.launch.py
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/urdf
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/urdf/joint.urdf.xacro
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/urdf/robot.urdf.xacro
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/lib/libcartesian_controller_simulation.so
+-- Set runtime path of "/home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/lib/libcartesian_controller_simulation.so" to "/home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/lib:/home/kadi/UR5e_ros2/ros2_real/install/hardware_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/controller_interface/lib:/home/kadi/UR5e_ros2/ros2_real/install/control_msgs/lib:/opt/ros/iron/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_base/lib:/home/kadi/UR5e_ros2/mujoco-3.0.0/lib"
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/lib/libmujoco_simulator.so
+-- Set runtime path of "/home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/lib/libmujoco_simulator.so" to "/home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/lib:/home/kadi/UR5e_ros2/mujoco-3.0.0/lib"
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/ament_index/resource_index/package_run_dependencies/cartesian_controller_simulation
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/ament_index/resource_index/parent_prefix_path/cartesian_controller_simulation
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/environment/ament_prefix_path.sh
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/environment/ament_prefix_path.dsv
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/environment/path.sh
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/environment/path.dsv
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/local_setup.bash
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/local_setup.sh
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/local_setup.zsh
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/local_setup.dsv
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/package.dsv
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/ament_index/resource_index/packages/cartesian_controller_simulation
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/cartesian_controller_simulation
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/cmake/cartesian_controller_simulationConfig.cmake
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/cmake/cartesian_controller_simulationConfig-version.cmake
+-- Installing: /home/kadi/UR5e_ros2/ros2_real/install/cartesian_controller_simulation/share/cartesian_controller_simulation/package.xml
