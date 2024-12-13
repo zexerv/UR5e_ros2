@@ -35,6 +35,14 @@ Follow the instructions provided in the [ROS 2 Iron Installation Guide](https://
     - Additional libraries: ```libssl-dev```, ```libusb-1.0-0-dev```, ```libopenni-dev```, ```libopenni2-dev```, ```libpcap-dev```, ```libpng-dev```, ```libqhull-dev```, ```libgtest-dev```, ```mpi-default-dev```, ```openmpi-bin```, ```openmpi-common```
 
 
+### Installed System Packages
+
+To install the required system packages, run the following command:
+
+```bash
+sudo apt install build-essential cmake git-all software-properties-common ccache ros-iron-ament-cmake ros-iron-cv-bridge ros-iron-tf-transformations ros-iron-librealsense2* ros-iron-realsense2-* ros-iron-rviz2 ros-iron-backward-ros ros-iron-angles ros-iron-control-toolbox ros-iron-ackermann-msgs libgl1-mesa-dev libglu1-mesa-dev freeglut3-dev mesa-common-dev libeigen3-dev libflann-dev libboost-all-dev libssl-dev libusb-1.0-0-dev libopenni-dev libopenni2-dev libpcap-dev libpng-dev libqhull-dev libgtest-dev mpi-default-dev openmpi-bin openmpi-common
+
+
 ## How to Use a Real Robot with ROS 2
 
 First of all clone the repo on your pc.
